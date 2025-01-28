@@ -2,10 +2,11 @@ import BlogFeature from "../../components/blogFeature/BlogFeature";
 import CategoriesSlider from "../../components/categoriesSlider/CategoriesSlider";
 import HelpFeature from "../../components/helpFeature/HelpFeature";
 import HeroCablesFeature from "../../components/heroCablesFeature/HeroCablesFeature";
-import HeroCCTV from "../../components/heroCCTVFeature/HeroCCTV";
+import BracketsFeature from "../../components/BracketsFeature/BracketsFeature";
 import HeroFeatures from "../../components/heroFeature/heroFeatures";
 import HeroSlider from "../../components/heroSlider/HeroSlider";
 import TabsCarousel from "../../components/tabsCarousel/TabsCarousel";
+import HeroStatic from "../../components/heroStaticimage/HeroStaticImage";
 
 const Home = () => {
     return (
@@ -26,11 +27,23 @@ const Home = () => {
             </div>
 
             <div className="hero-CCTV-feature">
-                <HeroCCTV />
+                <BracketsFeature />
+            </div>
+
+            <div className="carousel-tabs">
+                <TabsCarousel />
+            </div>
+
+            <div className="home-static-image-feature">
+                <HeroStatic />
             </div>
 
             <div className="hero-cables-feature">
                 <HeroCablesFeature />
+            </div>
+
+            <div className="carousel-tabs">
+                <TabsCarousel />
             </div>
 
             <div className="home-blog-feature eakha-container">

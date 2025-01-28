@@ -5,7 +5,7 @@ const Footer = () => {
   const features = [
     {
       title: "Fast Delivery",
-      description: "Delivery All the Country",
+      description: "Delivery All Over the Country",
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -72,15 +72,6 @@ const Footer = () => {
       "Privacy Policy",
     ],
   }
-
-  const paymentMethods = [
-    { name: "visa", image: "visa.png" },
-    { name: "mastercard", image: "mastercard.png" },
-    { name: "paypal", image: "paypal.png" },
-    { name: "american-express", image: "amex.png" },
-    { name: "visa-electron", image: "visa-electron.png" },
-    { name: "apple-pay", image: "apple-pay.png" },
-  ]
 
   return (
     <footer className="bg-white">

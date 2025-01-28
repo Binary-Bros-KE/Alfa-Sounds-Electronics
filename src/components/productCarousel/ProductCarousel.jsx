@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation, Pagination } from "swiper/modules"
+import { Navigation, Pagination, Autoplay } from "swiper/modules"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 // Import Swiper styles
@@ -18,7 +18,7 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
       {/* Navigation Buttons */}
       <button
         onClick={() => swiperRef.current?.slidePrev()}
-        className="absolute left-0 top-1/2 z-10 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer"
+        className="absolute right-12 -top-9 z-10 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer"
         aria-label="Previous slide"
       >
         <ChevronLeft className="h-6 w-6" />
@@ -26,7 +26,7 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
 
       <button
         onClick={() => swiperRef.current?.slideNext()}
-        className="absolute right-0 top-1/2 z-10 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer"
+        className="absolute right-0 -top-9 z-10 -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-100 cursor-pointer"
         aria-label="Next slide"
       >
         <ChevronRight className="h-6 w-6" />
@@ -40,7 +40,12 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
         slidesPerView={1}
         spaceBetween={16}
         navigation={false}
-        pagination={{ clickable: true }}
+        loop={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={false}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -49,12 +54,12 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
             slidesPerView: slidesPerView,
           },
         }}
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         className="mySwiper px-8"
       >
         {products.map((product) => (
           <SwiperSlide key={product.productID}>
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden border border-blue-400">
               <div className="p-4">
                 <div className="text-xs text-gray-600 mb-2">{product.category}</div>
                 <img
@@ -65,7 +70,7 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
                 <h3 className="font-semibold text-md mb-2 line-clamp-2 capitalize">{product.title}</h3>
                 <div className="flex items-center justify-between">
                   <div className="text-sm text-blue-600 font-semibold">{product.subtitle}</div>
-                  <button className="bg-green-400 p-2 rounded-full text-white font-bold hover:bg-green-500 cursor-pointer flex items-center gap-1">
+                  <button className="bg-green-400 p-2 rounded-md text-white font-bold hover:bg-green-500 cursor-pointer flex items-center gap-1">
                     Place Order<i className="h-5 w-5 fab fa-whatsapp"></i>
                   </button>
                 </div>

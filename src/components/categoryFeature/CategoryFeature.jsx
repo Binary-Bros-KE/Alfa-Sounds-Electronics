@@ -6,7 +6,7 @@ import ProductCarousel from "../productCarousel/ProductCarousel"
 const CategoryFeature = ({
   title,
   subtitle,
-  price,
+  featureslist,
   description,
   imageUrl,
   products,
@@ -22,17 +22,13 @@ const CategoryFeature = ({
           <div className={`${backgroundColor} rounded-lg p-8 h-full relative`}>
             <div className="max-w-md">
               {subtitle && <span className="text-sm font-medium text-gray-600 mb-2 block">{subtitle}</span>}
-              <h2 className="text-4xl font-bold mb-4">{title}</h2>
+              <h2 className="text-4xl font-bold mb-4 capitalize">{title}</h2>
+              {featureslist && <ul className="mb-3">
+                {featureslist.map((feature) => (
+                  <li className="capitalize before:content-['-'] before:text-blue-600 before:font-extrabold"> {feature}</li>
+                ))}
+                </ul>}
               {description && <p className="text-xl text-gray-600 mb-4">{description}</p>}
-              {price && (
-                <div className="mb-6">
-                  <span className="text-sm">FROM</span>
-                  <div className="text-4xl font-bold">
-                    ${price}
-                    <span className="text-xl">.99</span>
-                  </div>
-                </div>
-              )}
               <a
                 href={viewAllLink}
                 className="inline-flex items-center bg-yellow-400 px-6 py-3 rounded-md font-medium hover:bg-yellow-500 transition-colors"
@@ -48,11 +44,7 @@ const CategoryFeature = ({
         {/* Products Section */}
         <div className={`${imagePosition === "right" ? "md:order-1" : ""}`}>
           <div className="flex justify-between items-center mb-6">
-            <h3 className="text-xl font-bold">{title}</h3>
-            <a href={viewAllLink} className="text-blue-600 hover:text-blue-700 flex items-center">
-              View All Product
-              <ChevronRight className="ml-1 h-4 w-4" />
-            </a>
+            <h3 className="text-xl font-bold capitalize">{title}</h3>
           </div>
           <ProductCarousel products={products} slidesPerView={2} spaceBetween={16} />
         </div>

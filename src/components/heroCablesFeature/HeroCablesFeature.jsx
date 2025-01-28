@@ -5,6 +5,17 @@ const HeroCablesFeature= ({ products, category }) => {
 
 const FilteredProducts = productsData.filter((product) => product.category === "automatic-gates-and-doors")
 
+const featuresList = [
+    "Universal TV Wall Mount 15-43 Inch Flat Panel",
+    "Bracket (37' - 70') - New Star Model",
+    "telescopic retractable wall bracket",
+    "LED LCD TV wall Brackets",
+    "Flat Panel Tv Wall Mounts",
+    "desktop Mounts",
+    "hot sale",
+    "tv trolleys",
+];
+
 
     return (
         <CategoryFeature
@@ -15,6 +26,7 @@ const FilteredProducts = productsData.filter((product) => product.category === "
         viewAllLink="/products/automatic-gates-and-doors"
         imagePosition="right"
         backgroundColor="bg-gray-100"
+        featureslist={featuresList}
     />
     )
 }
