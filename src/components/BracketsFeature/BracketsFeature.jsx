@@ -6,13 +6,12 @@ const BracketsFeature = () => {
 const getFilteredProducts = productsData.filter((product) => product.category === "tv-screens-and-brackets")
 
 const featuresList = [
-    "Universal TV Wall Mount 15-43 Inch Flat Panel",
-    "Bracket (37' - 70') - New Star Model",
-    "telescopic retractable wall bracket",
-    "LED LCD TV wall Brackets",
-    "Flat Panel Tv Wall Mounts",
-    "desktop Mounts",
-    "hot sale",
+    "Adjustable, durable, and easy-to-install TV brackets.",
+    "Secure & Stylish TV Mounting Solutions",
+    'Compatible with screen sizes (37" - 70").',
+    "Space-saving designs.",
+    "Free up desk space with sturdy desktop mounts.",
+    "Shop now for the best deals",
     "tv trolleys",
 ];
 
@@ -22,7 +21,7 @@ const featuresList = [
             imageUrl="/hero-features/brackets.png"
             products={getFilteredProducts}
             viewAllLink="/products/tv-screens-and-brackets"
-            backgroundColor="bg-gray-100"
+            backgroundColor="bg-gray-200"
             featureslist={featuresList}
         />
     )

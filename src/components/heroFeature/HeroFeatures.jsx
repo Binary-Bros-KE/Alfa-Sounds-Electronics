@@ -1,13 +1,15 @@
 const HeroFeatures = () => {
+    const gateOne = 'Lockmaster Automatic Door Operators for Villa Dual Swing Gate'
+    const gateTwo = 'Slide Gate Door Motor For Villa Farm Workshop Courtyard Factory'
     return (
         <>
             {/* Promotional Banners */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 mb-12">
                 <div className="bg-gray-100 p-8 rounded-lg flex justify-between shadow-lg">
                     <div>
                         <h3 className="text-md font-bold mb-2 text-blue-600">Automatic Gates & Doors</h3>
                         <p className="text-xl font-bold mb-4 uppercase">Lockmaster Automatic Door Operators for Villa Dual Swing Gate</p>
-                        <a className="bg-green-400 text-white font-bold px-6 py-2 rounded-md hover:bg-green-500 transition-colors cursor-pointer mr-2"><i className="fab fa-whatsapp"></i> &nbsp;Place Order</a>
+                        <a href={`whatsapp://send?phone=+254720434209&text=I'm%20interested%20in%20ordering%20${encodeURIComponent(gateOne)}`}  className="bg-green-400 text-white font-bold px-6 py-2 rounded-md hover:bg-green-500 transition-colors cursor-pointer mr-2"><i className="fab fa-whatsapp"></i> &nbsp;Place Order</a>
                         <a href="/products/automatic-gates-and-doors/lockmaster-automatic-door" className="bg-blue-400 text-white font-bold px-6 py-2 rounded-md hover:bg-blue-500 transition-colors cursor-pointer">More info</a>
                     </div>
                     <img className="w-[150px]" src="/products/Gates/LM1202/LM1202.png" alt=""/>
@@ -16,7 +18,7 @@ const HeroFeatures = () => {
                     <div>
                         <h3 className="text-md font-bold mb-2 text-blue-600">Automatic Gates & Doors</h3>
                         <p className="text-xl font-bold mb-4 uppercase">Slide Gate Door Motor For Villa Farm Workshop Courtyard Factory e.t.c</p>
-                        <a className="bg-green-400 text-white font-bold px-6 py-2 rounded-md hover:bg-green-500 transition-colors cursor-pointer mr-2"><i className="fab fa-whatsapp"></i> &nbsp;Place Order</a>
+                        <a href={`whatsapp://send?phone=+254720434209&text=I'm%20interested%20in%20ordering%20${encodeURIComponent(gateTwo)}`} className="bg-green-400 text-white font-bold px-6 py-2 rounded-md hover:bg-green-500 transition-colors cursor-pointer mr-2"><i className="fab fa-whatsapp"></i> &nbsp;Place Order</a>
                         <a href="/products/automatic-gates-and-doors/slide-gate-door-motor" className="bg-blue-400 text-white font-bold px-6 py-2 rounded-md hover:bg-blue-500 transition-colors cursor-pointer">More info</a>
                     </div>
                     <img className="w-[150px]" src="/products/Gates/slide-gate/slide-gate.png" alt=""/>

@@ -61,18 +61,22 @@ const ProductCarousel = ({ products, category, slidesPerView = 1 }) => {
           <SwiperSlide key={product.productID}>
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-blue-400">
               <div className="p-4">
-                <div className="text-xs text-gray-600 mb-2">{product.category}</div>
-                <img
-                  src={product.mainproductImage || "/placeholder.svg"}
-                  alt={product.title}
-                  className="w-full h-48 object-contain rounded-md mb-4"
-                />
-                <h3 className="font-semibold text-md mb-2 line-clamp-2 capitalize">{product.title}</h3>
+                <div className="text-xs text-gray-600 mb-2">{product.categoryUSer}</div>
+                <a href={`/products/${product.category}/${product.name}`}>
+                  <img
+                    src={product.mainproductImage || "/placeholder.svg"}
+                    alt={product.title}
+                    className="w-full h-48 object-contain rounded-md mb-4"
+                  />
+                </a>
+                <a href={`/products/${product.category}/${product.name}`}>
+                  <h3 className="font-semibold text-md mb-2 line-clamp-2 capitalize hover:text-blue-600 transition-all">{product.title}</h3>
+                </a>
                 <div className="flex items-center justify-between">
                   <div className="text-sm text-blue-600 font-semibold">{product.subtitle}</div>
-                  <button className="bg-green-400 p-2 rounded-md text-white font-bold hover:bg-green-500 cursor-pointer flex items-center gap-1">
+                  <a href={`whatsapp://send?phone=+254720434209&text=I'm%20interested%20in%20ordering%20${encodeURIComponent(product.title)}`} className="bg-green-400 p-2 rounded-md text-white font-bold hover:bg-green-500 cursor-pointer flex items-center gap-1">
                     Place Order<i className="h-5 w-5 fab fa-whatsapp"></i>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

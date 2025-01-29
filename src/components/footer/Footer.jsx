@@ -13,22 +13,22 @@ const Footer = () => {
       ),
     },
     {
-      title: "Free Returns",
-      description: "Within 30 days",
+      title: "Original & Authentic",
+      description: "Products from Manufacturers",
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M16 15v-1a4 4 0 00-4-4H8m0 0l3 3m-3-3l3-3"
+            d="M12 3l2.5 5 5.5.75-4 3.9.95 5.45L12 15.75 7.05 18.1l.95-5.45-4-3.9 5.5-.75L12 3z"
           />
         </svg>
       ),
-    },
+    },    
     {
-      title: "Get 20% Off 1 Item",
-      description: "When you sign up",
+      title: "Exclusive Offers and Deals",
+      description: "Great Deals for our loyal clients",
       icon: (
         <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path

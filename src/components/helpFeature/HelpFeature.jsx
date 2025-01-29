@@ -11,7 +11,7 @@ const HelpFeature = () => {
       {/* Newsletter and Help Section */}
       <div className="grid md:grid-cols-2 gap-8">
         {/* Newsletter */}
-        <div className="bg-gray-100 p-8 rounded-lg">
+        <div className="bg-gray-200 p-8 rounded-lg">
           <h3 className="text-2xl font-bold mb-2">Newsletter</h3>
           <p className="text-gray-600 mb-4">Subscribe to get the latest deals, promotions and offering.</p>
           <div className="flex gap-2">

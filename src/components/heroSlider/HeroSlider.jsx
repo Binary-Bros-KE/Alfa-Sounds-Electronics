@@ -7,27 +7,27 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      subtitle: "SHOP TO GET WHAT YOU LOVE",
-      title: "TIMEPIECES THAT MAKE A STATEMENT",
-      discount: "40% OFF",
+      subtitle: "Stay Connected with the Best Networking Solutions",
+      title: "Get high-speed routers and receivers at unbeatable prices.",
+      href: "/products/routers-and-receivers",
       buttonText: "Start Buying",
-      image: "/hero-slider/tenda.png",
+      image: "/hero-slider/slider-1.png",
       bgColor: "bg-gray-100",
     },
     {
-      subtitle: "NEW TECHNOLOGY",
-      title: "AMAZING DEVICES FOR YOUR LIFESTYLE",
-      discount: "30% OFF",
-      buttonText: "Shop Now",
-      image: "/hero-slider/ps.png",
+      subtitle: "find the best equipment for your needs.",
+      title: "Get professional-grade live streaming and conference systems",
+      href: "/products/ps-conference-system",
+      buttonText: "View Products",
+      image: "/hero-slider/slider-2.png",
       bgColor: "bg-blue-50",
     },
     {
-      subtitle: "SPECIAL OFFER",
-      title: "PREMIUM QUALITY GADGETS",
-      discount: "25% OFF",
+      subtitle: "Secure & Smart Entry Solutions",
+      title: "Explore our range of automatic gates and doors components",
+      href: "/products/automatic-gates-and-doors",
       buttonText: "Discover More",
-      image: "/hero-slider/hdmi.png",
+      image: "/hero-slider/slider-3.png",
       bgColor: "bg-yellow-50",
     },
   ]
@@ -51,7 +51,6 @@ const HeroSlider = () => {
     <div className="relative h-[500px] w-full overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,0.02)_25%,rgba(0,0,0,0.02)_50%,transparent_50%,transparent_75%,rgba(0,0,0,0.02)_75%)] bg-[length:20px_20px]" />
-
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
@@ -67,7 +66,7 @@ const HeroSlider = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="mb-4 inline-block text-sm font-medium text-blue-500"
+              className="mb-4 inline-block text-sm font-medium text-blue-500 capitalize"
             >
               {slides[currentSlide].subtitle}
             </motion.span>
@@ -76,22 +75,20 @@ const HeroSlider = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="mb-4 text-4xl font-bold leading-tight md:text-5xl"
+              className="mb-6 text-4xl font-bold leading-tight md:text-5xl uppercase"
             >
               {slides[currentSlide].title}
-              <div className="mt-2 text-3xl font-bold text-gray-800 md:text-4xl">
-                UP TO <span className="text-blue-600">{slides[currentSlide].discount}</span>
-              </div>
             </motion.h1>
 
-            <motion.button
+            <motion.a
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
+              href={slides[currentSlide].href}
               className="mt-6 rounded-md bg-blue-600 px-8 py-3 font-medium text-white transition-colors hover:bg-yellow-500 cursor-pointer"
             >
               {slides[currentSlide].buttonText}
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Image */}

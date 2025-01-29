@@ -2,25 +2,25 @@ const BlogFeature = () => {
     const guides = [
         {
             id: 1,
-            title: "Intel hits 6GHz with its 14th-gen desktop CPUs",
+            title: "How to Choose the Right Ethernet Cable for Speed & Reliability",
             image: "/public/blog/cables.jpg",
             link: "#",
         },
         {
             id: 2,
-            title: "The best smart home gadgets for 2023",
+            title: "Essential Factors to Consider When Buying a CCTV Camera",
             image: "/public/blog/cctv.jpg",
             link: "#",
         },
         {
             id: 3,
-            title: "How to build a custom keyboard",
+            title: "Finding the Best Network Solution for Your Needs",
             image: "/public/blog/router.png",
             link: "#",
         },
         {
             id: 4,
-            title: "Intel hits 6GHz with its 14th-gen desktop CPUs",
+            title: "Selecting the Perfect Setup for Clear Reception",
             image: "/public/blog/aerials.jpg",
             link: "#",
         },
@@ -45,7 +45,7 @@ const BlogFeature = () => {
                             />
                         </div>
                         <div className="p-4">
-                            <h3 className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+                            <h3 className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors duration-300 text-ce">
                                 {guide.title}
                             </h3>
                         </div>

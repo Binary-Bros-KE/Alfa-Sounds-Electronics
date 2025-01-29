@@ -19,7 +19,7 @@ const Home = () => {
             </div>
 
             <div className="carousel-tabs">
-                <TabsCarousel />
+                <TabsCarousel defaultTab={'aerials-and-satellites'}/>
             </div>
 
             <div className="hero-feature eakha-container">
@@ -31,7 +31,7 @@ const Home = () => {
             </div>
 
             <div className="carousel-tabs">
-                <TabsCarousel />
+                <TabsCarousel defaultTab={'routers-and-receivers'}/>
             </div>
 
             <div className="home-static-image-feature">
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
 
             <div className="carousel-tabs">
-                <TabsCarousel />
+                <TabsCarousel defaultTab={`cables-and-connectors`}/>
             </div>
 
             <div className="home-blog-feature eakha-container">

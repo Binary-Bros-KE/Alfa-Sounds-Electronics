@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, Search, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom"; // Use React Router for navigation
@@ -8,6 +8,42 @@ import { Link } from "react-router-dom"; // Use React Router for navigation
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDepartmentsOpen, setIsDepartmentsOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  const dropdownRef = React.useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDepartmentsOpen(false);
+      }
+    };
+
+    if (isDepartmentsOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isDepartmentsOpen]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        // Change 100 to the number of pixels you want before it sticks
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   // Categories with URL-friendly names
   const categories = [
@@ -17,15 +53,16 @@ const Navbar = () => {
     { name: "Tvs, Projectors & Tv brackets", url: "tvs-projectors-and-tv-brackets" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
+    { name: "Power Supply", url: "power-supply" },
     { name: "Automatic Gates and Doors", url: "automatic-gates-and-doors" },
   ];
 
   // Navigation Links
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Shop", href: "/shop" },
     { name: "Products", href: "/products" },
-    { name: "Pages", href: "/pages" },
+    { name: "Buying Guides", href: "/guides" },
+    { name: "About Us", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -34,7 +71,7 @@ const Navbar = () => {
       <div className="navbar-content">
         {/* Top Bar */}
         <div className="bg-blue-600">
-          <div className="hidden lg:flex items-center justify-between px-4 py-2 eakha-container">
+          <div className="hidden lg:flex items-center justify-between py-2 eakha-container">
             <div className="flex gap-2 items-center text-white">
               <p className="text-sm text-white font-bold cursor-pointer">
                 sales@eakhalimited.co.ke
@@ -108,9 +145,12 @@ const Navbar = () => {
           </div>
 
           {/* Bottom Navigation */}
-          <div className="hidden lg:flex items-center gap-8 mt-4">
+          {/* Bottom Navigation - Sticky */}
+          <div
+            className={`hidden lg:flex items-center gap-8 mt-4 py-3 transition-all duration-300 
+          ${isSticky ? "fixed -top-4 px-12 left-0 w-full z-50 bg-white shadow-lg" : "relative"}`} >
             {/* Departments Button */}
-            <div className="relative">
+            <div className="relative" ref={dropdownRef}>
               <button
                 className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-md text-white cursor-pointer"
                 onClick={() => setIsDepartmentsOpen(!isDepartmentsOpen)}

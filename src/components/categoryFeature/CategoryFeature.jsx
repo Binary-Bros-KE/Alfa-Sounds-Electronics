@@ -24,8 +24,8 @@ const CategoryFeature = ({
               {subtitle && <span className="text-sm font-medium text-gray-600 mb-2 block">{subtitle}</span>}
               <h2 className="text-4xl font-bold mb-4 capitalize">{title}</h2>
               {featureslist && <ul className="mb-3">
-                {featureslist.map((feature) => (
-                  <li className="capitalize before:content-['-'] before:text-blue-600 before:font-extrabold"> {feature}</li>
+                {featureslist.map((feature, index) => (
+                  <li key={index} className="capitalize before:content-['-'] before:text-blue-600 before:font-extrabold"> {feature}</li>
                 ))}
                 </ul>}
               {description && <p className="text-xl text-gray-600 mb-4">{description}</p>}
@@ -37,7 +37,7 @@ const CategoryFeature = ({
                 <ChevronRight className="ml-2 h-5 w-5" />
               </a>
             </div>
-            <img src={imageUrl} className="absolute w-[300px] object-contain bottom-0 right-0"/>
+            <img src={imageUrl} className="absolute w-[300px] object-contain bottom-0 -right-5"/>
           </div>
         </div>
 

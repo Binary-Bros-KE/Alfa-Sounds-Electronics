@@ -11,37 +11,50 @@ const CategoriesSlider = () => {
         {
             title: "Aerials & Satellites",
             image: "/categories/satellite.png",
+            href: "/products/aerials-and-satellites",
             id: 1
         },
         {
             title: "Networking Routers & Receivers",
             image: "/categories/routers.png",
+            href: "/products/routers-and-receivers",
             id: 2
         },
         {
             title: "Live Streaming and Conference Facilities",
             image: "/categories/ps.png",
+            href: "/products/ps-conference-system",
             id: 3
         },
         {
             title: "TVs, Projectors & TV Brackets",
             image: "/categories/brackets.png",
+            href: "/products/tvs-projectors-and-tv-brackets",
             id: 4
         },
         {
             title: "CCTV Cameras",
             image: "/categories/cctv.png",
+            href: "/products/cctv-cameras",
             id: 5
+        },
+        {
+            title: "Power Supply",
+            image: "/categories/power.png",
+            href: "/products/power-supply",
+            id: 6
         },
         {
             title: "Cables & Connectors",
             image: "/categories/cables.png",
-            id: 6
+            href: "/products/aerials-and-satellites",
+            id: 7
         },
         {
             title: "Automatic Gates and Doors",
-            image: "/placeholder.svg?height=50&width=50",
-            id: 7
+            image: "/categories/gates.png",
+            href: "/products/aerials-and-satellites",
+            id: 8
         }
     ]
 
@@ -66,17 +79,22 @@ const CategoriesSlider = () => {
                         whileHover={{ scale: 1.02 }}
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                     >
-                        <div className="category-item bg-blue-200 hover:bg-blue-600 transition-all duration-300 flex items-center py-2 px-4 gap-4 rounded-md cursor-pointer group">
+                        
+                        <div href={category.href} className="category-item bg-blue-200 hover:bg-blue-600 transition-all duration-300 flex items-center py-2 px-4 gap-4 rounded-md cursor-pointer group">
                             <div className="category-item-image h-[50px] w-[50px] flex items-center justify-center border-r-2 border-gray-400 pr-2">
+                                <a href={category.href}>
                                 <img 
                                     src={category.image || "/placeholder.svg"} 
                                     alt={category.title}
                                     className="max-w-full max-h-full object-contain"
                                 />
+                                </a>
                             </div>
+                            <a href={category.href}>
                             <h4 className="font-bold text-gray-600 group-hover:text-white transition-colors line-clamp-2">
                                 {category.title}
                             </h4>
+                            </a>
                         </div>
                     </motion.div>
                 ))}

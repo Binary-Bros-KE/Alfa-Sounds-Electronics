@@ -3,29 +3,27 @@ import CategoryFeature from "../categoryFeature/CategoryFeature"
 
 const HeroCablesFeature= ({ products, category }) => {
 
-const FilteredProducts = productsData.filter((product) => product.category === "automatic-gates-and-doors")
+const FilteredProducts = productsData.filter((product) => product.category === "power-supply")
 
 const featuresList = [
-    "Universal TV Wall Mount 15-43 Inch Flat Panel",
-    "Bracket (37' - 70') - New Star Model",
-    "telescopic retractable wall bracket",
-    "LED LCD TV wall Brackets",
-    "Flat Panel Tv Wall Mounts",
-    "desktop Mounts",
-    "hot sale",
-    "tv trolleys",
+    "Seamless power management for recording and stage setups.",
+    "High-performance RF & HDMI",
+    "top-tier signal distribution.",
+    "LED display for real-time monitoring",
+    "High accuracy, stability, and efficient",
+    "Compact yet powerful designs",
+    "efficient cooling systems",
 ];
 
 
     return (
         <CategoryFeature
-        title="AUDIO STUDIO WIRELESS"
-        description="Hear the music Not the noice"
-        imageUrl="/categories/cctv.png"
+        title="Reliable Power Solutions for Every Application"
+        imageUrl="/categories/power.png"    
         products={FilteredProducts}
-        viewAllLink="/products/automatic-gates-and-doors"
+        viewAllLink="/products/power-supply"
         imagePosition="right"
-        backgroundColor="bg-gray-100"
+        backgroundColor="bg-gray-200"
         featureslist={featuresList}
     />
     )

@@ -5,14 +5,14 @@ import { motion } from "framer-motion"
 import { productsData } from "../../data/products"
 import ProductCarousel from "../productCarousel/ProductCarousel"
 
-const TabsCarousel = () => {
-  const [activeTab, setActiveTab] = useState("routers-and-receivers")
+const TabsCarousel = ({ defaultTab }) => {
+  const [activeTab, setActiveTab] = useState(defaultTab)
 
   const tabs = [
-    { id: "routers-and-receivers", label: "Routers & Receivers" },
     { id: "aerials-and-satellites", label: "Aerials & Satellites" },
+    { id: "routers-and-receivers", label: "Routers & Receivers" },
     { id: "cables-and-connectors", label: "Cables & Connectors" },
-    { id: "automatic-gates-and-doors", label: "Tv Screen & Brackets" },
+    { id: "tv-screens-and-brackets", label: "Tv Screen & Brackets" },
   ]
 
   const getFilteredProducts = (category) => {

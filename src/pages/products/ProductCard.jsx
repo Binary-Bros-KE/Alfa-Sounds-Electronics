@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
       />
       <div className="p-4">
         <h3 className="text-lg font-semibold mb-2 line-clamp-2 capitalize">{product.title}</h3>
-        <p className="text-sm text-gray-600 mb-2">{product.subtitle}</p>
+        <p className="text-sm text-gray-600 mb-2 capitalize">{product.subtitle}</p>
         <div className="flex items-center justify-between">
           <span className="text-sm font-medium text-gray-800 capitalize">{product.brand}</span>
           <span className="text-sm font-medium text-gray-800 capitalize">{product.condition}</span>
