@@ -29,7 +29,7 @@ const ProductDetailsPage = () => {
     return <div className="mx-auto px-4 py-8">Product not found</div>
   }
 
-  const whatsappLink = `https://wa.me/1234567890?text=I'm%20interested%20in%20ordering%20${encodeURIComponent(product.title)}`
+  const whatsappLink = `whatsapp://send?phone=+254720434209&text=I'm%20interested%20in%20ordering%20${encodeURIComponent(product.title)}`
 
   return (
     <div className="mx-auto px-4 py-8 eakha-container">
