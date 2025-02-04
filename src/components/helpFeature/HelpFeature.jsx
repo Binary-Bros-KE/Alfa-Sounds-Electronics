@@ -6,7 +6,7 @@ const HelpFeature = () => {
 
 
   return (
-    <div className="container mx-auto py-12">
+    <div className="px-4 mx-auto py-12">
 
       {/* Newsletter and Help Section */}
       <div className="grid md:grid-cols-2 gap-8 max-sm:mx-4">
@@ -36,19 +36,19 @@ const HelpFeature = () => {
             Do not hesitate to ask, our specialists will help you choose proper products.
           </p>
           <div className="grid grid-cols-3 gap-4">
-          <a href="#" className="flex flex-col items-center gap-2 group">
+          <a href="whatsapp://send?phone=+254720434209" className="flex flex-col items-center gap-2 group">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                 <i className="fab fa-whatsapp w-6 h-6 text-gray-600 group-hover:text-blue-600 text-2xl"></i>
               </div>
               <span className="text-sm text-gray-600 group-hover:text-blue-600">Chat Online</span>
             </a>
-            <a href="#" className="flex flex-col items-center gap-2 group">
+            <a href="tel:+254720434209" className="flex flex-col items-center gap-2 group">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                 <Phone className="w-6 h-6 text-gray-600 group-hover:text-blue-600" />
               </div>
               <span className="text-sm text-gray-600 group-hover:text-blue-600">Call Us</span>
             </a>
-            <a href="#" className="flex flex-col items-center gap-2 group">
+            <a href="mailto:info@eakhalimited.co.ke" className="flex flex-col items-center gap-2 group">
               <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center group-hover:bg-blue-50 transition-colors">
                 <Mail className="w-6 h-6 text-gray-600 group-hover:text-blue-600" />
               </div>

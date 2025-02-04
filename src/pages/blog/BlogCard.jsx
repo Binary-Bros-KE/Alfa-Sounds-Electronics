@@ -1,5 +1,5 @@
 
-const BlogCard = ({ title, image, content, slug, points }) => {
+const BlogCard = ({ title, image, content, slug, points, url }) => {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-8">
       <div className="md:flex">
@@ -24,10 +24,10 @@ const BlogCard = ({ title, image, content, slug, points }) => {
             })}
           </ul>
 
-          <a href="" className="border py-2 px-10 mr-10">
+          <a href={url} className="border py-2 px-10 mr-10">
             Explore Our Collection
           </a>
-          <a href="" className="border py-2 px-10">
+          <a href="/contact" className="border py-2 px-10">
             Talk to Us
           </a>
         </div>

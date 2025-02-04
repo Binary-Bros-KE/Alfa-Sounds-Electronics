@@ -5,6 +5,7 @@ const blogPosts = [
         id: 1,
         title: "How to Choose the Right Ethernet Cable for Speed & Reliability",
         image: "/blog/cables.jpg",
+        url: '/products/cables-and-connectors',
         content:
             "When it comes to network performance, choosing the right Ethernet cable is crucial. This guide will help you understand the different types of Ethernet cables, their speed capabilities, and how to select the best one for your specific needs.",
         slug: "choose-right-ethernet-cable",
@@ -20,6 +21,7 @@ const blogPosts = [
         id: 2,
         title: "Essential Factors to Consider When Buying a CCTV Camera",
         image: "/blog/cctv.jpg",
+        url: '/products/cctv-cameras',
         content:
             "Investing in a CCTV camera system can significantly enhance your property's security. We'll walk you through the key factors to consider, including resolution, field of view, night vision capabilities, and storage options, to help you make an informed decision.",
         slug: "factors-buying-cctv-camera",
@@ -35,6 +37,7 @@ const blogPosts = [
         id: 3,
         title: "Finding the Best Network Solution for Your Needs - Networking Routers and Receivers",
         image: "/blog/router.png",
+        url: '/products/routers-and-receivers',
         content:
             "Navigating the world of networking equipment can be overwhelming. This article breaks down the differences between routers and receivers, explains key features to look for, and provides recommendations based on various use cases, from home offices to large enterprises.",
         slug: "best-network-solution-routers-receivers",
@@ -50,6 +53,7 @@ const blogPosts = [
         id: 4,
         title: "Selecting the Perfect Setup for Clear Reception - Aerials and Satellite Dishes",
         image: "/blog/aerials.jpg",
+        url: '/products/aerials-and-satellites',
         content:
             "Whether you're looking to improve your TV reception or set up a satellite internet connection, choosing the right aerial or satellite dish is crucial. We'll guide you through the different types available, installation considerations, and how to optimize your setup for the best possible signal.",
         slug: "selecting-aerials-satellite-dishes",
@@ -66,7 +70,7 @@ const blogPosts = [
 
 const BlogPage = () => {
     return (
-        <div className="container mx-auto px-4 py-8">
+        <div className="mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-8">Our Blog</h1>
             <div className="space-y-8">
                 {blogPosts.map((post) => (
@@ -77,6 +81,7 @@ const BlogPage = () => {
                         content={post.content}
                         slug={post.slug}
                         points={post.points}
+                        url={post.url}
                     />
                 ))}
             </div>

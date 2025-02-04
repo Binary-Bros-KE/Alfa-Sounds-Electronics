@@ -76,7 +76,7 @@ const Footer = () => {
   return (
     <footer className="bg-white">
       {/* Features Section */}
-      <div className="container mx-auto px-4 py-5">
+      <div className="mx-auto px-4 py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center gap-4">
@@ -92,7 +92,7 @@ const Footer = () => {
 
       {/* Main Footer Content */}
       <div className="border-t border-blue-200">
-        <div className="container mx-auto px-4 py-8">
+        <div className="mx-auto px-6 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Logo and About */}
             <div className="space-y-4">
@@ -134,7 +134,7 @@ const Footer = () => {
 
       {/* Bottom Footer */}
       <div className="border-t border-blue-300">
-        <div className="container mx-auto px-4 py-6">
+        <div className="mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-600">
               Copyright © 2024 EAKHA LTD Store. All Rights Reserved.

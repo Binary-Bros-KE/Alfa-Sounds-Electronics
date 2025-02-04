@@ -50,7 +50,7 @@ const Navbar = () => {
     { name: "Aerials & Satellites", url: "aerials-and-satellites" },
     { name: "Networking Routers & Receivers", url: "routers-and-receivers" },
     { name: "Live Streaming and Conference Facilities.", url: "ps-conference-system" },
-    { name: "Tvs, Projectors & Tv brackets", url: "tvs-projectors-and-tv-brackets" },
+    { name: "Tvs, Projectors & Tv brackets", url: "tv-screens-and-brackets" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
     { name: "Power Supply", url: "power-supply" },
@@ -68,9 +68,9 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-white shadow-md">
-      <div className="navbar-content">
+      <div className="navbar-content p-0 m-0">
         {/* Top Bar */}
-        <div className="bg-blue-600">
+        <div className="bg-blue-600 px-4">
           <div className="hidden lg:flex items-center justify-between py-2 eakha-container">
             <div className="flex gap-2 items-center text-white">
               <p className="text-sm text-white font-bold cursor-pointer">
@@ -100,7 +100,7 @@ const Navbar = () => {
         </div>
 
         {/* Main Navbar */}
-        <div className="container mx-auto px-4 py-4">
+        <div className="mx-auto px-4 py-4">
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
             <div className="flex items-center gap-4">
@@ -212,7 +212,7 @@ const Navbar = () => {
               transition={{ duration: 0.3 }}
               className="fixed inset-0 z-50 bg-white"
             >
-              <div className="flex flex-col h-full">
+              <div className="flex flex-col h-full sticky">
                 <div className="flex items-center justify-between p-4 border-b">
                   <a href="/" className="text-2xl font-bold">EAKHA LTD</a>
                   <button onClick={() => setIsOpen(false)}>

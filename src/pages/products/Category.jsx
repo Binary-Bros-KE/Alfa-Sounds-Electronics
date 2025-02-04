@@ -27,7 +27,7 @@ const CategoryProductsPage = () => {
   }
 
   return (
-    <section className="category-products-page container mx-auto px-4 py-8">
+    <section className="category-products-page mx-auto px-4 py-8">
       <CategoriesSlider />
 
       <h1 className="text-3xl font-bold mt-8 mb-6 capitalize">{category} Products</h1>

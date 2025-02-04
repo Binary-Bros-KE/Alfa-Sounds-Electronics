@@ -15,7 +15,7 @@ const CategoryFeature = ({
   backgroundColor = "bg-gray-50",
 }) => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto px-4 py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Hero Banner */}
         <div className={`${imagePosition === "right" ? "md:order-2" : ""} shadow-lg`}>

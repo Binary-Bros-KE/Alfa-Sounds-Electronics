@@ -2,7 +2,7 @@ const HeroStatic = () => {
     return (
         <div className="relative max-sm:h-[500px] max-sm:flex max-sm:flex-col-reverse max-sm:mt-10">
             <img src="/cables/home-static.png" alt="" />
-            <div className="absolute top-0 h-full flex-col max-w-100 p-10 left-14 bg-blue-400 max-sm:static">
+            <div className="absolute top-0 h-full flex-col max-w-100 p-10 left-8 bg-blue-400 max-sm:static">
                 <span className="capitalize">Reliable Connectivity for Every Setup</span>
                 <h1 className="text-2xl mb-5 capitalize font-bold text-w">High-Quality Cables & Connectors for Seamless Performance.</h1>
                 <ul className="mb-10">
@@ -13,7 +13,7 @@ const HeroStatic = () => {
                     <li className="before:content-['--'] before:font-bold"> AV Cables</li>
                     <li className="before:content-['--'] before:font-bold"> Fibre Optic Cables</li>
                 </ul>
-                <a href="/products/cables-and-connectors" className="bg-amber-300 hover:bg-amber-400 text-white font-bold text-xl py-4 px-8 rounded-md shadow-md">Explore More</a>
+                <a href="/products/cables-and-connectors" className="bg-white text-black font-bold text-xl py-3 px-8 rounded-md hover:shadow-lg">Explore More</a>
             </div>
         </div>
     )

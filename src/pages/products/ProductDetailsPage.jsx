@@ -26,13 +26,13 @@ const ProductDetailsPage = () => {
   }, [name])
 
   if (!product) {
-    return <div className="container mx-auto px-4 py-8">Product not found</div>
+    return <div className="mx-auto px-4 py-8">Product not found</div>
   }
 
   const whatsappLink = `https://wa.me/1234567890?text=I'm%20interested%20in%20ordering%20${encodeURIComponent(product.title)}`
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto px-4 py-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
         {/* Image Carousel */}
         <ImageCarousel images={product.secondaryImages} />
