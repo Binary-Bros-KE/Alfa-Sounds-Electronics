@@ -101,7 +101,7 @@ const Footer = () => {
               Your trusted supplier of network equipment, decoders, satellites, and advanced connectivity solutions.
               </p>
               <div>
-                <p className="font-bold">Got Question? Call us 24/7</p>
+                <p className="font-bold">Got Question? Call us:</p>
                 <a href="tel:+0123456789" className="text-blue-500 text-xl font-bold">
                 +254 748 496 414
                 </a>

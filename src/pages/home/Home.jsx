@@ -7,6 +7,7 @@ import HeroFeatures from "../../components/heroFeature/heroFeatures";
 import HeroSlider from "../../components/heroSlider/HeroSlider";
 import TabsCarousel from "../../components/tabsCarousel/TabsCarousel";
 import HeroStatic from "../../components/heroStaticimage/HeroStaticImage";
+import Testimonials from "../../components/testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -49,10 +50,15 @@ const Home = () => {
             <div className="home-blog-feature eakha-container">
                 <BlogFeature />
             </div>
+            
+            <div className="testimonials-slider">
+                <Testimonials />
+            </div>
 
             <div className="hero-help-feature eakha-container">
                 <HelpFeature />
             </div>
+
         </section>
     )
 }

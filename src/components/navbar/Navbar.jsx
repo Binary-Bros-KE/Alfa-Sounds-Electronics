@@ -61,7 +61,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Products", href: "/products" },
-    { name: "Buying Guides", href: "/guides" },
+    { name: "Buying Guides", href: "/blog" },
     { name: "About Us", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
@@ -94,6 +94,7 @@ const Navbar = () => {
               <a href="#" className="hover:text-yellow-300 transition-colors">
                 <i className="fab fa-google"></i>
               </a>
+              |
             </div>
           </div>
         </div>
@@ -213,7 +214,7 @@ const Navbar = () => {
             >
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b">
-                  <h1 className="text-2xl font-bold">EAKHA LTD</h1>
+                  <a href="/" className="text-2xl font-bold">EAKHA LTD</a>
                   <button onClick={() => setIsOpen(false)}>
                     <svg
                       className="w-6 h-6"

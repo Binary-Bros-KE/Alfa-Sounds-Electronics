@@ -3,38 +3,38 @@ const BlogFeature = () => {
         {
             id: 1,
             title: "How to Choose the Right Ethernet Cable for Speed & Reliability",
-            image: "/public/blog/cables.jpg",
+            image: "/blog/cables.jpg",
             link: "#",
         },
         {
             id: 2,
             title: "Essential Factors to Consider When Buying a CCTV Camera",
-            image: "/public/blog/cctv.jpg",
+            image: "/blog/cctv.jpg",
             link: "#",
         },
         {
             id: 3,
             title: "Finding the Best Network Solution for Your Needs",
-            image: "/public/blog/router.png",
+            image: "/blog/router.png",
             link: "#",
         },
         {
             id: 4,
             title: "Selecting the Perfect Setup for Clear Reception",
-            image: "/public/blog/aerials.jpg",
+            image: "/blog/aerials.jpg",
             link: "#",
         },
     ]
 
     return (
-        <div className="mt-10">
+        <div className="mt-10 max-sm:mx-5">
             {/* Buying Guides */}
             <h2 className="text-3xl font-bold text-center mb-8 uppercase">Blog - Buying Guidelines</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
                 {guides.map((guide) => (
                     <a
                         key={guide.id}
-                        href={guide.link}
+                        href={`/blog`}
                         className="group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
                     >
                         <div className="relative">
