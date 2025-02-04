@@ -3,7 +3,7 @@ import CategoriesSlider from "../../components/categoriesSlider/CategoriesSlider
 import HelpFeature from "../../components/helpFeature/HelpFeature";
 import HeroCablesFeature from "../../components/heroCablesFeature/HeroCablesFeature";
 import BracketsFeature from "../../components/BracketsFeature/BracketsFeature";
-import HeroFeatures from "../../components/heroFeature/heroFeatures";
+import HeroFeatures from "../../components/heroFeature/HeroFeatures";
 import HeroSlider from "../../components/heroSlider/HeroSlider";
 import TabsCarousel from "../../components/tabsCarousel/TabsCarousel";
 import HeroStatic from "../../components/heroStaticimage/HeroStaticImage";
