@@ -19,17 +19,18 @@ const BlogCard = ({ title, image, content, slug, points, url }) => {
           </a>
           <p className="mt-2 text-gray-600 mb-4">{content}</p>
           <ul className="mb-5">
-            {points.map((point, index) =>{
-                return (<li key={index} className="mb-3">🔷 {point}</li>)
+            {points.map((point, index) => {
+              return (<li key={index} className="mb-3">🔷 {point}</li>)
             })}
           </ul>
-
-          <a href={url} className="border py-2 px-10 mr-10">
-            Explore Our Collection
-          </a>
-          <a href="/contact" className="border py-2 px-10">
-            Talk to Us
-          </a>
+          <div className="flex gap-5 max-sm:flex-col">
+            <a href={url} className="border py-2 px-5 w-full mr-10">
+              Explore Our Collection
+            </a>
+            <a href="/contact" className="border py-2 px-5">
+              Talk to Us
+            </a>
+          </div>
         </div>
       </div>
     </div>
