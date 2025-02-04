@@ -1,6 +1,7 @@
 const HeroStatic = () => {
     return (
-        <div className="relative max-sm:h-[500px] max-sm:flex max-sm:flex-col-reverse max-sm:mt-10">
+        <div className="max-sm:h-[500px] max-sm:flex max-sm:flex-col-reverse max-sm:mt-10 bg-[#AEB6BC]">
+            <div className="relative eakha-container">
             <img src="/cables/home-static.png" alt="" />
             <div className="absolute top-0 h-full flex-col max-w-100 p-10 left-8 bg-blue-400 max-sm:static">
                 <span className="capitalize">Reliable Connectivity for Every Setup</span>
@@ -14,6 +15,7 @@ const HeroStatic = () => {
                     <li className="before:content-['--'] before:font-bold"> Fibre Optic Cables</li>
                 </ul>
                 <a href="/products/cables-and-connectors" className="bg-white text-black font-bold text-xl py-3 px-8 rounded-md hover:shadow-lg">Explore More</a>
+            </div>
             </div>
         </div>
     )

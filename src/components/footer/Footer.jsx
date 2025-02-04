@@ -74,7 +74,7 @@ const Footer = () => {
   }
 
   return (
-    <footer className="bg-white">
+    <footer className="bg-white eakha-container">
       {/* Features Section */}
       <div className="mx-auto px-4 py-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

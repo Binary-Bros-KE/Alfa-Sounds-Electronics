@@ -29,7 +29,7 @@ const CategoriesSlider = () => {
         {
             title: "TVs, Projectors & TV Brackets",
             image: "/categories/brackets.png",
-            href: "/products/tvs-projectors-and-tv-brackets",
+            href: "/products/tv-screens-and-brackets",
             id: 4
         },
         {
@@ -47,13 +47,13 @@ const CategoriesSlider = () => {
         {
             title: "Cables & Connectors",
             image: "/categories/cables.png",
-            href: "/products/aerials-and-satellites",
+            href: "/products/cables-and-connectors",
             id: 7
         },
         {
             title: "Automatic Gates and Doors",
             image: "/categories/gates.png",
-            href: "/products/aerials-and-satellites",
+            href: "/products/automatic-gates-and-doors",
             id: 8
         }
     ]

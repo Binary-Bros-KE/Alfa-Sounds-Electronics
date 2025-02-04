@@ -50,7 +50,7 @@ const HeroSlider = () => {
   return (
     <div className="relative h-[500px] w-full overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(0,0,0,0.02)_25%,rgba(0,0,0,0.02)_50%,transparent_50%,transparent_75%,rgba(0,0,0,0.02)_75%)] bg-[length:20px_20px]" />
+      <div className={`absolute inset-0 ${slides[currentSlide].bgColor}`} />
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
@@ -58,7 +58,7 @@ const HeroSlider = () => {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className={`relative flex h-full w-full items-center justify-between px-4 md:px-20 ${slides[currentSlide].bgColor}`}
+          className={`relative flex h-full w-full items-center justify-between px-4 md:px-20  eakha-container`}
         >
           {/* Content */}
           <div className="z-10 max-w-xl">
@@ -96,7 +96,7 @@ const HeroSlider = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="absolute right-25 top-1/2 hidden -translate-y-1/2 transform md:block"
+            className="absolute right-5 top-1/2 hidden -translate-y-1/2 transform md:block"
           >
             <img
               src={slides[currentSlide].image || "/placeholder.svg"}
@@ -104,6 +104,7 @@ const HeroSlider = () => {
               className="h-[400px] w-auto object-contain"
             />
           </motion.div>
+
         </motion.div>
       </AnimatePresence>
 

@@ -19,7 +19,7 @@ const Home = () => {
                 <CategoriesSlider />
             </div>
 
-            <div className="carousel-tabs">
+            <div className="carousel-tabs eakha-container">
                 <TabsCarousel defaultTab={'aerials-and-satellites'}/>
             </div>
 
@@ -27,11 +27,11 @@ const Home = () => {
                 <HeroFeatures />
             </div>
 
-            <div className="hero-CCTV-feature">
+            <div className="hero-CCTV-feature eakha-container">
                 <BracketsFeature />
             </div>
 
-            <div className="carousel-tabs">
+            <div className="carousel-tabs eakha-container">
                 <TabsCarousel defaultTab={'routers-and-receivers'}/>
             </div>
 
@@ -39,11 +39,11 @@ const Home = () => {
                 <HeroStatic />
             </div>
 
-            <div className="hero-cables-feature">
+            <div className="hero-cables-feature eakha-container">
                 <HeroCablesFeature />
             </div>
 
-            <div className="carousel-tabs">
+            <div className="carousel-tabs eakha-container">
                 <TabsCarousel defaultTab={`cables-and-connectors`}/>
             </div>
 

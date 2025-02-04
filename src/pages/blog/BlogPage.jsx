@@ -70,7 +70,7 @@ const blogPosts = [
 
 const BlogPage = () => {
     return (
-        <div className="mx-auto px-4 py-8">
+        <div className="mx-auto px-4 py-8 eakha-container">
             <h1 className="text-3xl font-bold mb-8">Our Blog</h1>
             <div className="space-y-8">
                 {blogPosts.map((post) => (

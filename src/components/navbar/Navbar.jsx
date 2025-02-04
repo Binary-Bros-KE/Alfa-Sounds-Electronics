@@ -100,7 +100,7 @@ const Navbar = () => {
         </div>
 
         {/* Main Navbar */}
-        <div className="mx-auto px-4 py-4">
+        <div className="mx-auto px-4 py-4 eakha-container">
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
             <div className="flex items-center gap-4">
@@ -149,56 +149,60 @@ const Navbar = () => {
           {/* Bottom Navigation - Sticky */}
           <div
             className={`hidden lg:flex items-center gap-8 mt-4 py-3 transition-all duration-300 
-          ${isSticky ? "fixed -top-4 px-12 left-0 w-full z-50 bg-white shadow-lg" : "relative"}`} >
+          ${isSticky ? "fixed -top-4 px-12 left-0 w-full z-50 bg-white shadow-md" : "relative"}`} >
             {/* Departments Button */}
-            <div className="relative" ref={dropdownRef}>
-              <button
-                className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-md text-white cursor-pointer"
-                onClick={() => setIsDepartmentsOpen(!isDepartmentsOpen)}
-              >
-                <Menu size={20} />
-                <span>Explore Categories</span>
-                <ChevronDown size={16} />
-              </button>
+            <div className={`flex gap-4 items-center w-full ${isSticky ? "eakha-container w-full b" : ""}`}>
+              <div className="relative" ref={dropdownRef}>
+                <button
+                  className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-md text-white cursor-pointer"
+                  onClick={() => setIsDepartmentsOpen(!isDepartmentsOpen)}
+                >
+                  <Menu size={20} />
+                  <span>Explore Categories</span>
+                  <ChevronDown size={16} />
+                </button>
 
-              <AnimatePresence>
-                {isDepartmentsOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute z-50 w-64 mt-2 bg-white border rounded-md shadow-lg"
-                  >
-                    {categories.map((category, index) => (
-                      <Link
-                        key={index}
-                        to={`/products/${category.url}`}
-                        className="w-full block px-4 py-2 text-left hover:bg-blue-100 transition-colors cursor-pointer"
-                      >
-                        {category.name}
-                      </Link>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
+                <AnimatePresence>
+                  {isDepartmentsOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      transition={{ duration: 0.2 }}
+                      className="absolute z-50 w-64 mt-2 bg-white border rounded-md shadow-lg"
+                    >
+                      {categories.map((category, index) => (
+                        <Link
+                          key={index}
+                          to={`/products/${category.url}`}
+                          className="w-full block px-4 py-2 text-left hover:bg-blue-100 transition-colors cursor-pointer"
+                        >
+                          {category.name}
+                        </Link>
+                      ))}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+
+              {/* Navigation Links */}
+              {navLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  to={link.href}
+                  className="uppercase font-bold cursor-pointer hover:text-blue-600 transition-colors"
+                >
+                  {link.name}
+                </Link>
+              ))}
+
+              {/* Free Shipping Text */}
+              <span className="ml-auto text-sm font-bold text-gray-600">
+                Luthuli River Road Junction, Nrb
+              </span>
             </div>
 
-            {/* Navigation Links */}
-            {navLinks.map((link, index) => (
-              <Link
-                key={index}
-                to={link.href}
-                className="uppercase font-bold cursor-pointer hover:text-blue-600 transition-colors"
-              >
-                {link.name}
-              </Link>
-            ))}
-
-            {/* Free Shipping Text */}
-            <span className="ml-auto text-sm font-bold text-gray-600">
-              Luthuli River Road Junction, Nrb
-            </span>
           </div>
         </div>
 
