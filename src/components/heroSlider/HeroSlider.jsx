@@ -58,7 +58,7 @@ const HeroSlider = () => {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: -100 }}
           transition={{ duration: 0.5 }}
-          className={`relative flex h-full w-full items-center justify-between px-4 md:px-20  eakha-container`}
+          className={`relative flex text-center md:text-left h-full w-full items-center justify-between px-4 md:px-20  eakha-container`}
         >
           {/* Content */}
           <div className="z-10 max-w-xl">
