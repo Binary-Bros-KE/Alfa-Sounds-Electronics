@@ -102,9 +102,17 @@ const Footer = () => {
               </p>
               <div>
                 <p className="font-bold">Got Question? Call us:</p>
-                <a href="tel:+0123456789" className="text-blue-500 text-xl font-bold">
-                +254 748 496 414
+                <div  className="flex flex-col">
+                <a href="tel:+254720434209" className="text-blue-500 text-xl font-bold">
+                (+254)720 434 209
                 </a>
+                <a href="tel:+254722659725" className="text-blue-500 text-xl font-bold">
+                (+254)722 659 725
+                </a>
+                <a href="tel:+254748496414" className="text-blue-500 text-xl font-bold">
+                (+254)748 496 414
+                </a>
+                </div>
               </div>
             </div>
 
@@ -126,7 +134,7 @@ const Footer = () => {
 
             <div>
                 <h4 className="font-bold text-lg mb-4 text-right">Our Paybill</h4>
-                <img src="/utility/paybill.jpg" className="w-full h-[180px]" alt="" />
+                <img src="/utility/paybill.png" className="w-full h-[180px]" alt="" />
             </div>
           </div>
         </div>

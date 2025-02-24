@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
           className="mt-4 w-full text-green-600 font-bold py-2 px-4 rounded-md flex items-center justify-center hover:bg-green-600 transition-colors duration-300 gap-2 border-1 border-green-600 hover:text-white"
         >
           <i className="fab fa-whatsapp"></i>
-          Get Price
+          Ask Price
         </a>
       </div>
     </a>

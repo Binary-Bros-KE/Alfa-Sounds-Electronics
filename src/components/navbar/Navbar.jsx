@@ -77,9 +77,13 @@ const Navbar = () => {
                 sales@eakhalimited.co.ke
               </p>
               |
-              <p className="text-sm text-white font-bold cursor-pointer">
-                +254 748 496 414
-              </p>
+              <a href="tel:+254720434209" className="text-sm text-white font-bold cursor-pointer">
+              +254 720 434 209
+              </a>
+              |
+              <a href="tel:+254722659725" className="text-sm text-white font-bold cursor-pointer">
+              +254 722 659 725
+              </a>
             </div>
             <div className="flex items-center gap-4 text-white">
               <a href="#" className="hover:text-yellow-300 transition-colors">
