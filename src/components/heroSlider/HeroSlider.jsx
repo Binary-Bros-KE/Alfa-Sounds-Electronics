@@ -7,24 +7,24 @@ const HeroSlider = () => {
 
   const slides = [
     {
-      subtitle: "Stay Connected with the Best Networking Solutions",
-      title: "Get high-speed routers and receivers at unbeatable prices.",
+      subtitle: "CONSULTATION,SALES AND INSTALLATION",
+      title: "CCTV, NETWORK,WIFI, DSTV, ZUKU, STARTIMES  & AERIALS, MULTISWITCH .",
       href: "/products/routers-and-receivers",
       buttonText: "Start Buying",
       image: "/hero-slider/slider-1.png",
       bgColor: "bg-gray-100",
     },
     {
-      subtitle: "find the best equipment for your needs.",
-      title: "Get professional-grade live streaming and conference systems",
+      subtitle: "CONSULTATION,SALES AND INSTALLATION",
+      title: "PA SYSTEMS, RF/IF AMPLIFIER, RG6 CABLES,RG59 CABLES CAT 6 ",
       href: "/products/ps-conference-system",
       buttonText: "View Products",
       image: "/hero-slider/slider-2.png",
       bgColor: "bg-blue-50",
     },
     {
-      subtitle: "Secure & Smart Entry Solutions",
-      title: "Explore our range of automatic gates and doors components",
+      subtitle: "CONSULTATION,SALES AND INSTALLATION",
+      title: "SOLARS AND INVERTERS BACKUPS, ELECTRIC FENCE & AUTOMATIC GATES",
       href: "/products/automatic-gates-and-doors",
       buttonText: "Discover More",
       image: "/hero-slider/slider-3.png",
@@ -66,7 +66,7 @@ const HeroSlider = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="mb-4 inline-block text-sm font-medium text-blue-500 capitalize"
+              className="mb-4 inline-block text-2xl font-bold text-blue-500 capitalize"
             >
               {slides[currentSlide].subtitle}
             </motion.span>
