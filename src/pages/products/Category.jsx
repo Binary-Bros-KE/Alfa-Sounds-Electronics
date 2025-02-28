@@ -29,8 +29,7 @@ const CategoryProductsPage = () => {
   return (
     <section className="category-products-page mx-auto px-4 py-8 eakha-container">
       <CategoriesSlider />
-
-      <h1 className="text-3xl font-bold mt-8 mb-6 capitalize">{category} Products</h1>
+      <h1 className="text-3xl font-bold mt-8 mb-6 capitalize">{filteredProducts.length > 0 && currentProducts[0].categoryUSer}</h1>
 
       {filteredProducts.length === 0 ? (
         <p className="text-center text-gray-600 mt-12">No products found in this category.</p>
