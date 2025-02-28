@@ -1,4 +1,4 @@
-import { Star, Award, Users, TrendingUp, ChevronRight } from "lucide-react"
+import { Star, Users, TrendingUp, ChevronRight } from "lucide-react"
 import Testimonials from "../../components/testimonials/Testimonials"
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
             <section className="bg-blue-600 text-white py-20">
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 uppercase">About EAKHA limited</h1>
-                    <p className="text-xl mb-8">Delivering Quality Products Since 2010</p>
+                    <p className="text-xl mb-8">Delivering Quality Products Since 2024</p>
                     <a
                         href="/products"
                         className="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition duration-300"
@@ -36,7 +36,7 @@ const About = () => {
                     <div className="max-w-3xl mx-auto text-center">
                         <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                         <p className="text-gray-600 mb-4">
-                            Founded in 2010, eakha started with a simple mission: to provide high-quality products at
+                            Founded in 2024, eakha started with a simple mission: to provide high-quality products at
                             affordable prices. Over the years, we've grown from a small startup to a leading online retailer, serving
                             customers coutrywide.
                         </p>

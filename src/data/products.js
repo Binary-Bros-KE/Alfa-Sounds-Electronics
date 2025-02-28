@@ -163,8 +163,6 @@ export const productsData = [
         stock: 20,
         condition: "New",
     },
-  
-
 
     //-------------- Cables & Connectors
     {
@@ -486,7 +484,56 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
-
+    {
+        productID: 33,
+        title: "XLR Cables Braided 6ft 2 Pack - Premium Short Anti-tangling XLR Patch Cables Male to Female for Microphone DJ",
+        subtitle: "XLR Cables",
+        category: "cables-and-connectors",
+        categoryUSer: "Cables and Connectors",
+        brand: "Braided",
+        name: "premium-short-anti-tangling-XLR-patch-cables-male-to-female",
+        mainproductImage: '/products/cables-connectors/XLR-Cables-Braided/XLR-Cables-Braided.jpg',
+        secondaryImages: [
+            '/products/cables-connectors/XLR-Cables-Braided/XLR-Cables-Braided.jpg',
+            '/products/cables-connectors/XLR-Cables-Braided/XLR-Cables-Braided-2.png',
+        ],
+        specs: [
+            "Special Design for: These short XLR Cables braided 6 ft 2 packs with dual shield of foil and OFC; Designed specifically for the requirements of audio and DMX 512 control applications; 110+ OHM 22 Gauge",
+            "Anti-Tangling: These xlr cables braided tightly with premium sleeves; Lint and fluff free; Tangling free to make wires wrapping up an easier job",
+            "More Durable Cables: Premium cotton braided cables provide longer service life than nylon braided type, except not too stiff to hurt your hands during wrapping cables up",
+            "Clear Nature Sounds: Lo-Z balanced Hi-Fi transmission between XLR male and female; Noiseless and lossless for sound with great clarity",
+            "Static Free Connectors: Premium 3-pin silver plated XLR connectors of static free, Smooth plug in or out and solid lock",
+        ],
+        tags: ["Cables Braided", "XLR Cables",],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
+    {
+        productID: 34,
+        title: "Bochara Coloured XLR Cable Male to Female 3Pin OFC Audio Cable Dual Shielded For Microphone Mixer Amplifier 1m 2m 3m 5m 10m",
+        subtitle: "XLR Cables",
+        category: "cables-and-connectors",
+        categoryUSer: "Cables and Connectors",
+        brand: "Male to Female",
+        name: "bochara-coloured-XLR-cable-male-to-female-3pin-OFC-audio-cable",
+        mainproductImage: '/products/cables-connectors/Bochara-Coloured-XLR-Cable/Bochara-Coloured-XLR-Cable.jpg',
+        secondaryImages: [
+            '/products/cables-connectors/Bochara-Coloured-XLR-Cable/Bochara-Coloured-XLR-Cable.jpg',
+            '/products/cables-connectors/XLR-Cables-Braided/XLR-Cables-Braided-2.png',
+        ],
+        specs: [
+            "Hign-concerned Chemical : NoneFeature : NoneBundle : Bundle 1Package : YesShielding : CombinationOuter Diameter : 6mmPacking",
+            "PolybagApplication : SPEAKER,Microphone,AmplifierType : Audio Extension CordConnector B : XLR (3-pin)Connector A : XLRModel",
+            "Coloured XLR Cable Male to FemaleGender : Male-FemaleBrand Name : Bochara : Mainland ChinaCertification",
+            "CE,RoHSBochara Coloured XLR Cable Male to Female 3Pin OFC Audio Cable Dual Shielded For Microphone Mixer Amplifier 1m 2m 3m 5m",
+            "Colour Option:1,Blue Colour:Blue Cable+Blue Circle Connector2,Purple Colour:Purple Cable+Purple Circle Connector3",
+        ],
+        tags: ["Bochara Coloured XLR", "Male to Female",],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
 
 
     //------------ Public Address
@@ -972,7 +1019,29 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
-
+    {
+        productID: 56,
+        title: "Ahuja HBM-60CC PA Microphone Headband Series Public Address Microphone",
+        subtitle: "PA Microphone",
+        category: "ps-conference-system",
+        categoryUSer: "Ps & Conference System",
+        brand: "Ahuja",
+        name: "ahuja-hbm-60CC-pa-microphone-headband-series-public-address-microphone",
+        mainproductImage: '/products/PS-Equipment/ahuja-hbm-60CC/ahuja-hbm-60CC.png',
+        secondaryImages: [
+            '/products/PS-Equipment/ahuja-hbm-60CC/ahuja-hbm-60CC.png',
+        ],
+        specs: [
+            "It has with microphone headband",
+            "Operating Voltage: 1. 5V",
+            "Sensitivity: 5. 6Mv/Pa",
+            "High frequency",
+        ],
+        tags: ["Microphone", "Microphone Headband", "Public Address Microphone"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
 
 
     //------------ Satellites
@@ -1219,6 +1288,30 @@ export const productsData = [
             "The amplifier has the option of feeding preamplifiers with 24 V voltage, and maximum current of 50 mA through the UHF input. Preamplifier's feeding is switched on automatically as soon as the preamp is detected.",
         ],
         tags: ["Antenna Amplifier", "ALCAD", "Amplifier"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
+    {
+        productID: 70,
+        title: "IBRAVEBOX V9 Finder Digital Satellite Signal Finder Meter luoshan",
+        subtitle: "Satellite meter",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "IBRAVEBOX V9",
+        name: "finder-digital-satellite-signal-finder-meter-luoshan",
+        mainproductImage: '/products/aerials-satellites/IBRAVEBOX-V9-Finder-Digital/IBRAVEBOX-V9-Finder-Digital.jpg',
+        secondaryImages: [
+            '/products/aerials-satellites/IBRAVEBOX-V9-Finder-Digital/IBRAVEBOX-V9-Finder-Digital.jpg',
+            '/products/aerials-satellites/IBRAVEBOX-V9-Finder-Digital/IBRAVEBOX-V9-Finder-Digital-2.png',
+        ],
+        specs: [
+            "IBRAVEBOX V9 Finder Digital Satellite Signal Finder Meter",
+            "Suitable for families, rv, wild or remote areas of camping in a variety of occasions.",
+            "Mini size and light weight, really portable.",
+            "Variable sensitivity adjustment to work with TV both towers from near and far.",
+        ],
+        tags: ["Satellite Meter", "IBRAVEBOX", "Digital Satellite"],
         carousels: ["Conference", "Conference System"],
         stock: 25,
         condition: "New",

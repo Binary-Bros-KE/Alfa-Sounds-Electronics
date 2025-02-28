@@ -8,14 +8,6 @@ const HeroSlider = () => {
   const slides = [
     {
       subtitle: "CONSULTATION,SALES AND INSTALLATION",
-      title: "CCTV, NETWORK,WIFI, DSTV, ZUKU, STARTIMES  & AERIALS, MULTISWITCH .",
-      href: "/products/routers-and-receivers",
-      buttonText: "Start Buying",
-      image: "/hero-slider/slider-1.png",
-      bgColor: "bg-gray-100",
-    },
-    {
-      subtitle: "CONSULTATION,SALES AND INSTALLATION",
       title: "PA SYSTEMS, RF/IF AMPLIFIER, RG6 CABLES,RG59 CABLES CAT 6 ",
       href: "/products/ps-conference-system",
       buttonText: "View Products",
@@ -24,7 +16,15 @@ const HeroSlider = () => {
     },
     {
       subtitle: "CONSULTATION,SALES AND INSTALLATION",
-      title: "SOLARS AND INVERTERS BACKUPS, ELECTRIC FENCE & AUTOMATIC GATES",
+      title: "CCTV, NETWORK,WIFI, DSTV, ZUKU, STARTIMES  & AERIALS, MULTISWITCH .",
+      href: "/products/routers-and-receivers",
+      buttonText: "Start Buying",
+      image: "/hero-slider/slider-1.png",
+      bgColor: "bg-gray-100",
+    },
+    {
+      subtitle: "CONSULTATION,SALES AND INSTALLATION",
+      title: "SOLARS AND INVERTERS BACKUPS, ELECTRIC FENCE & AUTOMATIC GATES",
       href: "/products/automatic-gates-and-doors",
       buttonText: "Discover More",
       image: "/hero-slider/slider-3.png",

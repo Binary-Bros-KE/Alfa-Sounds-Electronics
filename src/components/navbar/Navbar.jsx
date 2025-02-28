@@ -49,7 +49,7 @@ const Navbar = () => {
   const categories = [
     { name: "Aerials & Satellites", url: "aerials-and-satellites" },
     { name: "Networking Routers & Receivers", url: "routers-and-receivers" },
-    { name: "Live Streaming and Conference Facilities.", url: "ps-conference-system" },
+    { name: "PA systems & conference.", url: "ps-conference-system" },
     { name: "Tvs, Projectors & Tv brackets", url: "tv-screens-and-brackets" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
