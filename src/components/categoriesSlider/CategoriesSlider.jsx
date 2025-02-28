@@ -21,7 +21,7 @@ const CategoriesSlider = () => {
             id: 2
         },
         {
-            title: "Live Streaming and Conference Facilities",
+            title: "PA systems & conference Facilities.",
             image: "/categories/ps.png",
             href: "/products/ps-conference-system",
             id: 3
