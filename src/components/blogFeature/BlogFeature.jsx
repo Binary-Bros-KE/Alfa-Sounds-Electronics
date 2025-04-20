@@ -45,7 +45,7 @@ const BlogFeature = () => {
                             />
                         </div>
                         <div className="p-4">
-                            <h3 className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors duration-300 text-ce">
+                            <h3 className="font-medium text-gray-800 group-hover:text-green-600 transition-colors duration-300 text-ce">
                                 {guide.title}
                             </h3>
                         </div>

@@ -93,7 +93,7 @@ const reviews = [
 
 const ReviewCard = ({ review }) => {
   return (
-    <div className="bg-white p-6 rounded-lg border border-gray-400 hover:border-blue-400 relative group h-full cursor-pointer">
+    <div className="bg-white p-6 rounded-lg border border-gray-400 hover:border-green-400 relative group h-full cursor-pointer">
       <div className="flex items-start gap-3 mb-4">
         <div className="relative">
           <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 text-lg font-semibold relative">
@@ -106,7 +106,7 @@ const ReviewCard = ({ review }) => {
         <div>
           <div className="flex items-center gap-2">
             <span className="font-semibold">{review.name}</span>
-            <span className="text-xs px-2 py-0.5 bg-blue-50 text-blue-600 rounded">REVIEWER</span>
+            <span className="text-xs px-2 py-0.5 bg-green-50 text-green-600 rounded">REVIEWER</span>
           </div>
           <div className="flex items-center mt-1">
             {[...Array(5)].map((_, i) => (

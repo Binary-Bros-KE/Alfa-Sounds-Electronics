@@ -12,11 +12,11 @@ const HeroSlider = () => {
       href: "/products/ps-conference-system",
       buttonText: "View Products",
       image: "/hero-slider/slider-2.png",
-      bgColor: "bg-blue-50",
+      bgColor: "bg-yellow-50",
     },
     {
       subtitle: "CONSULTATION,SALES AND INSTALLATION",
-      title: "CCTV, NETWORK,WIFI, DSTV, ZUKU, STARTIMES  & AERIALS, MULTISWITCH .",
+      title: "Home Appliances and Assorted Electronic Accessories .",
       href: "/products/routers-and-receivers",
       buttonText: "Start Buying",
       image: "/hero-slider/slider-1.png",
@@ -66,7 +66,7 @@ const HeroSlider = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="mb-4 inline-block text-2xl font-bold text-blue-500 capitalize"
+              className="mb-4 inline-block text-xl font-bold text-green-500 capitalize"
             >
               {slides[currentSlide].subtitle}
             </motion.span>
@@ -85,7 +85,7 @@ const HeroSlider = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
               href={slides[currentSlide].href}
-              className="mt-6 rounded-md bg-blue-600 px-8 py-3 font-medium text-white transition-colors hover:bg-yellow-500 cursor-pointer"
+              className="mt-6 rounded-md bg-yellow-400 px-8 py-3 font-medium text-white transition-colors hover:bg-yellow-500 cursor-pointer"
             >
               {slides[currentSlide].buttonText}
             </motion.a>
@@ -101,7 +101,7 @@ const HeroSlider = () => {
             <img
               src={slides[currentSlide].image || "/placeholder.svg"}
               alt="Slider"
-              className="h-[400px] w-auto object-contain"
+              className="h-[600px] w-auto object-contain mb-10"
             />
           </motion.div>
 
@@ -132,7 +132,7 @@ const HeroSlider = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`h-2 w-2 rounded-full transition-all ${
-              currentSlide === index ? "w-8 bg-blue-400" : "bg-gray-400"
+              currentSlide === index ? "w-8 bg-yellow-400" : "bg-gray-400"
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

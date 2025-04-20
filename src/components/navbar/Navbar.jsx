@@ -69,19 +69,23 @@ const Navbar = () => {
     <div className="w-full bg-white shadow-md">
       <div className="navbar-content p-0 m-0">
         {/* Top Bar */}
-        <div className="bg-blue-600 px-4">
+        <div className="bg-green-600 px-4">
           <div className="hidden lg:flex items-center justify-between py-2 eakha-container">
             <div className="flex gap-2 items-center text-white">
               <p className="text-sm text-white font-bold cursor-pointer">
-                sales@eakhalimited.co.ke
+                sales@alfasounds.co.ke
               </p>
               |
               <a href="tel:+254720434209" className="text-sm text-white font-bold cursor-pointer">
-              +254 720 434 209
+                020-2251579
               </a>
               |
               <a href="tel:+254722659725" className="text-sm text-white font-bold cursor-pointer">
-              +254 722 659 725
+                +254-722-659-725
+              </a>
+              |
+              <a href="tel:+254722659725" className="text-sm text-white font-bold cursor-pointer">
+                +254-720-434-209
               </a>
             </div>
             <div className="flex items-center gap-4 text-white">
@@ -114,7 +118,7 @@ const Navbar = () => {
                 <Menu size={24} />
               </button>
               <Link to="/" className="text-4xl font-bold">
-                EAKHA LTD
+              <img src="/logo.png" alt="logo" className="h-18 max-md:h-15" />
               </Link>
             </div>
 
@@ -123,15 +127,15 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Search for Products"
-                className="w-full px-4 py-2 border-2 border-blue-600 rounded-l-full focus:outline-none"
+                className="w-full px-4 py-2 border-2 border-green-600 rounded-l-full focus:outline-none"
               />
-              <select className="px-4 py-2 border-2 border-l-0 border-blue-600 bg-white focus:outline-none cursor-pointer">
+              <select className="px-4 py-2 border-2 border-l-0 border-green-600 bg-white focus:outline-none cursor-pointer">
                 <option>All Products</option>
                 {categories.map((category, index) => (
                   <option key={index}>{category.name}</option>
                 ))}
               </select>
-              <button className="px-6 py-2 bg-blue-600 rounded-r-full hover:bg-blue-500 text-white transition-colors cursor-pointer">
+              <button className="px-6 py-2 bg-green-600 rounded-r-full hover:bg-green-500 text-white transition-colors cursor-pointer">
                 <Search size={20} />
               </button>
             </div>
@@ -157,7 +161,7 @@ const Navbar = () => {
             <div className={`flex gap-4 items-center w-full ${isSticky ? "eakha-container w-full b" : ""}`}>
               <div className="relative" ref={dropdownRef}>
                 <button
-                  className="flex items-center gap-2 bg-blue-600 px-4 py-2 rounded-md text-white cursor-pointer"
+                  className="flex items-center gap-2 bg-green-600 px-4 py-2 rounded-md text-white cursor-pointer"
                   onClick={() => setIsDepartmentsOpen(!isDepartmentsOpen)}
                 >
                   <Menu size={20} />
@@ -178,7 +182,7 @@ const Navbar = () => {
                         <Link
                           key={index}
                           to={`/products/${category.url}`}
-                          className="w-full block px-4 py-2 text-left hover:bg-blue-100 transition-colors cursor-pointer"
+                          className="w-full block px-4 py-2 text-left hover:bg-green-100 transition-colors cursor-pointer"
                         >
                           {category.name}
                         </Link>
@@ -194,7 +198,7 @@ const Navbar = () => {
                 <Link
                   key={index}
                   to={link.href}
-                  className="uppercase font-bold cursor-pointer hover:text-blue-600 transition-colors"
+                  className="uppercase font-bold cursor-pointer hover:text-green-600 transition-colors"
                 >
                   {link.name}
                 </Link>
@@ -221,7 +225,10 @@ const Navbar = () => {
             >
               <div className="flex flex-col h-full sticky">
                 <div className="flex items-center justify-between p-4 border-b">
-                  <a href="/" className="text-2xl font-bold">EAKHA LTD</a>
+                  <Link to="/" className="text-4xl font-bold">
+                    <h1>ALFA SOUNDS</h1>
+                    <p className="text-sm text-green-600">Electronics company limited.</p>
+                  </Link>
                   <button onClick={() => setIsOpen(false)}>
                     <svg
                       className="w-6 h-6"
@@ -243,7 +250,7 @@ const Navbar = () => {
                     <Link
                       key={index}
                       to={`/products/${category.url}`}
-                      className="w-full block px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-blue-300"
+                      className="w-full block px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-green-300"
                       onClick={() => setIsOpen(false)}
                     >
                       {category.name}

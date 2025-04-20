@@ -40,7 +40,7 @@ const ProductsPage = () => {
             key={pageNumber}
             onClick={() => handlePageChange(pageNumber)}
             className={`mx-1 px-3 py-1 rounded cursor-pointer  ${
-              currentPage === pageNumber ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+              currentPage === pageNumber ? "bg-green-500 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
             }`}
           >
             {pageNumber}

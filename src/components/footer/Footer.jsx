@@ -25,7 +25,7 @@ const Footer = () => {
           />
         </svg>
       ),
-    },    
+    },
     {
       title: "Exclusive Offers and Deals",
       description: "Great Deals for our loyal clients",
@@ -58,11 +58,11 @@ const Footer = () => {
 
   const footerLinks = {
     "Top Categories": [
-        "Aerials & Satellites", 
-        "Routers & Receivers", 
-        "TVs & Projectors", 
-        "Cables and Connectors",
-        "Automatic Gates & Doors"
+      "Aerials & Satellites",
+      "Routers & Receivers",
+      "TVs & Projectors",
+      "Cables and Connectors",
+      "Automatic Gates & Doors"
     ],
     "Customer Service": [
       "Payment Methods",
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="flex items-center gap-4">
-              <div className="text-gray-400">{feature.icon}</div>
+              <div className="text-green-400 bg-gra">{feature.icon}</div>
               <div>
                 <h4 className="font-bold text-lg text-gray-600">{feature.title}</h4>
                 <p className="text-gray-400">{feature.description}</p>
@@ -91,27 +91,26 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Content */}
-      <div className="border-t border-blue-200">
+      <div className="border-t border-green-200">
         <div className="mx-auto px-6 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Logo and About */}
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold">EAKHA LTD</h2>
-              <p className="text-gray-600">
-              Your trusted supplier of network equipment, decoders, satellites, and advanced connectivity solutions.
-              </p>
+              <div to="/" className="text-4xl font-bold">
+                <img src="/logo.png" alt="logo" className="h-20" />
+              </div>
               <div>
                 <p className="font-bold">Got Question? Call us:</p>
-                <div  className="flex flex-col">
-                <a href="tel:+254720434209" className="text-blue-500 text-xl font-bold">
-                (+254)720 434 209
-                </a>
-                <a href="tel:+254722659725" className="text-blue-500 text-xl font-bold">
-                (+254)722 659 725
-                </a>
-                <a href="tel:+254748496414" className="text-blue-500 text-xl font-bold">
-                (+254)748 496 414
-                </a>
+                <div className="flex flex-col">
+                  <a href="tel:+254720434209" className="text-green-500 text-xl font-bold">
+                    (+254)720 434 209
+                  </a>
+                  <a href="tel:+254722659725" className="text-green-500 text-xl font-bold">
+                    (+254)722 659 725
+                  </a>
+                  <a href="tel:+254748496414" className="text-green-500 text-xl font-bold">
+                    (+254)748 496 414
+                  </a>
                 </div>
               </div>
             </div>
@@ -133,19 +132,19 @@ const Footer = () => {
             ))}
 
             <div>
-                <h4 className="font-bold text-lg mb-4 text-right">Our Paybill</h4>
-                <img src="/utility/paybill.png" className="w-full h-[180px]" alt="" />
+              <h4 className="font-bold text-lg mb-4 text-right">Our Paybill</h4>
+              <img src="/utility/paybill.png" className="w-full h-[180px]" alt="" />
             </div>
           </div>
         </div>
       </div>
 
       {/* Bottom Footer */}
-      <div className="border-t border-blue-300">
+      <div className="border-t border-green-300">
         <div className="mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-600">
-              Copyright © 2024 EAKHA LTD Store. All Rights Reserved.
+              Copyright © 2024 ALFA SOUNDS ELECTONICS CO LTD. All Rights Reserved.
               <span className="mx-2">|</span>
               <a href="#" className="hover:text-gray-900">
                 Terms Of Use
@@ -158,10 +157,10 @@ const Footer = () => {
             <div className="flex items-center gap-4">
               <span className="text-gray-600">Social Media</span>
               <div className="flex gap-3">
-                <a href="#" className="text-gray-600 hover:text-blue-600">
+                <a href="#" className="text-gray-600 hover:text-green-600">
                   <Facebook size={20} />
                 </a>
-                <a href="#" className="text-gray-600 hover:text-blue-400">
+                <a href="#" className="text-gray-600 hover:text-green-400">
                   <Twitter size={20} />
                 </a>
                 <a href="#" className="text-gray-600 hover:text-pink-600">

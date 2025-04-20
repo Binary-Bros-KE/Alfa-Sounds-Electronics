@@ -1319,8 +1319,8 @@ export const productsData = [
 
 
 
-    //------------------ Automatic Gates and Doors
-    {
+     //------------------ Automatic Gates and Doors
+     {
         productID: 101,
         title: "Slide Gate Door Motor For Villa Farm Workshop Courtyard Factory 600KG Automatic Sliding Gate Opener Motor Rack Driv",
         subtitle: "Automatic Gate",
@@ -1329,6 +1329,7 @@ export const productsData = [
         brand: "Slide Gate Door",
         name: "slide-gate-door-motor",
         mainproductImage: '/products/Gates/slide-gate/slide-gate.png',
+        video: 'https://www.youtube.com/embed/GPgPgF1wLT8?si=1Jg4ZSe7SwfkTau1',
         secondaryImages: [
             '/products/Gates/slide-gate/slide-gate.png',
             '/products/Gates/slide-gate/slide-gate-2.png',
@@ -1355,6 +1356,7 @@ export const productsData = [
         brand: "Lockmaster Door",
         name: "lockmaster-automatic-door",
         mainproductImage: '/products/Gates/lockmaster/lockmaster.jpg',
+        video: 'https://www.youtube.com/embed/AbmtXGwOXjU?si=mCN1qSAtZatn42vf',
         secondaryImages: [
             '/products/Gates/lockmaster/lockmaster.jpg',
             '/products/Gates/lockmaster/lockmaster-2.png',
@@ -1381,6 +1383,7 @@ export const productsData = [
         brand: "LM1202 Door",
         name: "LM1202-high-quality-swing-gate-motor",
         mainproductImage: '/products/Gates/LM1202/LM1202.png',
+        video: 'https://www.youtube.com/embed/YiAbGvP4P88?si=Jahrq5bsW_UAqzFJ',
         secondaryImages: [
             '/products/Gates/LM1202/LM1202.png',
             '/products/Gates/LM1202/LM1202-2.png',

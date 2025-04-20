@@ -68,6 +68,16 @@ const ProductDetailsPage = () => {
         </div>
       </div>
 
+      {product.video && <iframe
+          src={product.video}
+          title="YouTube video player"
+          frameborder="0"
+          className="w-full h-120 max-md:h-100"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>}
+
       {/* Related Products */}
       {relatedProducts.length > 0 && (
         <div className="mt-12">

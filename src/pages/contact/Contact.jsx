@@ -24,8 +24,8 @@ const Contact = () => {
             id: 3,
             title: "Email Us",
             icon: Mail,
-            items: ["info@eakhalimited.co.ke", "sales@eakhalimited.co.ke"],
-            action: "mailto:info@eakhalimited.co.ke",
+            items: ["info@alfaelectronics.co.ke", "sales@alfaelectronics.co.ke"],
+            action: "mailto:info@alfaelectronics.co.ke",
             color: "bg-purple-50 text-purple-600",
             hoverColor: "hover:bg-purple-100",
         },
@@ -33,8 +33,8 @@ const Contact = () => {
             id: 4,
             title: "Instagram",
             icon: Instagram,
-            items: ["@eakhalimited", "Follow us for updates"],
-            action: "https://instagram.com/eakhalimited",
+            items: ["@alfaelectronics", "Follow us for updates"],
+            action: "https://instagram.com/alfaelectronics",
             color: "bg-pink-50 text-pink-600",
             hoverColor: "hover:bg-pink-100",
         },
@@ -42,8 +42,8 @@ const Contact = () => {
             id: 5,
             title: "X (Twitter)",
             icon: Twitter,
-            items: ["@eakhalimited", "Follow us for updates"],
-            action: "https://twitter.com/eakhalimited",
+            items: ["@alfaelectronics", "Follow us for updates"],
+            action: "https://twitter.com/alfaelectronics",
             color: "bg-gray-50 text-gray-600",
             hoverColor: "hover:bg-gray-100",
         },
@@ -51,8 +51,8 @@ const Contact = () => {
             id: 6,
             title: "Facebook",
             icon: Facebook,
-            items: ["Eakha Limited", "Like our page"],
-            action: "https://facebook.com/eakhalimited",
+            items: ["Alfa sounds electronics ", "Like our page"],
+            action: "https://facebook.com/alfaelectronics",
             color: "bg-indigo-50 text-indigo-600",
             hoverColor: "hover:bg-indigo-100",
         },
@@ -76,7 +76,7 @@ const Contact = () => {
     ]
 
     return (
-        <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen py-8 px-4 sm:px-6 lg:px-8 eakha-container">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="text-center mb-12">

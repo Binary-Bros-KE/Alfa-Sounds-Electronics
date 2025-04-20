@@ -80,7 +80,7 @@ const CategoriesSlider = () => {
                         transition={{ type: "spring", stiffness: 400, damping: 17 }}
                     >
                         
-                        <div href={category.href} className="category-item bg-blue-200 hover:bg-blue-600 transition-all duration-300 flex items-center py-2 px-4 gap-4 rounded-md cursor-pointer group">
+                        <div href={category.href} className="category-item bg-green-200 hover:bg-green-600 transition-all duration-300 flex items-center py-2 px-4 gap-4 rounded-md cursor-pointer group">
                             <div className="category-item-image h-[50px] w-[50px] flex items-center justify-center border-r-2 border-gray-400 pr-2">
                                 <a href={category.href}>
                                 <img 
