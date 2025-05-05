@@ -54,90 +54,6 @@ export const productsData = [
     },
     {
         productID: 3,
-        title: "STARMAN 9539HD New DVB-COMBO T2 S2 decoder High Definition wifi Digital Satellite Receiver",
-        subtitle: "Satellite Receiver",
-        category: "routers-and-receivers",
-        categoryUSer: "Routers and Receivers",
-        brand: "STARMAN",
-        name: "STARMAN-9539HD-new-DVB-COMBO-T2-S2-decoder",
-        mainproductImage: '/products/routers-receivers/starman/starman.png',
-        secondaryImages: [
-            '/products/routers-receivers/starman/starman.png',
-            '/products/routers-receivers/starman/starman-2.png',
-            '/products/routers-receivers/starman/starman-3.png',
-        ],
-        specs: [
-            "processor core --- Dual Core",
-            "support resolution	--- 1920 x 1080",
-            "wifi --- 802.11n 2.4G/5GHz",
-            "Single package size --- 27X22X5.5 cm",
-            "Single gross weight --- 0.800 kg",
-            "processor	--- MontageCS8001s-030",
-            "ethernet --- 1 x 10/100/1000MBps",
-            "keyboard --- Yes",
-        ],
-        tags: ["STARMAN", "decoder", "High Definition", "Digital Satellite Receiver", "Receiver"],
-        carousels: ["latestArrivals", "routers"],
-        stock: 20,
-        condition: "New",
-    },
-    {
-        productID: 4,
-        title: "azamtv Satellite FULL KIT with the AzamTV Box.",
-        subtitle: "Satellite KIT",
-        category: "routers-and-receivers",
-        categoryUSer: "Routers and Receivers",
-        brand: "Azam Tv",
-        name: "azamtv-satellite-FULL-KIT",
-        mainproductImage: '/products/routers-receivers/azam/azam.jpg',
-        secondaryImages: [
-            '/products/routers-receivers/azam/azam.jpg',
-            '/products/routers-receivers/azam/azam-2.jpg',
-            '/products/routers-receivers/azam/azam-3.jpg',
-        ],
-        specs: [
-            "BUNDLE OF MAGIC – GREAT VALUE, SIMPLE TO USE, AFFORDABLE PACKAGES",
-            "There’s Entertainment For Everybody with the AzamTV Box. Enjoy premiere movies from around the world, sports, entertainment, kids and news. All available at the comfort of your home.",
-            "It’s easy to use, small and sleek, but has bags of features. You can record your favorite programs and catch your favorite games in full high definition quality.",
-            "GREAT VALUE --- The TV you want. None of the stuff you don’t.",
-            "ITS SO SIMPLE --- Once installed start watching over 60 channels straight away.",
-            "NO CONTRACT --- No strings – top up your account",
-        ],
-        tags: ["routers", "tenda"],
-        carousels: ["latestArrivals", "routers"],
-        stock: 20,
-        condition: "New",
-    },
-    {
-        productID: 5,
-        title: "Manufacturer Firework Server Rack 19 Inch 12U Vertical Network Cabinet",
-        subtitle: "Server Rack",
-        category: "routers-and-receivers",
-        categoryUSer: "Routers and Receivers",
-        brand: "Server Rack",
-        name: "manufacturer-firework-server-rack-19-inch-12U-vertical-network-cabinet",
-        mainproductImage: '/products/routers-receivers/server-rack/server-rack.jpg',
-        secondaryImages: [
-            '/products/routers-receivers/server-rack/server-rack.jpg',
-            '/products/routers-receivers/server-rack/server-rack-2.png',
-            '/products/routers-receivers/server-rack/server-rack-3.png',
-        ],
-        specs: [
-            "Material --- SPCC cold rolled steel",
-            "Thickness --- 0.7mm",
-            "Loading Capacity --- 400KG",
-            "Surface treatment --- pickling, degreasing, phosphating, electrostatic spraying",
-            "Application --- install network equipment, switches, routers, KVM, power amplifiers, computers, patch panels and some standard network equipment",
-            "Product standard --- Comply with ANSI/EIARS-310-D,DIN41491;PART1,IEC297-2,DIN41494;PART7,GB/T3047.2-92 standard.Compatible with metric ETSI and 19 inch international standard",
-            "Product size --- 600*600*800mm"
-        ],
-        tags: ["Server Rack", "Firework Server Rack", "Network Cabinet"],
-        carousels: ["latestArrivals", "routers"],
-        stock: 20,
-        condition: "New",
-    },
-    {
-        productID: 6,
         title: "Highfly SMATV 5X5X24 MS5524C Blue sens cascade switch with power adaptor satellite multiswitch",
         subtitle: "Switch",
         category: "routers-and-receivers",
@@ -163,10 +79,66 @@ export const productsData = [
         stock: 20,
         condition: "New",
     },
+    {
+        productID: 4,
+        title: "200m Wireless Wifi HDMI Video Transmitter and Receiver Extender",
+        subtitle: "Video Transmitter",
+        category: "routers-and-receivers",
+        categoryUSer: "Routers and Receivers",
+        brand: "Generic",
+        name: "200m-wireless-hdmi-transmitter-receiver-extender",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746112379/200m_Wireless_Wifi_HDMI_Video_Transmitter_lkeuim.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746112379/200m_Wireless_Wifi_HDMI_Video_Transmitter_lkeuim.png"
+        ],
+        specs: [
+            "Supports 1080p HD wireless HDMI transmission",
+            "Max range up to 200 meters in open space",
+            "Dual-band WiFi: 2.4GHz + 5.8GHz",
+            "Plug-and-play, no drivers or apps required",
+            "Works with PS4/5, laptops, TV boxes, DSLRs, and projectors",
+            "Ideal for home theaters, business presentations, gaming",
+            "Recommended range within 50m for wall penetration"
+        ],
+        tags: ["HDMI", "Wireless", "Extender", "Transmitter", "Receiver", "Video", "AV"],
+        carousels: ["TV Accessories", "Streaming and Extenders"],
+        stock: 30,
+        condition: "New"
+    },
+    {
+        productID: 5,
+        title: "4K Wireless HDMI Transmitter and Receiver Extender Kit",
+        subtitle: "For DSLR Camera, Projector, Streaming to TV",
+        category: "routers-and-receivers",
+        categoryUSer: "Routers and Receivers",
+        brand: "Generic",
+        name: "4k-wireless-hdmi-transmitter-receiver-extender-kit",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746112381/4K_Wireless_HDMI_Transmitter_and_Receiver_Video_Capture_Wireless_ayihin.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746112381/4K_Wireless_HDMI_Transmitter_and_Receiver_Video_Capture_Wireless_ayihin.png"
+        ],
+        specs: [
+            "Supports 4K@30Hz HDMI with H.265 encoding",
+            "Wireless transmission range up to 720ft",
+            "Ultra-low latency of 0.1 seconds",
+            "1TX to 4RX support for multi-room setups",
+            "UVC USB-C interface for HD 1080P@60Hz output",
+            "Multiple power modes for versatile use",
+            "Ideal for DSLR cameras, projectors, TVs, and streaming setups"
+        ],
+        tags: ["HDMI", "4K", "Wireless", "Transmitter", "Receiver", "Extender", "Streaming", "DSLR"],
+        carousels: ["TV Accessories", "Streaming and Extenders"],
+        stock: 20,
+        condition: "New"
+    },    
+    
+
+
+
 
     //-------------- Cables & Connectors
     {
-        productID: 21,
+        productID: 1001,
         title: "Metallic 10 ways Power Distriution Unit PDU",
         subtitle: "Power Unit",
         category: "cables-and-connectors",
@@ -192,7 +164,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 22,
+        productID: 1002,
         title: "Ethernet Network Cable | Cat 6 EaseNet PatchCodes 1M| 2M| 5M| 3M| 10M",
         subtitle: "Internet Cable",
         category: "cables-and-connectors",
@@ -220,7 +192,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 23,
+        productID: 1003,
         title: "VGA Cable Vention VGA(3+6) Male to Male Cable",
         subtitle: "VGA",
         category: "cables-and-connectors",
@@ -248,7 +220,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 24,
+        productID: 1004,
         title: "DiSEqC 5 ports Weatherproof from Eurostar Daisy",
         subtitle: "Eurostar",
         category: "cables-and-connectors",
@@ -277,7 +249,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 25,
+        productID: 1005,
         title: "Top Quality Cable management 19 Inch 1U 12 Rings Metal Steel Cable Management",
         subtitle: "Cable manager",
         category: "cables-and-connectors",
@@ -301,7 +273,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 26,
+        productID: 1006,
         title: "Highfly ASTEL 5-2500MHz 4 way TV RF splitter",
         subtitle: "RF splitter",
         category: "cables-and-connectors",
@@ -327,7 +299,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 27,
+        productID: 1007,
         title: "Computer ethernet cable cat 6 Lan Cable 305m Manufacture Pull Box 4pair Cable cat6 FTP utp cat6",
         subtitle: "ethernet cable",
         category: "cables-and-connectors",
@@ -357,7 +329,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 28,
+        productID: 1008,
         title: "Ac/dc 3v-12v 3v-24v 9v-24v 4v-24v Adjustable Universal Power Adapter Us/eu/uk/au Pin Regulated Power Supply With Display Screen",
         subtitle: "Power Adapter",
         category: "cables-and-connectors",
@@ -388,7 +360,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 29,
+        productID: 1009,
         title: "24V5A6A8A10A Power Adapter LED Light Strip Power LCD Display high-Power Equipment Dedicated (Size : 024V5A)",
         subtitle: "Power Adapter",
         category: "cables-and-connectors",
@@ -414,7 +386,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 30,
+        productID: 1010,
         title: "FreeMotion Battery Charger cable accessory compatible with the FreeMotion battery.",
         subtitle: "Battery Charger",
         category: "cables-and-connectors",
@@ -435,7 +407,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 31,
+        productID: 1011,
         title: "Adapter 12V 2A - Nerokas 100-240VAC 50/60Hz",
         subtitle: "Power Adapter",
         category: "cables-and-connectors",
@@ -460,7 +432,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 32,
+        productID: 1012,
         title: "Network Cable Panel Cable Storage Ports",
         subtitle: "Storage Ports",
         category: "cables-and-connectors",
@@ -485,7 +457,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 33,
+        productID: 1013,
         title: "XLR Cables Braided 6ft 2 Pack - Premium Short Anti-tangling XLR Patch Cables Male to Female for Microphone DJ",
         subtitle: "XLR Cables",
         category: "cables-and-connectors",
@@ -510,7 +482,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 34,
+        productID: 1014,
         title: "Bochara Coloured XLR Cable Male to Female 3Pin OFC Audio Cable Dual Shielded For Microphone Mixer Amplifier 1m 2m 3m 5m 10m",
         subtitle: "XLR Cables",
         category: "cables-and-connectors",
@@ -534,11 +506,39 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
+    {
+        productID: 1015, 
+        title: "4K HDMI Switch Cable | 3 in 1 or 5 in 1 HDMI Switcher with Remote",
+        subtitle: "HDMI Video Switch Adapter",
+        category: "cables-and-connectors",
+        categoryUSer: "Cables and Connectors",
+        brand: "HDMI Switch",
+        name: "4k-hdmi-switch-cable",
+        mainproductImage: "", 
+        secondaryImages: [],
+        specs: [
+            "3 in 1 Out or 5 in 1 Out HDMI input to 1 output switcher",
+            "Supports 4K (3840x2160) @ 30Hz resolution and 3D",
+            "Compatible with PS3, PS4, Xbox 360, Xbox One, Blu-ray, laptops, Apple TV and more",
+            "IR remote control included (for 5 in 1 version)",
+            "Manual switching button on device (3 in 1 version)",
+            "HDMI 1.4b and HDCP 1.0/1.1 compliant",
+            "Supports uncompressed audio like LPCM and compressed formats like DTS, Dolby Digital, Dolby TrueHD",
+            "Deep Color support: 24-bit, 30-bit, and 36-bit",
+            "Supports bandwidth up to 10.2Gbps and 300MHz max frequency",
+            "Plug and play design, no extra power required for most devices"
+        ],
+        tags: ["hdmi", "video", "switch", "splitter", "cables"],
+        carousels: ["bestSellers", "cables"],
+        stock: 25,
+        condition: "New",
+    },
+    
 
 
     //------------ Public Address
     {
-        productID: 41,
+        productID: 2001,
         title: "8 Channels Gooseneck Desk Audio Equipment",
         subtitle: "Conference System",
         category: "ps-conference-system",
@@ -568,7 +568,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 42,
+        productID: 2002,
         title: "12 Channel Console | Powered Mixer",
         subtitle: "Powered Mixer",
         category: "ps-conference-system",
@@ -596,7 +596,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 43,
+        productID: 2003,
         title: "MiCWL 6 Channels 1200W Power Amplifier",
         subtitle: "Power Amplifier",
         category: "ps-conference-system",
@@ -623,7 +623,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 44,
+        productID: 2004,
         title: "Microphone Stand For Stage And Studio",
         subtitle: "Microphone Stand",
         category: "ps-conference-system",
@@ -649,7 +649,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 45,
+        productID: 2005,
         title: "ATNY Tripod Boom Microphone Stand with Dual Microphone",
         subtitle: "Tripod Stand",
         category: "ps-conference-system",
@@ -674,7 +674,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 46,
+        productID: 2006,
         title: "12 Channel Console Mixing 99 Dsp Effects Powered Mixer With Amplifier",
         subtitle: "Amplifier",
         category: "ps-conference-system",
@@ -702,7 +702,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 45,
+        productID: 2005,
         title: "8 Channel 350W Console Mixing 99 Dsp Effects USB Interface Sound Power Amplifier Mixer",
         subtitle: "Power Amplifier",
         category: "ps-conference-system",
@@ -730,7 +730,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 46,
+        productID: 2006,
         title: "Audio Drum Kit/Mics 7 Kits (7 Mics) Dynamic",
         subtitle: "Drum Kit/Mics ",
         category: "ps-conference-system",
@@ -754,7 +754,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 47,
+        productID: 2007,
         title: "Hot Selling Three-way Crossover PA-3 Professional Speaker Bass Midrange and Tweeter Crossover",
         subtitle: "PA-3 Crossover",
         category: "ps-conference-system",
@@ -780,7 +780,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 48,
+        productID: 2008,
         title: "Crossover PCBs for C-note MT Bookshelf DIY Speaker",
         subtitle: "3B Crossover",
         category: "ps-conference-system",
@@ -804,7 +804,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 49,
+        productID: 2009,
         title: "PA-280 High Quality Passive Crossover 2-way Frequency Divider 2500hz Apply to 10-18 Inch Speaker Crossover",
         subtitle: "PA-280 Crossover",
         category: "ps-conference-system",
@@ -831,7 +831,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 50,
+        productID: 2010,
         title: "Hot Selling 2800Hz 2 Way Audio Crossover Pure and Full Tone Quality Speaker Crossover PA-280",
         subtitle: "2800Hz 2 Way",
         category: "ps-conference-system",
@@ -858,7 +858,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 51,
+        productID: 2011,
         title: "PA-2215 600W Suitable for 10-15 Inch Speaker 3-way Speaker Crossover Audio Crossover",
         subtitle: "PA-2215 Crossover",
         category: "ps-conference-system",
@@ -885,7 +885,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 51,
+        productID: 2012,
         title: "Professional Audio System Mid Bass Stage Monitor Speakers System PA System 15 Inch Subwoofer Speaker",
         subtitle: "Audio System",
         category: "ps-conference-system",
@@ -913,7 +913,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 52,
+        productID: 2013,
         title: "Pistol Suppressor XTR 2.0 Professional Processor Speakers Audio System Sound Digital signal Feedback Suppressor",
         subtitle: "Pistol Suppressor",
         category: "ps-conference-system",
@@ -941,7 +941,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 53,
+        productID: 2014,
         title: "Godox AD-S85S 85cm/33.5in Portable Deep Parabolic Softbox Umbrella Portable Octagon Softbox Godox Mount Fast Installation Silver Reflector for Godox AD400Pro Flash Ligh",
         subtitle: "Softbox Umbrella",
         category: "ps-conference-system",
@@ -970,7 +970,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 54,
+        productID: 2015,
         title: "AEK AU-143 Karaoke Wireless Mic",
         subtitle: "Karaoke Mic",
         category: "ps-conference-system",
@@ -996,7 +996,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 55,
+        productID: 2016,
         title: "UK-924 Wireless Conference Microphone",
         subtitle: "Karaoke Mic",
         category: "ps-conference-system",
@@ -1020,7 +1020,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 56,
+        productID: 2017,
         title: "Ahuja HBM-60CC PA Microphone Headband Series Public Address Microphone",
         subtitle: "PA Microphone",
         category: "ps-conference-system",
@@ -1044,9 +1044,9 @@ export const productsData = [
     },
 
 
-    //------------ Satellites
+    //------------ Aerials & Satellites
     {
-        productID: 61,
+        productID: 3001,
         title: "GZDtdsd Finder, V10 Finder Pro Digital Finder 4.3 Inch LCD Finder Signal Finder Meter Meter Satfinde",
         subtitle: "Satellite Finder",
         category: "aerials-and-satellites",
@@ -1072,7 +1072,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 62,
+        productID: 3002,
         title: "KPT-255HD DVB-S2 SatelliteFinder Full HD Digital Satellite TV Receiver Finder Meter MPEG-4 HD DVB-S2+HEVC H2.65 Finder WS-6933",
         subtitle: "Satellite Finder",
         category: "aerials-and-satellites",
@@ -1102,7 +1102,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 63,
+        productID: 3003,
         title: "Televes Wireless Remote Sender-Video & Audio Receiver",
         subtitle: "Televes Remote",
         category: "aerials-and-satellites",
@@ -1126,7 +1126,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 64,
+        productID: 3004,
         title: "DIGISAT STAR TG-2100 New satellite smart lnb New Digital Ku Band single LNB cloud satellite receiver firm ware account",
         subtitle: "Satellite Receiver",
         category: "aerials-and-satellites",
@@ -1155,7 +1155,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 65,
+        productID: 3005,
         title: "STARGOLD Gain 70dB Ultra Universal Two Way Satellite Dish Twin LNB SG-200 HD",
         subtitle: "Satellite Dish Twin",
         category: "aerials-and-satellites",
@@ -1186,7 +1186,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 66,
+        productID: 3006,
         title: "1434 Uhf fm indoor home cable trunk line signal booster housing catv antenna amplifier",
         subtitle: "signal booster",
         category: "aerials-and-satellites",
@@ -1215,7 +1215,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 67,
+        productID: 3007,
         title: "Strong Genuine LNB - KU HD Single For DSTV And Statelite",
         subtitle: "Genuine LNB",
         category: "aerials-and-satellites",
@@ -1241,7 +1241,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 68,
+        productID: 3008,
         title: "MiniKom F line broadband multiband amplifier 1 input: VHF/UHF",
         subtitle: "multiband amplifier",
         category: "aerials-and-satellites",
@@ -1267,7 +1267,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 69,
+        productID: 3009,
         title: "4-input Antenna Amplifier CA-312 (built-in power supply, ALCAD 904 series)",
         subtitle: "Antenna Amplifier",
         category: "aerials-and-satellites",
@@ -1293,7 +1293,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 70,
+        productID: 3010,
         title: "IBRAVEBOX V9 Finder Digital Satellite Signal Finder Meter luoshan",
         subtitle: "Satellite meter",
         category: "aerials-and-satellites",
@@ -1316,12 +1316,263 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
+    {
+        productID: 3011,
+        title: "Original Universal Octo LNB HD FHD Satellite Receiver LNB Digital Ku Band C Band Eight Output Octo LNBf",
+        subtitle: "Digital Satellite TV Signal Receiver",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "OEM",
+        name: "universal-octo-lnb-hd-fhd-satellite-receiver-ku-c-band",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094056/Original_Universal_Octo_LNB_HD_FHD_igdyu0.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094056/Original_Universal_Octo_LNB_HD_FHD_igdyu0.png"
+        ],
+        specs: [
+            "Type: Digital",
+            "High Definition compatible: Yes",
+            "Ku Band Octo Universal LNB",
+            "Material: ABS plastic",
+            "Function: Used for TV signal reception",
+            "FTA (Free To Air): Yes"
+        ],
+        tags: ["LNB", "Satellite Receiver", "Ku Band", "Octo LNB", "Digital TV"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3012,
+        title: "Televes Hdmi VHF/UHF modulator 5859",
+        subtitle: "digital modulator",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "Televes",
+        name: "televes-hdmi-VHF-UHF-modulator-5859",
+        mainproductImage: '/products/power-supply/modulator-modulator/modulator-modulator.png',
+        secondaryImages: [
+            '/products/power-supply/modulator-modulator/modulator-modulator.png',
+            '/products/power-supply/modulator-modulator/modulator-modulator-2.jpg',
+        ],
+        specs: [
+            "MCU controlled PLL, high accuracy and stability of video carrier and audio subcarrier",
+            "Audio subcarrier selectable: 5.5MHz, 6.0MHz. 6.5MHz",
+            "With RF loop input and auto storage at power outage",
+            "LED channel number display",
+            "Double side band modulation for non-adjacent usage",
+            "Output level adjustable",
+            "Select the input of the A/signal or HDMI signal via the toggle switch"
+        ],
+        tags: ["Televes", "digital modulator", "Power Sequencer", "10 Channel"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
+    {
+        productID: 3013,
+        title: "GSC-1002 High Quality 2-way Splitter DiSEqC Switch 1 in 2 out Satellite LNB Switch for TV Receiver",
+        subtitle: "2-Way DiSEqC Satellite Splitter",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "JMVANLIN",
+        name: "2-way-splitter-diseqc-switch-satellite-lnb-tv-receiver",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/GSC-1002_High_Quality_2-way_Splitter_mu3mnc.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/GSC-1002_High_Quality_2-way_Splitter_mu3mnc.png"
+        ],
+        specs: [
+            "2-way splitter DiSEqC switch (1 input, 2 output)",
+            "Durable and practical design",
+            "Easy to use with TV receivers",
+            "Exquisite workmanship",
+            "Compact size: 10 x 5 x 2 cm",
+            "Weight: 0.1 kg"
+        ],
+        tags: ["DiSEqC", "Splitter", "Satellite Switch", "TV Receiver", "LNB"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+
+    {
+        productID: 3014,
+        title: "16 Way Out 5 To 2400 MHz Cable TV Splitter, Accessories",
+        subtitle: "High-Frequency Cable Splitter",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "16 Way Out",
+        name: "16-way-out-5-2400mhz-cable-tv-splitter-accessories",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094047/16_Way_Out_5_To_2400_MHz_Cable_TV_Splitter_mjun8y.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094047/16_Way_Out_5_To_2400_MHz_Cable_TV_Splitter_mjun8y.png"
+        ],
+        specs: [
+            "16-way out cable splitter, 1 input",
+            "Frequency range: 5-2400 MHz",
+            "Size: 225x47x28mm (8.86x1.85x1.10 inch)",
+            "Built-in grounding block screw",
+            "Suitable for analogue TV",
+            "Max current: 24V, 0.8A",
+            "Material: Metal"
+        ],
+        tags: ["Cable Splitter", "16-Way", "TV Accessories", "High Frequency", "Aerial"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3015,
+        title: "Outdoor CATV Amplifier 2 Outputs with Return Path Module Trunk",
+        subtitle: "CATV Optical Receiver with AGC",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "Casafibra",
+        name: "outdoor-catv-amplifier-2-outputs-return-path-module-orx-301",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094056/Outdoor_CATV_Amplifier_2_Outputs_pup2yi.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094056/Outdoor_CATV_Amplifier_2_Outputs_pup2yi.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/image-removebg-preview_wjpajn.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/image-removebg-preview_2_zlosvk.png"
+        ],
+        specs: [
+            "Model: ORX-301",
+            "Type: Fiber Optic Transceivers",
+            "Forward path bandwidth: 45~862MHz",
+            "Return path bandwidth: 5~30&42&65MHz or Customized",
+            "Module: BGY888",
+            "Forward path gain: 30dB",
+            "Return path gain: 18dB",
+            "Nominal RF output power: 102dBuV",
+            "Power supply voltage: AC35~90V & AC110~260V",
+            "Application: FTTX"
+        ],
+        tags: ["CATV", "Amplifier", "Optical Receiver", "FTTX", "Fiber Optic"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3016,
+        title: "\"F\" Domestic Amplifier 3 Outputs (2+TV): VHF/UHF - Auto LTE",
+        subtitle: "3-Output Domestic TV Amplifier with Auto Gain and LTE Filter",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "",
+        name: "f-domestic-amplifier-3-outputs-vhf-uhf-auto-lte",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094048/F_domestic_amplifier_3_outputs_nxtqln.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094048/F_domestic_amplifier_3_outputs_nxtqln.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094054/F_domestic_amplifier_3_outputs-2_bldltc.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/F_domestic_amplifier_3_outputs-3_bfpphc.jpg",
+        ],
+        specs: [
+            "3 outputs (2+TV) with automatic level adjustment",
+            "TV output provides lower gain for direct TV connection",
+            "Equipped with selectable LTE filtering",
+            "Input power supply for pre-amplifier or BOSS system",
+            "Plug & Play with automatic gain regulation",
+            "Compact and low-impact design",
+            "Wall-mountable using screws",
+            "Uses 'F' connectors"
+        ],
+        tags: ["TV Amplifier", "LTE Filter", "Domestic Amplifier", "Auto Gain", "VHF UHF"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3017,
+        title: "Keple BNC Coupler Female to Female Connector BNC to BNC Adapter",
+        subtitle: "BNC Coupler for CCTV and Video Extension",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "Keple",
+        name: "keple-bnc-coupler-female-to-female-connector-bnc-to-bnc-adapter",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/Keple_BNC_Coupler_Female_to_Female_Connector_sosm23.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094055/Keple_BNC_Coupler_Female_to_Female_Connector_sosm23.png"
+        ],
+        specs: [
+            "Nickel-plated connector to reduce signal loss",
+            "Used for CCTV camera installation and cable extension",
+            "Joins two BNC cables or converts male BNC to female",
+            "Compatible with CCTV security and composite video cables",
+            "Material: Zinc alloy with nickel plating",
+            "Dimensions: 32 mm x 9.5 mm",
+            "Weight: Approx. 4.5g"
+        ],
+        tags: ["BNC", "Connector", "Coupler", "CCTV", "Video Adapter"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3018,
+        title: "415048 Tri-Boom Outdoor Compact Chrome Antenna",
+        subtitle: "UHF Television Antenna",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "Metronic",
+        name: "415048-tri-boom-outdoor-compact-chrome-antenna",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094047/415048_Tri-Boom_Outdoor_Compact_Chrome_Antenna_rpr9xl.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094047/415048_Tri-Boom_Outdoor_Compact_Chrome_Antenna_rpr9xl.png"
+        ],
+        specs: [
+            "Gain: 16 dB",
+            "Collapsible design for easy installation",
+            "Compatible with the new UHF bandwidth",
+            "Aluminium construction for lightweight handling",
+            "16 tube-shaped elements for optimal reception",
+            "Helps reduce 4G interference",
+            "UHF triple boom design"
+        ],
+        tags: ["Antenna", "UHF", "Television", "Outdoor", "Metronic"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 3019,
+        title: "Pauxis Satellites Combination DiSEqC 4 In 1 Switch",
+        subtitle: "4X1 DiSEqC 2.0 Switch for Free-To-Air & All Satellites",
+        category: "aerials-and-satellites",
+        categoryUSer: "Aerials & Satellites",
+        brand: "Pauxis",
+        name: "pauxis-satellites-combination-diseqc-4-in-1-switch",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094057/Pauxis_Satelites_Combination_vviy8i.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746094057/Pauxis_Satelites_Combination_vviy8i.png"
+        ],
+        specs: [
+            "4X1 DiSEqC 2.0 Switch",
+            "Inputs: 4",
+            "Output: 1",
+            "Input Frequency Range: 900MHz ~ 2300MHz",
+            "Insertion Loss: 3dB (Max.)",
+            "Isolation: 16dB (Min.)",
+            "Return Loss: 8dB",
+            "Power Voltage: DC 12 ~ 20V, 30mA",
+            "Max. Current to LNB Port: 1A",
+            "Compatible with all satellite frequencies"
+        ],
+        tags: ["Satellite", "DiSEqC Switch", "FTA", "4X1 Switch", "Pauxis"],
+        carousels: ["Satellite Accessories", "Signal Management"],
+        stock: 35,
+        condition: "New"
+    },
+    
+    
+    
+    
+    
+    
 
 
 
-     //------------------ Automatic Gates and Doors
-     {
-        productID: 101,
+    //------------------ Automatic Gates and Doors
+    {
+        productID: 4001,
         title: "Slide Gate Door Motor For Villa Farm Workshop Courtyard Factory 600KG Automatic Sliding Gate Opener Motor Rack Driv",
         subtitle: "Automatic Gate",
         category: "automatic-gates-and-doors",
@@ -1348,7 +1599,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 102,
+        productID: 4002,
         title: "Lockmaster Automatic Door Operators for Villa Dual Swing Gate up to 600KG Smart Garage Door Motor",
         subtitle: "Automatic Door",
         category: "automatic-gates-and-doors",
@@ -1375,7 +1626,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 103,
+        productID: 4003,
         title: "LM1202 High quality best price Swing Gate Motor for Beautiful automatic garage door wood garage door Swing Gate Opener Electric",
         subtitle: "Automatic Door",
         category: "automatic-gates-and-doors",
@@ -1398,11 +1649,41 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
+    {
+        productID: 4004,
+        title: "Acmeen Electronic Smart Wireless Digital Password Code Door Lock",
+        subtitle: "Smart Digital Door Lock",
+        category: "automatic-gates-and-doors",
+        categoryUSer: "Automatic Gates & Doors",
+        brand: "Acmeen",
+        name: "smart-wireless-digital-password-code-door-lock-acmeen",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746085963/Acmeen_Electronic_Smart_ywtdtc.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746085963/Acmeen_Electronic_Smart_ywtdtc.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746085964/Acmeen_Electronic_Smart-2_dpyjkf.jpg",
+        ],
+        specs: [
+            "Material: Stainless steel",
+            "Lock panel dimensions: 312.6*72 mm",
+            "Color options: Silvery, Black, Red Bronze",
+            "Working voltage: DC4.5-6.5V (4pcs 1.5V alkaline batteries)",
+            "Suitable for door thickness: 38-70mm",
+            "Working humidity: 20%~80%",
+            "Working temperature: -20~65°C",
+            "Lock mortise type: 2#S",
+            "Unlock modes: Card, Password, and Mechanical key"
+        ],
+        tags: ["Smart Lock", "Password Lock", "Electronic Lock", "Wireless", "Door Lock"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    
 
 
     //-------------Tv Screens and Brackets
     {
-        productID: 120,
+        productID: 5001,
         title: "high quality LED TV wall mount desktop bracket hot sale tv trolley",
         subtitle: "TV wall mount",
         category: "tv-screens-and-brackets",
@@ -1429,7 +1710,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 121,
+        productID: 5002,
         title: "P4 Model For 32-55 inch universal telescopic retractable wall bracket LED LCD TV wall",
         subtitle: "TV wall mount",
         category: "tv-screens-and-brackets",
@@ -1456,7 +1737,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 122,
+        productID: 5003,
         title: "Flat Panel Tv Wall Mount For 26'-63' LED Black",
         subtitle: "TV wall mount",
         category: "tv-screens-and-brackets",
@@ -1483,7 +1764,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 123,
+        productID: 5004,
         title: "SH20T Universal TV Wall Mount 15-43 Inch Flat Panel Adjustable Steel Tilting TV Stand Swivel Cheap Price LCD Monitor Bracket",
         subtitle: "Universal Mount",
         category: "tv-screens-and-brackets",
@@ -1510,7 +1791,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 4,
+        productID: 5005,
         title: "TV Wall Mount Bracket (37' - 70') (New Star Model 91-LPA49463D)",
         subtitle: "TV Wall Mount",
         category: "tv-screens-and-brackets",
@@ -1537,7 +1818,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 5,
+        productID: 5006,
         title: "Tilting LED/LCD/Plasma Wall Mount",
         subtitle: "TV Wall Mount",
         category: "tv-screens-and-brackets",
@@ -1562,7 +1843,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 6,
+        productID: 5007,
         title: "Universal TV Stand moveTV Mobile Stand Fit for 55-120 Inch Tvs with Shelf Teaching Conference Integrated Stand TV Floor Cart",
         subtitle: "Universal TV Stand",
         category: "tv-screens-and-brackets",
@@ -1586,13 +1867,66 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
+    {
+        productID: 5008,
+        title: "Heavy Duty Steel Wall Mount Adjustable Speaker Bracket",
+        subtitle: "Speaker Stand Hanger for 35kg Load",
+        category: "tv-screens-and-brackets",
+        categoryUSer: "Tv Screens & Brackets",
+        brand: "Generic",
+        name: "heavy-duty-steel-wall-mount-adjustable-speaker-bracket",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746178132/Heavy_Duty_Steel_Wall_Mount_Adjustable_Speaker_Bracket_g0kh5k.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746178132/Heavy_Duty_Steel_Wall_Mount_Adjustable_Speaker_Bracket_g0kh5k.png"
+        ],
+        specs: [
+            "Supports up to 35kg on wood stud, concrete, or brick wall",
+            "180° swivel and 60° tilt for adjustable positioning",
+            "5-level length adjustability",
+            "Durable steel construction for long-lasting use",
+            "Ideal for bookshelf or powered speakers",
+            "Color: Black",
+            "Weight: 1580g"
+        ],
+        tags: ["Speaker Bracket", "Wall Mount", "Adjustable", "Steel", "Home Audio"],
+        carousels: ["Home Audio", "TV Accessories"],
+        stock: 20,
+        condition: "New"
+    },
+    {
+        productID: 6030,
+        title: "High Quality Supplier TV Wall Stand Mount Bracket",
+        subtitle: "Fits 17''-55'' LED LCD TVs – 40kg Capacity",
+        category: "tv-screens-and-brackets",
+        categoryUSer: "Tv Screens & Brackets",
+        brand: "OEM",
+        name: "tv-wall-stand-mount-bracket-17-to-55-inch",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746180717/High_Quality_Supplier_TV_Wall_Stand_Mount_Bracket_unttou.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746180717/High_Quality_Supplier_TV_Wall_Stand_Mount_Bracket_unttou.png"
+        ],
+        specs: [
+            "Compatible with 17''–55'' LED, LCD, 3D, Smart TVs and monitor screens",
+            "VESA support: Up to 400x400mm",
+            "Material: SPCC (cold-rolled steel)",
+            "Color: Black and Silver",
+            "Load capacity: Up to 40kg",
+            "Durable and stable design",
+            "Suitable for both home and office setups"
+        ],
+        tags: ["TV Bracket", "Wall Mount", "LCD", "LED", "Monitor Stand"],
+        carousels: ["TV Accessories", "TV Screens"],
+        stock: 40,
+        condition: "New"
+    },    
+    
 
 
 
 
     //------------------------ Power Supply
     {
-        productID: 151,
+        productID: 6001,
         title: "Power Sequence Controller High Quality 10 Channel Power Sequencer With Led Display For Recording",
         subtitle: "Power Sequencer",
         category: "power-supply",
@@ -1618,7 +1952,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 152,
+        productID: 6002,
         title: "Fixed modulation 16 IN 1 RF modulator PAL BG/DK NTSC catv digital modulator",
         subtitle: "digital modulator",
         category: "power-supply",
@@ -1645,94 +1979,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 153,
-        title: "Televes Hdmi VHF/UHF modulator 5859",
-        subtitle: "digital modulator",
-        category: "power-supply",
-        categoryUSer: "Power Supply",
-        brand: "Televes",
-        name: "televes-hdmi-VHF-UHF-modulator-5859",
-        mainproductImage: '/products/power-supply/modulator-modulator/modulator-modulator.png',
-        secondaryImages: [
-            '/products/power-supply/modulator-modulator/modulator-modulator.png',
-            '/products/power-supply/modulator-modulator/modulator-modulator-2.jpg',
-        ],
-        specs: [
-            "MCU controlled PLL, high accuracy and stability of video carrier and audio subcarrier",
-            "Audio subcarrier selectable: 5.5MHz, 6.0MHz. 6.5MHz",
-            "With RF loop input and auto storage at power outage",
-            "LED channel number display",
-            "Double side band modulation for non-adjacent usage",
-            "Output level adjustable",
-            "Select the input of the A/signal or HDMI signal via the toggle switch"
-        ],
-        tags: ["Televes", "digital modulator", "Power Sequencer", "10 Channel"],
-        carousels: ["Conference", "Conference System"],
-        stock: 25,
-        condition: "New",
-    },
-    {
-        productID: 154,
-        title: "12V 20A 240W 18CH Metal Box UPS CCTV Power Supply Battery Backup Function for CCTV Camera",
-        subtitle: "Metal Box",
-        category: "power-supply",
-        categoryUSer: "Power Supply",
-        brand: "WB",
-        name: "metal-box-UPS-CCTV-power-supply-battery-backup-function",
-        mainproductImage: '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply.png',
-        secondaryImages: [
-            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply.png',
-            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply-2.png',
-            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply-3.png',
-        ],
-        specs: [
-            "Output Power --- 201 - 300w",
-            "Brand Name --- WB",
-            "Model Number --- WB-12V",
-            "Output Type --- Single Phase",
-            "Output Frequency --- 50-60Hz",
-            "Output Current --- 20A",
-            "Product Name --- cctv power backup",
-            "Output --- 12V 20A",
-        ],
-        tags: ["Metal Box", "Power Supply",],
-        carousels: ["Conference", "Conference System"],
-        stock: 25,
-        condition: "New",
-    },
-    {
-        productID: 155,
-        title: "CCTV Power Supply With Lockable Box 10Amps 9 Channels",
-        subtitle: "Metal Box",
-        category: "power-supply",
-        categoryUSer: "Power Supply",
-        brand: "CCTV Power Supply",
-        name: "cctv-power-supply-with-lockable-box-10Amps-9-channels",
-        mainproductImage: '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply-2.jpg',
-        secondaryImages: [
-            '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply-2.jpg',
-            '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply.jpg',
-        ],
-        specs: [
-            "100% full load burn-in test",
-            "Universal AC input / full range",
-            "It’s good quality & high performance",
-            "Input: AC110-220V 50/60Hz",
-            "Out put: DC 12V",
-            "Protections: overload/ over voltage/ short circuit",
-            "Lockable Enclosure Box",
-            "Fused DC power channels",
-            "+V / ADJ: Adjust the output voltage",
-            "Safety Compliance: CCC/ FCC / CE",
-            "Working Temperature: 0~40℃",
-        ],
-        tags: ["Metal Box", "Power Supply",],
-        carousels: ["Conference", "Conference System"],
-        stock: 25,
-        condition: "New",
-    },
-    {
-        productID: 156,
+        productID: 6003,
         title: "AC 110V-220V TO DC 5 V 12 V 24 V 2A 3A 5A 10A 15A",
         subtitle: "Transformers",
         category: "power-supply",
@@ -1763,7 +2010,7 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 156,
+        productID: 6004,
         title: "S-350-12 110V/220V Input 350W 12V 29A Output AC-DC Switching Power Supply SMPS",
         subtitle: "Transformers",
         category: "power-supply",
@@ -1789,4 +2036,880 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
+    {
+        productID: 6005,
+        title: "All in One Inverter and Lithium Battery 4.2kW 6.2kW 10.2kW 25.6V 48V 150A 200Ah 300Ah Solar Inverter for Home Power Supply",
+        subtitle: "Solar Power Inverter Systems",
+        category: "power-supply",
+        categoryUSer: "Power Supply",
+        brand: "TUNTO Green power",
+        name: "inverter-lithium-battery-4-2kw-6-2kw-10-2kw-solar-home-power-supply",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083997/All_in_One_Inverter_and_Lithium_Battery_4.2kw_snyjwe.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083997/All_in_One_Inverter_and_Lithium_Battery_4.2kw_snyjwe.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083998/All_in_One_Inverter_and_Lithium_Battery_4.2kw-2_cihcvu.png"
+        ],
+        specs: [
+            "Off-grid solar power inverter system",
+            "Available in 4.2kW, 6.2kW, 10.2kW configurations",
+            "Lifepo4 lithium battery included",
+            "Supports 25.6V / 48V, 150A / 200Ah / 300Ah batteries",
+            "MPPT controller type",
+            "Monocrystalline silicon solar panel 400-700W",
+            "Output voltage: 110/120/220/230/240V",
+            "Output frequency: 50/60Hz",
+            "Work time: up to 50000 hours",
+            "System type: Off-grid Solar PV System",
+            "Includes design and installation guide"
+        ],
+        tags: ["Solar Inverter", "Off-grid", "Lithium Battery", "Power Supply", "Home Solar"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+
+
+    //-------------- NETWORKING 
+    {
+        productID: 7001,
+        title: "24 Ports FTP Cat 5E/6/6A Network Patch Panel Panel Mounted 19 Inch RJ45 Network Port Ethernet",
+        subtitle: "Network Patch Panels",
+        category: "network-accessories",
+        categoryUSer: "Network Accessories",
+        brand: "Network& Optical & S...",
+        name: "24-ports-ftp-cat5e-cat6-cat6a-network-patch-panel-19-inch-rj45",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083998/network_patch_panel_panel_mounted_19_inch_fy34af.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083998/network_patch_panel_panel_mounted_19_inch_fy34af.png"
+        ],
+        specs: [
+            "24 ports panel-mounted FTP patch panel",
+            "Supports Cat 5E, Cat 6, Cat 6A standards",
+            "19 inch rack mountable",
+            "Front panel connects to RJ-45 hub ports",
+            "Rear panel connects twisted pair cables",
+            "Modular design for horizontal wiring subsystem",
+            "Standards: Yard/T926, ISO/IEC11801",
+            "Available in UTP/FTP variants"
+        ],
+        tags: ["Patch Panel", "FTP", "Cat 6", "RJ45", "Network"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 7002,
+        title: "19'' Standard Data Center Telecom Network Cabinets Metal DDP Internet Server Rack",
+        subtitle: "Server Rack Cabinets",
+        category: "network-accessories",
+        categoryUSer: "Network Accessories",
+        brand: "HTYZ",
+        name: "19-inch-data-center-telecom-network-cabinet-server-rack",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083997/19_Standard_Data_Center_Telecom_Network_jvbw6i.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083997/19_Standard_Data_Center_Telecom_Network_jvbw6i.png"
+        ],
+        specs: [
+            "Complies with ANSI/EIA RS-310-D and ETSI standards",
+            "Dimensions: 2000*600*1000mm",
+            "Made of SPCC cold rolled steel",
+            "Tempered glass front door",
+            "Panel thickness: 0.5 ~ 0.6mm",
+            "Installation column thickness: 0.7 ~ 1.5mm",
+            "Capacity ≥30kg",
+            "Color: RAL9004 black (RAL7035 gray optional)",
+            "Surface treatment: Electrostatic Powder Coating",
+            "Suitable for 19 inch indoor networking rack installations"
+        ],
+        tags: ["Server Rack", "Network Cabinet", "19 Inch", "Telecom", "Data Center"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 7003,
+        title: "19 Inch Internet 9U Server Rack Wall Mount DDF Waterproof Outdoor Data Center CCTV Network Cabinet Box",
+        subtitle: "Wall Mount Network Cabinet",
+        category: "network-accessories",
+        categoryUSer: "Network Accessories",
+        brand: "HTYZ",
+        name: "19-inch-9u-server-rack-wall-mount-waterproof-network-cabinet",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083998/19_Inch_Internet_9U_Server_Rack_Wall_Mount_Ddf_wc0hjz.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083998/19_Inch_Internet_9U_Server_Rack_Wall_Mount_Ddf_wc0hjz.png"
+        ],
+        specs: [
+            "Complies with ANSI/EIA RS-310-D and ETSI standards",
+            "9U size, 19 inch rack mount",
+            "Made of SPCC cold rolled steel",
+            "Tempered glass front door",
+            "Panel thickness: 0.5 ~ 0.6mm",
+            "Installation column thickness: 0.7 ~ 0.8mm",
+            "Capacity ≥50kg",
+            "Color: RAL9004 black (RAL7035 gray optional)",
+            "Surface treatment: Electrostatic Powder Coating",
+            "Waterproof design suitable for outdoor use",
+            "Application: Data Center, CCTV, Networking"
+        ],
+        tags: ["Wall Mount", "Server Rack", "Network Cabinet", "Outdoor", "CCTV"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 7004,
+        title: "6U Internet Network Cabinet Server Rack Enclosure Wall Mounted Network Cabinet",
+        subtitle: "Wall Mount Network Cabinet",
+        category: "network-accessories",
+        categoryUSer: "Network Accessories",
+        brand: "HTYZ",
+        name: "6u-network-cabinet-server-rack-wall-mounted-enclosure",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083996/6u_Internet_Network_Cabinet_Server_Rack_scuhp4.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083996/6u_Internet_Network_Cabinet_Server_Rack_scuhp4.png"
+        ],
+        specs: [
+            "Complies with 19' international standard",
+            "Size: 300*530*400mm",
+            "Made of SPCC cold rolled steel plate",
+            "Front door: Toughened Glass & Perforated Steel",
+            "Color: Grey/Black or customizable",
+            "Depth: 400mm",
+            "Application: Network Integration System",
+            "OEM & ODM service available",
+            "Certification: ISO9001, FCC, CE, RoHS"
+        ],
+        tags: ["6U", "Server Rack", "Wall Mount", "Network Cabinet", "Enclosure"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+    {
+        productID: 7005,
+        title: "High-performance 14U Server Rack for Compact Data Center and IT Equipment",
+        subtitle: "Wall Mount Network Cabinet",
+        category: "network-accessories",
+        categoryUSer: "Network Accessories",
+        brand: "Zhonghuiheng",
+        name: "14u-server-rack-wall-mount-for-data-center-it-equipment",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083999/Rak_Server_14U_berkinerja_tinggi_untuk_k36b7h.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746083999/Rak_Server_14U_berkinerja_tinggi_untuk_k36b7h.png"
+        ],
+        specs: [
+            "Complies with 19 inch cabinet standard",
+            "Dimensions: 600mm * 600mm * 800mm",
+            "Made of high-quality cold rolled steel",
+            "14U size, wall-mounted design",
+            "Scratch-resistant glass front door",
+            "Color: Black",
+            "Application: Server Room, IT Equipment",
+            "OEM server customization accepted"
+        ],
+        tags: ["14U", "Server Rack", "Wall Mount", "Network Cabinet", "Data Center"],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New"
+    },
+
+
+
+
+    //------------- DECODERS
+    {
+        productID: 8001,
+        title: "STARMAN 9539HD New DVB-COMBO T2 S2 decoder High Definition wifi Digital Satellite Receiver",
+        subtitle: "Satellite Receiver",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "STARMAN",
+        name: "STARMAN-9539HD-new-DVB-COMBO-T2-S2-decoder",
+        mainproductImage: '/products/routers-receivers/starman/starman.png',
+        secondaryImages: [
+            '/products/routers-receivers/starman/starman.png',
+            '/products/routers-receivers/starman/starman-2.png',
+            '/products/routers-receivers/starman/starman-3.png',
+        ],
+        specs: [
+            "processor core --- Dual Core",
+            "support resolution	--- 1920 x 1080",
+            "wifi --- 802.11n 2.4G/5GHz",
+            "Single package size --- 27X22X5.5 cm",
+            "Single gross weight --- 0.800 kg",
+            "processor	--- MontageCS8001s-030",
+            "ethernet --- 1 x 10/100/1000MBps",
+            "keyboard --- Yes",
+        ],
+        tags: ["STARMAN", "decoder", "High Definition", "Digital Satellite Receiver", "Receiver"],
+        carousels: ["latestArrivals", "routers"],
+        stock: 20,
+        condition: "New",
+    },
+    {
+        productID: 8002,
+        title: "SSTRONG 4922A New Receiver - Decoder - Set Top Box DVB-T2 - C-S2 Combo",
+        subtitle: "SSTRONG",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "SSTRONG",
+        name: "sstrong-4922a-receiver-decoder-set-top-box-dvb-t2-c-s2-combo",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110241/strong_pnxlnk.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110241/strong_pnxlnk.png"
+        ],
+        specs: [
+            "Processor: Amlogic S905 Dual Core",
+            "Supported Resolution: 4K",
+            "WiFi: 802.11n 2.4GHz",
+            "Ethernet: 1 x 10/100MBps",
+            "Operating System: Dual OS",
+            "Keyboard: Yes",
+            "Receiver Type: DVB-T2/C/S2 Combo",
+            "Language: Multi-language",
+            "Warranty: 13 months",
+            "Certification: RoHS"
+        ],
+        tags: ["Receiver", "DVB-T2", "DVB-C", "DVB-S2", "Set Top Box", "SSTRONG"],
+        carousels: ["TV Accessories", "Satellite Equipment"],
+        stock: 40,
+        condition: "New"
+    },
+    {
+        productID: 8003,
+        title: "azamtv Satellite FULL KIT with the AzamTV Box.",
+        subtitle: "AZAM",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        categoryUSer: "Routers and Receivers",
+        brand: "Azam Tv",
+        name: "azamtv-satellite-FULL-KIT",
+        mainproductImage: '/products/routers-receivers/azam/azam-3.jpg',
+        secondaryImages: [
+            '/products/routers-receivers/azam/azam.jpg',
+            '/products/routers-receivers/azam/azam-2.jpg',
+            '/products/routers-receivers/azam/azam-3.jpg',
+        ],
+        specs: [
+            "BUNDLE OF MAGIC – GREAT VALUE, SIMPLE TO USE, AFFORDABLE PACKAGES",
+            "There’s Entertainment For Everybody with the AzamTV Box. Enjoy premiere movies from around the world, sports, entertainment, kids and news. All available at the comfort of your home.",
+            "It’s easy to use, small and sleek, but has bags of features. You can record your favorite programs and catch your favorite games in full high definition quality.",
+            "GREAT VALUE --- The TV you want. None of the stuff you don’t.",
+            "ITS SO SIMPLE --- Once installed start watching over 60 channels straight away.",
+            "NO CONTRACT --- No strings – top up your account",
+        ],
+        tags: ["routers", "tenda"],
+        carousels: ["latestArrivals", "routers"],
+        stock: 20,
+        condition: "New",
+    },
+    {
+        productID: 8004,
+        title: "STAR TIMES Pay Decoder -Affordable Terrestrial Decoder with Flexible Subscription Plans",
+        subtitle: "STAR TIMES",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "StarTimes",
+        name: "star-times-pay-decoder",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110239/startimes_kruaer.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110239/startimes_kruaer.png"
+        ],
+        specs: [
+            "Over 100+ digital TV channels",
+            "1 month Classic Bouquet included on purchase",
+            "Flexible daily, weekly, and monthly subscription plans",
+            "Covers News, Movies, Sports, Religion, Music, and Documentaries",
+            "Poor reception in some counties; dish version recommended",
+            "Both HDMI and AV inputs available"
+        ],
+        tags: ["Decoder", "StarTimes", "Terrestrial", "HDMI", "AV", "Digital TV"],
+        carousels: ["TV Accessories", "Digital TV"],
+        stock: 100,
+        condition: "New"
+    },
+    {
+        productID: 8005,
+        title: "ZUKU Complete Kit Dish - Zuku Satellite TV Full Kit with HD Decoder",
+        subtitle: "Zuku",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "ZUKU",
+        name: "zuku-complete-kit-dish-1-month-premium",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110239/zuku_mmh2p1.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110239/zuku_mmh2p1.png"
+        ],
+        specs: [
+            "Includes satellite dish, HD decoder, and 1-month premium subscription",
+            "Over 100 digital and HD channels",
+            "Packages starting from Ksh. 449 to Ksh. 1,549",
+            "HDMI output and parental control features",
+            "Easy payment via Mpesa, Airtel Money, Equitel, or mobile apps",
+            "Customer support via phone, email, Facebook, or USSD *502#",
+            "Installation available via zuku.co.ke/satellite-tv-installers/"
+        ],
+        tags: ["Zuku", "Decoder", "Satellite TV", "Premium", "HDMI", "Dish Kit"],
+        carousels: ["TV Accessories", "Home Entertainment"],
+        stock: 80,
+        condition: "New"
+    },
+    {
+        productID: 8006,
+        title: "Dstv Full Kit (Dish, 25 Meters Cable, LNB, Decoder)",
+        subtitle: "DSTV HD Decoder with Dish, LNB, and Cable",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "DSTV",
+        name: "dstv-full-kit-dish-25m-cable-lnb-decoder",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110238/dstv_gyfd4u.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746110238/dstv_gyfd4u.png"
+        ],
+        specs: [
+            "Includes dish, HD decoder, 25 meters cable, and LNB",
+            "Over 100 quality channels including sports, news, kids and local shows",
+            "HD capable (720p and 1080i)",
+            "Parental control with Single View",
+            "Dolby Digital 5.1 sound support",
+            "8-day TV guide for planning",
+            "Widescreen compatible",
+            "Hearing impaired subtitles support"
+        ],
+        tags: ["DSTV", "Decoder", "Satellite TV", "Full Kit", "LNB", "HD"],
+        carousels: ["TV Accessories", "Home Entertainment"],
+        stock: 40,
+        condition: "New"
+    },        
+    
+    
+
+    //-------------- CCTV
+    {
+        productID: 9002,
+        title: "EXVIST 4K Optical Zoom IP Camera - Dual Light Outdoor PoE Bullet Camera with Motorized Lens & RTMP Support",
+        subtitle: "IP Camera",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "EXVIST",
+        name: "exvist-4k-optical-zoom-ip-camera-poe-rtmp-bullet",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/EXVIST_4K_8MP_Optical_Zoom_IP_Camera_Dual_Light_Outdoor_PoE_Bullet_Security_yctzwl.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/EXVIST_4K_8MP_Optical_Zoom_IP_Camera_Dual_Light_Outdoor_PoE_Bullet_Security_yctzwl.png"
+        ],
+        specs: [
+            "Resolution: 4K (8MP)",
+            "Lens: 2.7mm–13.5mm motorized optical zoom",
+            "Camera type: Dual light outdoor PoE bullet camera",
+            "Ingress protection: IP66 rated weatherproof",
+            "Streaming support: RTMP (H.264 only), supports dual stream pushing",
+            "Compatibility: Wowza, YouTube, Facebook Live, Twitch, Ustream, Wirecast, vMix, etc.",
+            "Human detection: Supported",
+            "Protocols: TCP/IP, DHCP, DNS, DDNS, HTTP, RTSP, RTMP, VoIP, SNMP, IEEE802.1X, Multicast",
+            "ONVIF & Hikvision protocol: Compatible",
+            "Video recording format: H.265",
+            "Languages: English, Chinese (Simplified/Traditional), Russian, German, Japanese (varies by firmware)",
+            "Browser support: IE, Edge, Chrome, Firefox, Safari",
+            "User interface: Web-based, live preview, OSD customization, logo upload (JPG 200x200px), remote upgrade"
+        ],
+        tags: ["IP Camera", "PoE", "RTMP", "4K", "Security", "EXVIST", "Streaming Camera"],
+        carousels: ["Surveillance", "Streaming-Ready Devices"],
+        stock: 18,
+        condition: "New"
+    }, 
+    {
+        productID: 9003,
+        title: "Grousale Tricams 4G Solar Outdoor CCTV Camera -, 2K Resolution, Solar Powered, 360° PTZ View, 2-Way Talk, Color Night Vision",
+        subtitle: "Triple Lens",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "Grousale",
+        name: "grousale-tricams-4g-solar-2k-ptz-cctv-camera",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258731/Grousale_Tricams_4G_Solar_3in1_Outdoor_sjxopu.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258731/Grousale_Tricams_4G_Solar_3in1_Outdoor_sjxopu.png"
+        ],
+        specs: [
+            "Camera Type: Triple Lens 3-in-1 Outdoor CCTV",
+            "Resolution: 2K High-Definition",
+            "Pan-Tilt-Zoom (PTZ): 360° Panoramic View",
+            "Night Vision: Full Color Night Vision",
+            "Audio: Two-Way Talk",
+            "Motion Detection: Instant alerts to connected devices",
+            "Power Source: Solar Powered",
+            "Connectivity: 4G Cellular Enabled",
+            "Weatherproof Rating: IP66 Certified",
+            "Recommended Use: Outdoor Security",
+            "Storage: Supports SD Card up to 256 GB",
+            "Controller Type: App-based",
+            "Compatible Devices: Smartphones",
+            "Special Features: Triple-camera system, unified monitoring, easy installation"
+        ],
+        tags: ["4G CCTV", "Solar Camera", "PTZ", "Outdoor Security", "Triple Lens", "2K Camera", "Grousale"],
+        carousels: ["Surveillance", "Solar-Powered Devices", "Smart Outdoor Security"],
+        stock: 20,
+        condition: "New"
+    },
+    {
+        productID: 9004,
+        title: "4K 8MP Fixed Dome PoE IP Camera with Color Night Vision -  with Two-Way Audio, Human & Vehicle Detection, SD Support up to 512GB",
+        subtitle: "Wide-Angle CCTV",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "Seetong",
+        name: "4k-8mp-fixed-dome-poe-ip-camera-color-night-vision",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/4K_8MP_Fixed_Dome_PoE_IP_Camera_Outdoor_108_Wide_Angle_Home_2_nhtvkx.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/4K_8MP_Fixed_Dome_PoE_IP_Camera_Outdoor_108_Wide_Angle_Home_2_nhtvkx.png"
+        ],
+        specs: [
+            "Resolution: 4K 8MP Ultra HD",
+            "Lens Options: 2.8mm or 3.6mm Fixed Lens",
+            "View Angle: 108° Wide Angle",
+            "Camera Type: Dome, PoE IP",
+            "Night Vision: Full Color Night Vision",
+            "Audio: Two-Way Intercom",
+            "AI Features: Human and Vehicle Detection",
+            "Storage: Supports SD Card up to 512GB",
+            "Onvif Compatible: Yes",
+            "App Support: Seetong",
+            "Operating Temperature: -40°C to 60°C",
+            "Power Supply: PoE or 48V Adapter",
+            "Mounting: Outdoor Dome Mount"
+        ],
+        variants: [
+            "Camera - No Card",
+            "Camera Add 32G Card",
+            "Camera Add 64G Card",
+            "Camera Add 128G Card",
+            "Camera Add 256G Card"
+        ],
+        tags: ["4K CCTV", "PoE IP Camera", "Color Night Vision", "AI Detection", "Outdoor Dome Camera", "Seetong App"],
+        carousels: ["Smart Security", "PoE Cameras", "Outdoor Surveillance"],
+        stock: 15,
+        condition: "New"
+    },  
+    {
+        productID: 9005,
+        title: "1080P HD Mini Body Camera with Audio and Video Recording - Portable Wearable Recorder with Night Vision, Clip-On Design, 180° Rotatable Lens",
+        subtitle: "Portable",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "Generic",
+        name: "1080p-hd-mini-body-camera-rotatable-lens",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/1080P_HD_Mini_Body_Camera_with_Audio_and_Video_mfbbsv.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746258730/1080P_HD_Mini_Body_Camera_with_Audio_and_Video_mfbbsv.png"
+        ],
+        specs: [
+            "Video Resolution: 1920x1080P",
+            "Lens Angle: 90° Wide-Angle",
+            "Lens Rotation: 180° Adjustable",
+            "Video Format: AVI",
+            "Audio Format: WAV 512kbps",
+            "Storage: Supports up to 128GB TF Card",
+            "Battery: 3.7V 500mAh Lithium, up to 3 hours recording",
+            "Night Vision: Yes, manually controlled",
+            "Interface: USB 2.0 High Speed",
+            "Design: Clip-On for portable use",
+            "Weight: 23g",
+            "Dimensions: 7.9 x 2.6 x 11.5 cm",
+            "Playback: Compatible with mainstream video players"
+        ],
+        variants: [],
+        tags: ["Body Camera", "Portable Recorder", "Wearable Cam", "Night Vision Camera", "Mini Security Camera"],
+        carousels: ["Mini Cameras", "Wearable Security", "On-the-Go Surveillance"],
+        stock: 25,
+        condition: "New"
+    },                 
+    {
+        productID: 9006,
+        title: "12V 20A 240W 18CH Metal Box UPS CCTV Power Supply Battery Backup Function for CCTV Camera",
+        subtitle: "Metal Box",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "WB",
+        name: "metal-box-UPS-CCTV-power-supply-battery-backup-function",
+        mainproductImage: '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply.png',
+        secondaryImages: [
+            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply.png',
+            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply-2.png',
+            '/products/power-supply/UPS-CCTV-Power-Supply/UPS-CCTV-Power-Supply-3.png',
+        ],
+        specs: [
+            "Output Power --- 201 - 300w",
+            "Brand Name --- WB",
+            "Model Number --- WB-12V",
+            "Output Type --- Single Phase",
+            "Output Frequency --- 50-60Hz",
+            "Output Current --- 20A",
+            "Product Name --- cctv power backup",
+            "Output --- 12V 20A",
+        ],
+        tags: ["Metal Box", "Power Supply",],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
+    {
+        productID: 9007,
+        title: "CCTV Power Supply With Lockable Box 10Amps 9 Channels",
+        subtitle: "Metal Box",
+        category: "cctv-cameras",
+        categoryUSer: "CCTV Cameras",
+        brand: "CCTV Power Supply",
+        name: "cctv-power-supply-with-lockable-box-10Amps-9-channels",
+        mainproductImage: '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply-2.jpg',
+        secondaryImages: [
+            '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply-2.jpg',
+            '/products/power-supply/CCTV-Power-Supply/CCTV-Power-Supply.jpg',
+        ],
+        specs: [
+            "100% full load burn-in test",
+            "Universal AC input / full range",
+            "It’s good quality & high performance",
+            "Input: AC110-220V 50/60Hz",
+            "Out put: DC 12V",
+            "Protections: overload/ over voltage/ short circuit",
+            "Lockable Enclosure Box",
+            "Fused DC power channels",
+            "+V / ADJ: Adjust the output voltage",
+            "Safety Compliance: CCC/ FCC / CE",
+            "Working Temperature: 0~40℃",
+        ],
+        tags: ["Metal Box", "Power Supply",],
+        carousels: ["Conference", "Conference System"],
+        stock: 25,
+        condition: "New",
+    },
+
+
+    //---------- HMDI Splitters
+    {
+        productID: 10001,
+        title: "HDMI KVM Extender 60 Meters Over Ethernet Cat5e/6 Cable",
+        subtitle: "Video Extender",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Generic",
+        name: "hdmi-kvm-extender-60m-ethernet",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Extender_60_Meters_Over_Ethernet_Cat5e6_Cable_POC_1080p_qhygso.png",
+        secondaryImages: [
+          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Extender_60_Meters_Over_Ethernet_Cat5e6_Cable_POC_1080p_qhygso.png"
+        ],
+        specs: [
+          "Extends HDMI and USB signals up to 60 meters over Cat5e/6/7 cable",
+          "Supports Full HD 1080p @ 60Hz resolution",
+          "HDMI loop-out on TX for local monitoring",
+          "Supports USB keyboard and mouse extension",
+          "POC (Power Over Cable) with only one 12V adapter needed",
+          "Does not support Mac OS USB KVM functionality",
+          "Limited compatibility with wireless/mechanical keyboards and mice",
+          "Recommended: 104-key standard keyboard and wired mouse",
+          "Requires certified Cat5e/6 cable and HDMI ATC certified cable"
+        ],
+        tags: ["HDMI Extender", "KVM Extender", "USB Over Ethernet", "1080p HDMI", "HDMI Splitter"],
+        carousels: ["HDMI & USB Extenders", "Home Office Setups", "Pro AV Gear"],
+        stock: 35,
+        condition: "New"
+      },
+      {
+        productID: 10002,
+        title: "4K HDMI Switch Cable HD Video Switcher Adapter 3 Input 1 Output Port Hub For PC TV Xbox PS3 PS4 Projector Monitor Splitter",
+        subtitle: "HD Switcher",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Generic",
+        name: "4k-hdmi-switch-3in1-out",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDMI_Switch_Cable_HD_Video_Switcher_Adapter_3_Input_1_Output_l26oj9.png",
+        secondaryImages: [
+          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDMI_Switch_Cable_HD_Video_Switcher_Adapter_3_Input_1_Output_l26oj9.png"
+        ],
+        specs: [
+          "3 HDMI inputs / 1 HDMI output",
+          "Supports 3D and 4K resolution",
+          "HDCP pass-through supported",
+          "Total TMDS throughput up to 8.91Gbps",
+          "Supports uncompressed LPCM and compressed DTS, Dolby Digital, Dolby TrueHD audio",
+          "Maximum single link video range: 1920x1080",
+          "Supports 2.5Gbps/250MHz per channel",
+          "12-bit Deep Color per channel (36-bit total)"
+        ],
+        tags: ["HDMI Switch", "4K HDMI", "HDMI Hub", "Video Splitter", "Gaming HDMI Switch"],
+        carousels: ["HDMI & USB Extenders", "Gaming Accessories", "Home Theater Essentials"],
+        stock: 42,
+        condition: "New"
+      }, 
+      {
+        productID: 10003,
+        title: "5 Port 4K HDMI Switch",
+        subtitle: "HD Switcher",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Generic",
+        name: "5-port-4k-hdmi-switch",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430508/5_ports_4k_HMI_Switch_escn4x.png",
+        secondaryImages: [
+          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430508/5_ports_4k_HMI_Switch_escn4x.png"
+        ],
+        specs: [
+          "Connect and switch between 5 HDMI inputs to 1 HDMI output",
+          "Supports up to 4K UHD resolution (3840 x 2160)",
+          "Compatible with 480p, 720p, 1080i, 1080p formats",
+          "HDMI 1.4b and HDCP 1.3 compliant",
+          "Supports 12-bit color depth and 3D pass-through",
+          "Switchable via included IR remote control",
+          "Regenerates HDMI signal when placed at end of long HDMI cable",
+          "Ideal for home, office, and multimedia setups"
+        ],
+        tags: ["HDMI Switch", "4K HDMI", "Remote Switcher", "Home Theater", "Multi-Port HDMI"],
+        carousels: ["HDMI & USB Extenders", "TV & Display Accessories", "Home Theater Essentials"],
+        stock: 25,
+        condition: "New"
+      },
+      {
+        productID: 10004,
+        title: "GGrozza 4K Video Wall Controller",
+        subtitle: "Wall Processor",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "GGrozza",
+        name: "ggrozza-4k-video-wall-controller",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430512/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor_bdjrv2.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430512/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor_bdjrv2.png",
+          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430514/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor-2_ms9lap.jpg"
+        ],
+        price: "",
+        specs: [
+          "Supports 2x2 video wall configuration with 1 HDMI or DVI input and 4 HDMI outputs",
+          "8 splicing modes: 2x2, 1x1, 1x2, 1x3, 1x4, 2x1, 3x1, 4x1",
+          "Supports 180° screen rotation (only in 2x2 mode, max input/output 1080p@60Hz)",
+          "Supports HDMI 1.4 and HDCP 1.4",
+          "Input resolution: up to 3840x2160P@24/30Hz; Output resolution: 1920x1080P@60Hz",
+          "Gold-plated interfaces for low signal loss",
+          "Edge masking feature for seamless video walls",
+          "Plug & Play with included IR remote control (batteries not included)",
+          "Includes power adapter and user manual"
+        ],
+        tags: ["Video Wall", "4K Controller", "HDMI Splitter", "Display Processor", "Wall Mount"],
+        carousels: ["Video Wall Solutions", "HDMI & USB Extenders", "Display Accessories"],
+        stock: 15,
+        condition: "New"
+      },
+      {
+        productID: 10005,
+        title: "HDMI Splitter 1 in 4 Out",
+        subtitle: "4K Mirror",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "hdmi-splitter-1in4out-pink",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_Splitter_1_in_4_Out_4K_HDMI_Splitter_wqkwwp.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_Splitter_1_in_4_Out_4K_HDMI_Splitter_wqkwwp.png"],
+        specs: [
+          "1 HDMI input duplicated to 4 HDMI outputs",
+          "Supports resolutions up to 4Kx2K@30Hz, Full HD 1080P@60Hz, and 3D formats",
+          "Gold-plated HDMI ports for corrosion resistance",
+          "Plug and play setup with no configuration required",
+          "Compatible with HDMI standards V1.0 to V1.4",
+          "Works with devices like Roku, Fire Stick, PS3/PS4/PS5, Blu-Ray players",
+          "Suitable for home theater, conference rooms, showrooms, and more",
+          "Aluminum alloy housing for durability and heat dissipation",
+          "Includes HDMI splitter, USB power cable, and user manual"
+        ],
+        tags: ["HDMI Splitter", "4K Output", "Mirror Display", "HDMI Hub", "Pink Electronics"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
+        stock: 25,
+        condition: "New"
+      },
+      {
+        productID: 10006,
+        title: "HDMI Splitter 1 in 8 Out",
+        subtitle: "4K Premium",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "hdmi-splitter-1in8out-black",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430517/HDMI_Splitter_1_in_8_Outputs_Premium_HDMI_Splitter_vxxrq8.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430517/HDMI_Splitter_1_in_8_Outputs_Premium_HDMI_Splitter_vxxrq8.png"],
+        specs: [
+          "1 HDMI input duplicated to 8 HDMI outputs simultaneously",
+          "Supports 4Kx2K@30Hz, 3D, and 8/10/12-bit video formats",
+          "Audio formats supported: DTS-HD, Dolby TrueHD, DTS, Dolby AC3, DSD",
+          "HDCP 1.4b and HDMI 1.4b compliant",
+          "EDID support with 6-second EDID timing",
+          "Compatible with PS3/PS4, Xbox, Blu-ray players, STBs, PCs, and more",
+          "Outputs to projectors, HD TVs, Apple TV, monitors, etc.",
+          "Not a switch – does not select between multiple HDMI inputs",
+          "Includes DC 5V power adapter and user manual"
+        ],
+        tags: ["HDMI Splitter", "4K 8-Port", "Video Distribution", "Mirror Display", "EDID", "Black Electronics"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
+        stock: 30,
+        condition: "New"
+      },
+      {
+        productID: 10007,
+        title: "HDMI Splitter Switch 4K 4x1",
+        subtitle: "4-Port Switcher",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "hdmi-splitter-switch-4k-4x1",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430518/HDMI_Splitter_Switch_4K_4_Ports_4x1_HDMI_Switcher_a9ew3c.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430518/HDMI_Splitter_Switch_4K_4_Ports_4x1_HDMI_Switcher_a9ew3c.png"],
+        specs: [
+          "4 HDMI inputs to 1 HDMI output – easily switch between devices",
+          "Supports 4K Ultra HD resolution at 60Hz and backward compatible",
+          "Compatible with 1080P, 720P, Full 3D, and more",
+          "Works with Fire TV, Roku, PS5, Xbox, Apple TV, Blu-ray players, and more",
+          "Supports DTS, DTS-HD, Dolby Atmos, and Dolby Digital audio formats",
+          "Remote control included for easy source selection",
+          "Automatic and manual switching options",
+          "Built-in ITE high-performance chipset with 18Gbps bandwidth",
+          "HDCP 2.2/1.4/1.3 compliant",
+          "Plug and play setup with included power adapter"
+        ],
+        tags: ["HDMI Switch", "4K Switcher", "HDMI 4x1", "HDMI Splitter", "Remote Control", "Gaming Accessories"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
+        stock: 30,
+        condition: "New"
+      },
+      {
+        productID: 10008,
+        title: "HDMI KVM Switch 8 Port",
+        subtitle: "USB Switcher",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "hdmi-kvm-switch-8-port",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Switch_8_Port_scnzgi.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Switch_8_Port_scnzgi.png"],
+        price: "",
+        specs: [
+          "Control up to 8 computers using one monitor, keyboard, and mouse",
+          "Includes 4 USB 2.0 ports for printer, scanner, and USB devices",
+          "Supports 4K resolution at 30Hz (3840 x 2160), 3D, and 1080P",
+          "Compatible with Windows, Mac OS, Linux, DOS",
+          "Works with Xbox, PS3, PS4, Blu-ray DVD players, and TVs",
+          "Switch computers via IR remote or front panel buttons",
+          "LED indicators show active connection",
+          "No drivers required – plug and play setup",
+          "Durable metal construction for efficient heat dissipation and stability",
+          "Rack mountable – suitable for office, teaching, conference, and security setups"
+        ],
+        variants: [],
+        tags: ["KVM Switch", "HDMI Switch", "USB Switcher", "4K HDMI", "8-Port HDMI", "Rack Mount"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Office Productivity"],
+        stock: 30,
+        condition: "New"
+      },   
+      {
+        productID: 10009,
+        title: "4K HDTV Splitter 3 In 1 Out",
+        subtitle: "HD Switcher",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "4k-hdtv-splitter-3in1",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_3_In_1_Out_jjufj8.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_3_In_1_Out_jjufj8.png"],
+        price: "",
+        specs: [
+          "3 HDMI inputs and 1 HDMI output for switching between multiple devices",
+          "Compatible with Xbox360, PS4, PS3, DVB Receivers, Blu-ray Player, Laptops",
+          "Supports 4K resolution at 3840x2160P / 30Hz and 3D display",
+          "Manual switching via key-press button – no need to unplug devices",
+          "HDTV 1.4 and HDCP compliant, supports HD Audio",
+          "No external power required (may need two active sources to power)",
+          "Built-in 1.8ft pigtail HDMI cable for easy plug and play",
+          "36-bit Deep Color and uncompressed/compressed audio support",
+          "Ideal for trade shows, conference rooms, bedrooms, kitchens, and more"
+        ],
+        variants: [],
+        tags: ["HDMI Switch", "4K HDMI", "3 Port HDMI", "HDTV Splitter", "Game Console Switch", "AV Selector"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Gaming Accessories"],
+        stock: 30,
+        condition: "New"
+      },
+      {
+        productID: 10010,
+        title: "4K HDMI Switch 5 in 1 Out, 5 Port HDMI Switcher Selector Box ",
+        subtitle: "Selector Box",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "4k-hdmi-switch-5in1",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_5_In_1_Out_jek23e.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_5_In_1_Out_jek23e.png"],
+        specs: [
+          "Connect up to 5 HDMI source devices to 1 HD TV, monitor, or projector",
+          "Supports 4K (3840×2160) @ 30Hz, HDCP, HDR, 3D, 1080P, 720P",
+          "Supports HDMI cable length: input up to 5m (16.4ft), output up to 25m (82ft)",
+          "Three switching methods: Auto-switching, Manual button, IR remote control",
+          "Sturdy metal design with excellent heat dissipation for stable performance",
+          "Plug and Play – No software or drivers required",
+          "Compatible with PC, PS3, PS4, Xbox, HD players, Blu-ray players, and more",
+          "Ideal for home theater, office setups, gaming, and meeting environments"
+        ],
+        variants: [],
+        tags: ["HDMI Switch", "4K HDMI", "5 Port HDMI", "Video Selector", "Gaming Setup", "AV Splitter"],
+        carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
+        stock: 30,
+        condition: "New"
+      },
+      {
+        productID: 10011,
+        title: "4K120Hz KVM Switch HDMI 8K60Hz KVM Switches for 2 Computers Share1 Monitors and 4 USB 3.0 Support Desktop Control Includes 2 USB 3.0 Cables and Power Adapters",
+        subtitle: "HDMI 8K60Hz",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "4k120hz-kvm-switch-2port",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430382/KVM_Switch_HDMI_8K60Hz_KVM_Switches_auoqxz.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430382/KVM_Switch_HDMI_8K60Hz_KVM_Switches_auoqxz.png"],
+        price: "",
+        specs: [
+          "Supports 2 computers sharing 1 monitor and 4 USB 3.0 devices",
+          "Supports resolutions up to 8K @ 60Hz and 4K @ 120Hz with 48Gbps bandwidth",
+          "Two switching methods: front panel pushbutton and external control switch",
+          "4 USB 3.0 ports with data transfer speeds up to 5Gbps, backward compatible",
+          "Auto-adjustment for image detail and color vibrancy",
+          "Compatible with Windows, macOS, Linux, Vista, XP, Unix",
+          "Suitable for gaming, multimedia teaching, office, research, and home theater",
+          "Includes 2 USB 3.0 cables and power adapters"
+        ],
+        variants: [],
+        tags: ["KVM Switch", "8K HDMI", "4K120Hz", "USB 3.0 Hub", "Multi-Computer", "Display Control"],
+        carousels: ["HDMI & USB Extenders", "Pro Workstations", "Home Office Gear"],
+        stock: 20,
+        condition: "New"
+      },
+      {
+        productID: 10012,
+        title: "4K 60Hz 2x2 HDMI Video Wall Controller",
+        subtitle: "Video Wall Processor 4 Channel TV Stitching Box",
+        category: "hdmi-splitters",
+        categoryUSer: "HDMI Splitters",
+        brand: "Unbranded",
+        name: "4k60hz-2x2-video-wall-controller",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430506/4K_60Hz_2X2_HDMI-Compatible_Video_Wall_lzbvjj.png",
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430506/4K_60Hz_2X2_HDMI-Compatible_Video_Wall_lzbvjj.png"],
+        specs: [
+          "Supports 1 HDMI 2.0 input and 4 HDMI outputs",
+          "Input resolution up to 4K@60Hz, output 1920x1080P@60Hz",
+          "Divides single image signal into 4 displays for video wall",
+          "Supports multiple splicing modes, plug and play",
+          "180° flip function available only in 2x2 mode (top row only)",
+          "Designed for horizontal screen setups only",
+          "Plug Type: EU (AC100-240V)",
+          "Durable iron shell for heat dissipation and longevity"
+        ],
+        variants: [],
+        tags: ["Video Wall Controller", "2x2 HDMI Splitter", "4K Processor", "TV Splicer", "EU Plug"],
+        carousels: ["Video Wall Essentials", "Pro AV Equipment", "HDMI Splitters"],
+        stock: 20,
+        condition: "New"
+      },      
+            
 ]

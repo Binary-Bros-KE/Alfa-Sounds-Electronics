@@ -47,9 +47,12 @@ const Navbar = () => {
   // Categories with URL-friendly names
   const categories = [
     { name: "Aerials & Satellites", url: "aerials-and-satellites" },
-    { name: "Networking Routers & Receivers", url: "routers-and-receivers" },
-    { name: "PA systems & conference Facilities.", url: "ps-conference-system" },
+    { name: "Routers & Receivers", url: "routers-and-receivers" },
+    { name: "Networking Equipment", url: "network-accessories" },
+    { name: "PA Systems & Facilities.", url: "ps-conference-system" },
     { name: "Tvs, Projectors & Tv brackets", url: "tv-screens-and-brackets" },
+    { name: "Decoders", url: "decoders" },
+    { name: "HDMI Splitters", url: "hdmi-splitters" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
     { name: "Power Supply", url: "power-supply" },
