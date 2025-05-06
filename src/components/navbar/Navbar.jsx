@@ -52,11 +52,12 @@ const Navbar = () => {
     { name: "PA Systems & Facilities.", url: "ps-conference-system" },
     { name: "Tvs, Projectors & Tv brackets", url: "tv-screens-and-brackets" },
     { name: "Satellite Decoders & Receivers", url: "decoders" },
-    { name: "HDMI Splitters", url: "hdmi-splitters" },
+    { name: "HDMI & VGA Converters, extenders, switches & splitters", url: "hdmi-splitters" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
     { name: "Power Supply", url: "power-supply" },
     { name: "Automatic Gates and Doors", url: "automatic-gates-and-doors" },
+    { name: "Avs, Gridge guards,Tv guards, power extension", url: "avs-fridge-guards-tv-guards" }
   ];
 
   // Navigation Links
