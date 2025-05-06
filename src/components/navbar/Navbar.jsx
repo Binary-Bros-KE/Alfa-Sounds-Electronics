@@ -57,7 +57,7 @@ const Navbar = () => {
     { name: "Cables & Connectors", url: "cables-and-connectors" },
     { name: "Power Supply", url: "power-supply" },
     { name: "Automatic Gates and Doors", url: "automatic-gates-and-doors" },
-    { name: "Avs, Gridge guards,Tv guards, power extension", url: "avs-fridge-guards-tv-guards" }
+    { name: "Avs, Fridge guards,Tv guards, power extension", url: "avs-fridge-guards-tv-guards" }
   ];
 
   // Navigation Links

@@ -2099,7 +2099,7 @@ export const productsData = [
     },
     {
         productID: 7002,
-        title: "19'' Standard Data Center Telecom Network Cabinets Metal DDP Internet Server Rack",
+        title: "42 u server racks 2000*600*600 and 2000*600*800",
         subtitle: "Server Rack Cabinets",
         category: "network-accessories",
         categoryUSer: "Network Accessories",
@@ -2111,7 +2111,7 @@ export const productsData = [
         ],
         specs: [
             "Complies with ANSI/EIA RS-310-D and ETSI standards",
-            "Dimensions: 2000*600*1000mm",
+            "Dimensions: 2000*600*600 and 2000*600*800",
             "Made of SPCC cold rolled steel",
             "Tempered glass front door",
             "Panel thickness: 0.5 ~ 0.6mm",
@@ -2128,7 +2128,7 @@ export const productsData = [
     },
     {
         productID: 7003,
-        title: "19 Inch Internet 9U Server Rack Wall Mount DDF Waterproof Outdoor Data Center CCTV Network Cabinet Box",
+        title: "4u, 6u, 9u, 12u, Wall Mounted Network Cabinet",
         subtitle: "Wall Mount Network Cabinet",
         category: "network-accessories",
         categoryUSer: "Network Accessories",
@@ -2158,7 +2158,7 @@ export const productsData = [
     },
     {
         productID: 7004,
-        title: "6U Internet Network Cabinet Server Rack Enclosure Wall Mounted Network Cabinet",
+        title: "4u, 6u, 9u, 12u, Wall Mounted Network Cabinet",
         subtitle: "Wall Mount Network Cabinet",
         category: "network-accessories",
         categoryUSer: "Network Accessories",
@@ -2186,7 +2186,7 @@ export const productsData = [
     },
     {
         productID: 7005,
-        title: "High-performance 14U Server Rack for Compact Data Center and IT Equipment",
+        title: "4u, 6u, 9u, 12u, Wall Mounted Network Cabinet",
         subtitle: "Wall Mount Network Cabinet",
         category: "network-accessories",
         categoryUSer: "Network Accessories",
@@ -2247,7 +2247,7 @@ export const productsData = [
     },
     {
         productID: 8002,
-        title: "SSTRONG 4922A New Receiver - Decoder - Set Top Box DVB-T2 - C-S2 Combo",
+        title: "STRONG 4922A New Receiver - Decoder - Set Top Box DVB-T2 - C-S2 Combo",
         subtitle: "SSTRONG",
         category: "decoders",
         categoryUSer: "Decoders",
