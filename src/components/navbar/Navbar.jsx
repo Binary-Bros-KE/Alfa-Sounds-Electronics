@@ -51,7 +51,7 @@ const Navbar = () => {
     { name: "Networking Equipment", url: "network-accessories" },
     { name: "PA Systems & Facilities.", url: "ps-conference-system" },
     { name: "Tvs, Projectors & Tv brackets", url: "tv-screens-and-brackets" },
-    { name: "Decoders", url: "decoders" },
+    { name: "Satellite Decoders & Receivers", url: "decoders" },
     { name: "HDMI Splitters", url: "hdmi-splitters" },
     { name: "CCTV Cameras", url: "cctv-cameras" },
     { name: "Cables & Connectors", url: "cables-and-connectors" },
