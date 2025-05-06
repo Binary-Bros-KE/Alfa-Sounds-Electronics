@@ -102,14 +102,14 @@ const Footer = () => {
               <div>
                 <p className="font-bold">Got Question? Call us:</p>
                 <div className="flex flex-col">
-                  <a href="tel:+254720434209" className="text-green-500 text-xl font-bold">
-                    (+254)720 434 209
-                  </a>
                   <a href="tel:+254722659725" className="text-green-500 text-xl font-bold">
-                    (+254)722 659 725
+                  <i className="max-sm:text-2xl fab fa-whatsapp"></i> (+254)722 659 725
                   </a>
                   <a href="tel:+254748496414" className="text-green-500 text-xl font-bold">
                     (+254)748 496 414
+                  </a>
+                  <a href="tel:+254720434209" className="text-green-500 text-xl font-bold">
+                    (+254)720 434 209
                   </a>
                 </div>
               </div>
