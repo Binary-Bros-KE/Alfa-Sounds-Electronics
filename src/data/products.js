@@ -130,8 +130,8 @@ export const productsData = [
         carousels: ["TV Accessories", "Streaming and Extenders"],
         stock: 20,
         condition: "New"
-    },    
-    
+    },
+
 
 
 
@@ -507,14 +507,14 @@ export const productsData = [
         condition: "New",
     },
     {
-        productID: 1015, 
+        productID: 1015,
         title: "4K HDMI Switch Cable | 3 in 1 or 5 in 1 HDMI Switcher with Remote",
         subtitle: "HDMI Video Switch Adapter",
         category: "cables-and-connectors",
         categoryUSer: "Cables and Connectors",
         brand: "HDMI Switch",
         name: "4k-hdmi-switch-cable",
-        mainproductImage: "", 
+        mainproductImage: "",
         secondaryImages: [],
         specs: [
             "3 in 1 Out or 5 in 1 Out HDMI input to 1 output switcher",
@@ -533,7 +533,7 @@ export const productsData = [
         stock: 25,
         condition: "New",
     },
-    
+
 
 
     //------------ Public Address
@@ -1561,12 +1561,12 @@ export const productsData = [
         stock: 35,
         condition: "New"
     },
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 
 
 
@@ -1678,7 +1678,7 @@ export const productsData = [
         stock: 25,
         condition: "New"
     },
-    
+
 
 
     //-------------Tv Screens and Brackets
@@ -1918,8 +1918,8 @@ export const productsData = [
         carousels: ["TV Accessories", "TV Screens"],
         stock: 40,
         condition: "New"
-    },    
-    
+    },
+
 
 
 
@@ -2379,9 +2379,9 @@ export const productsData = [
         carousels: ["TV Accessories", "Home Entertainment"],
         stock: 40,
         condition: "New"
-    },        
-    
-    
+    },
+
+
 
     //-------------- CCTV
     {
@@ -2415,7 +2415,7 @@ export const productsData = [
         carousels: ["Surveillance", "Streaming-Ready Devices"],
         stock: 18,
         condition: "New"
-    }, 
+    },
     {
         productID: 9003,
         title: "Grousale Tricams 4G Solar Outdoor CCTV Camera -, 2K Resolution, Solar Powered, 360° PTZ View, 2-Way Talk, Color Night Vision",
@@ -2487,7 +2487,7 @@ export const productsData = [
         carousels: ["Smart Security", "PoE Cameras", "Outdoor Surveillance"],
         stock: 15,
         condition: "New"
-    },  
+    },
     {
         productID: 9005,
         title: "1080P HD Mini Body Camera with Audio and Video Recording - Portable Wearable Recorder with Night Vision, Clip-On Design, 180° Rotatable Lens",
@@ -2520,7 +2520,7 @@ export const productsData = [
         carousels: ["Mini Cameras", "Wearable Security", "On-the-Go Surveillance"],
         stock: 25,
         condition: "New"
-    },                 
+    },
     {
         productID: 9006,
         title: "12V 20A 240W 18CH Metal Box UPS CCTV Power Supply Battery Backup Function for CCTV Camera",
@@ -2583,6 +2583,30 @@ export const productsData = [
     },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //---------- HMDI Splitters
     {
         productID: 10001,
@@ -2594,25 +2618,25 @@ export const productsData = [
         name: "hdmi-kvm-extender-60m-ethernet",
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Extender_60_Meters_Over_Ethernet_Cat5e6_Cable_POC_1080p_qhygso.png",
         secondaryImages: [
-          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Extender_60_Meters_Over_Ethernet_Cat5e6_Cable_POC_1080p_qhygso.png"
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Extender_60_Meters_Over_Ethernet_Cat5e6_Cable_POC_1080p_qhygso.png"
         ],
         specs: [
-          "Extends HDMI and USB signals up to 60 meters over Cat5e/6/7 cable",
-          "Supports Full HD 1080p @ 60Hz resolution",
-          "HDMI loop-out on TX for local monitoring",
-          "Supports USB keyboard and mouse extension",
-          "POC (Power Over Cable) with only one 12V adapter needed",
-          "Does not support Mac OS USB KVM functionality",
-          "Limited compatibility with wireless/mechanical keyboards and mice",
-          "Recommended: 104-key standard keyboard and wired mouse",
-          "Requires certified Cat5e/6 cable and HDMI ATC certified cable"
+            "Extends HDMI and USB signals up to 60 meters over Cat5e/6/7 cable",
+            "Supports Full HD 1080p @ 60Hz resolution",
+            "HDMI loop-out on TX for local monitoring",
+            "Supports USB keyboard and mouse extension",
+            "POC (Power Over Cable) with only one 12V adapter needed",
+            "Does not support Mac OS USB KVM functionality",
+            "Limited compatibility with wireless/mechanical keyboards and mice",
+            "Recommended: 104-key standard keyboard and wired mouse",
+            "Requires certified Cat5e/6 cable and HDMI ATC certified cable"
         ],
         tags: ["HDMI Extender", "KVM Extender", "USB Over Ethernet", "1080p HDMI", "HDMI Splitter"],
         carousels: ["HDMI & USB Extenders", "Home Office Setups", "Pro AV Gear"],
         stock: 35,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10002,
         title: "4K HDMI Switch Cable HD Video Switcher Adapter 3 Input 1 Output Port Hub For PC TV Xbox PS3 PS4 Projector Monitor Splitter",
         subtitle: "HD Switcher",
@@ -2622,24 +2646,24 @@ export const productsData = [
         name: "4k-hdmi-switch-3in1-out",
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDMI_Switch_Cable_HD_Video_Switcher_Adapter_3_Input_1_Output_l26oj9.png",
         secondaryImages: [
-          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDMI_Switch_Cable_HD_Video_Switcher_Adapter_3_Input_1_Output_l26oj9.png"
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDMI_Switch_Cable_HD_Video_Switcher_Adapter_3_Input_1_Output_l26oj9.png"
         ],
         specs: [
-          "3 HDMI inputs / 1 HDMI output",
-          "Supports 3D and 4K resolution",
-          "HDCP pass-through supported",
-          "Total TMDS throughput up to 8.91Gbps",
-          "Supports uncompressed LPCM and compressed DTS, Dolby Digital, Dolby TrueHD audio",
-          "Maximum single link video range: 1920x1080",
-          "Supports 2.5Gbps/250MHz per channel",
-          "12-bit Deep Color per channel (36-bit total)"
+            "3 HDMI inputs / 1 HDMI output",
+            "Supports 3D and 4K resolution",
+            "HDCP pass-through supported",
+            "Total TMDS throughput up to 8.91Gbps",
+            "Supports uncompressed LPCM and compressed DTS, Dolby Digital, Dolby TrueHD audio",
+            "Maximum single link video range: 1920x1080",
+            "Supports 2.5Gbps/250MHz per channel",
+            "12-bit Deep Color per channel (36-bit total)"
         ],
         tags: ["HDMI Switch", "4K HDMI", "HDMI Hub", "Video Splitter", "Gaming HDMI Switch"],
         carousels: ["HDMI & USB Extenders", "Gaming Accessories", "Home Theater Essentials"],
         stock: 42,
         condition: "New"
-      }, 
-      {
+    },
+    {
         productID: 10003,
         title: "5 Port 4K HDMI Switch",
         subtitle: "HD Switcher",
@@ -2649,24 +2673,24 @@ export const productsData = [
         name: "5-port-4k-hdmi-switch",
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430508/5_ports_4k_HMI_Switch_escn4x.png",
         secondaryImages: [
-          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430508/5_ports_4k_HMI_Switch_escn4x.png"
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430508/5_ports_4k_HMI_Switch_escn4x.png"
         ],
         specs: [
-          "Connect and switch between 5 HDMI inputs to 1 HDMI output",
-          "Supports up to 4K UHD resolution (3840 x 2160)",
-          "Compatible with 480p, 720p, 1080i, 1080p formats",
-          "HDMI 1.4b and HDCP 1.3 compliant",
-          "Supports 12-bit color depth and 3D pass-through",
-          "Switchable via included IR remote control",
-          "Regenerates HDMI signal when placed at end of long HDMI cable",
-          "Ideal for home, office, and multimedia setups"
+            "Connect and switch between 5 HDMI inputs to 1 HDMI output",
+            "Supports up to 4K UHD resolution (3840 x 2160)",
+            "Compatible with 480p, 720p, 1080i, 1080p formats",
+            "HDMI 1.4b and HDCP 1.3 compliant",
+            "Supports 12-bit color depth and 3D pass-through",
+            "Switchable via included IR remote control",
+            "Regenerates HDMI signal when placed at end of long HDMI cable",
+            "Ideal for home, office, and multimedia setups"
         ],
         tags: ["HDMI Switch", "4K HDMI", "Remote Switcher", "Home Theater", "Multi-Port HDMI"],
         carousels: ["HDMI & USB Extenders", "TV & Display Accessories", "Home Theater Essentials"],
         stock: 25,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10004,
         title: "GGrozza 4K Video Wall Controller",
         subtitle: "Wall Processor",
@@ -2677,26 +2701,26 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430512/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor_bdjrv2.png",
         secondaryImages: [
             "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430512/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor_bdjrv2.png",
-          "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430514/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor-2_ms9lap.jpg"
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430514/GGrozza_Video_Wall_Controller_4K_2X2_TV_Wall_Processor-2_ms9lap.jpg"
         ],
         price: "",
         specs: [
-          "Supports 2x2 video wall configuration with 1 HDMI or DVI input and 4 HDMI outputs",
-          "8 splicing modes: 2x2, 1x1, 1x2, 1x3, 1x4, 2x1, 3x1, 4x1",
-          "Supports 180° screen rotation (only in 2x2 mode, max input/output 1080p@60Hz)",
-          "Supports HDMI 1.4 and HDCP 1.4",
-          "Input resolution: up to 3840x2160P@24/30Hz; Output resolution: 1920x1080P@60Hz",
-          "Gold-plated interfaces for low signal loss",
-          "Edge masking feature for seamless video walls",
-          "Plug & Play with included IR remote control (batteries not included)",
-          "Includes power adapter and user manual"
+            "Supports 2x2 video wall configuration with 1 HDMI or DVI input and 4 HDMI outputs",
+            "8 splicing modes: 2x2, 1x1, 1x2, 1x3, 1x4, 2x1, 3x1, 4x1",
+            "Supports 180° screen rotation (only in 2x2 mode, max input/output 1080p@60Hz)",
+            "Supports HDMI 1.4 and HDCP 1.4",
+            "Input resolution: up to 3840x2160P@24/30Hz; Output resolution: 1920x1080P@60Hz",
+            "Gold-plated interfaces for low signal loss",
+            "Edge masking feature for seamless video walls",
+            "Plug & Play with included IR remote control (batteries not included)",
+            "Includes power adapter and user manual"
         ],
         tags: ["Video Wall", "4K Controller", "HDMI Splitter", "Display Processor", "Wall Mount"],
         carousels: ["Video Wall Solutions", "HDMI & USB Extenders", "Display Accessories"],
         stock: 15,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10005,
         title: "HDMI Splitter 1 in 4 Out",
         subtitle: "4K Mirror",
@@ -2707,22 +2731,22 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_Splitter_1_in_4_Out_4K_HDMI_Splitter_wqkwwp.png",
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_Splitter_1_in_4_Out_4K_HDMI_Splitter_wqkwwp.png"],
         specs: [
-          "1 HDMI input duplicated to 4 HDMI outputs",
-          "Supports resolutions up to 4Kx2K@30Hz, Full HD 1080P@60Hz, and 3D formats",
-          "Gold-plated HDMI ports for corrosion resistance",
-          "Plug and play setup with no configuration required",
-          "Compatible with HDMI standards V1.0 to V1.4",
-          "Works with devices like Roku, Fire Stick, PS3/PS4/PS5, Blu-Ray players",
-          "Suitable for home theater, conference rooms, showrooms, and more",
-          "Aluminum alloy housing for durability and heat dissipation",
-          "Includes HDMI splitter, USB power cable, and user manual"
+            "1 HDMI input duplicated to 4 HDMI outputs",
+            "Supports resolutions up to 4Kx2K@30Hz, Full HD 1080P@60Hz, and 3D formats",
+            "Gold-plated HDMI ports for corrosion resistance",
+            "Plug and play setup with no configuration required",
+            "Compatible with HDMI standards V1.0 to V1.4",
+            "Works with devices like Roku, Fire Stick, PS3/PS4/PS5, Blu-Ray players",
+            "Suitable for home theater, conference rooms, showrooms, and more",
+            "Aluminum alloy housing for durability and heat dissipation",
+            "Includes HDMI splitter, USB power cable, and user manual"
         ],
         tags: ["HDMI Splitter", "4K Output", "Mirror Display", "HDMI Hub", "Pink Electronics"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
         stock: 25,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10006,
         title: "HDMI Splitter 1 in 8 Out",
         subtitle: "4K Premium",
@@ -2733,22 +2757,22 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430517/HDMI_Splitter_1_in_8_Outputs_Premium_HDMI_Splitter_vxxrq8.png",
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430517/HDMI_Splitter_1_in_8_Outputs_Premium_HDMI_Splitter_vxxrq8.png"],
         specs: [
-          "1 HDMI input duplicated to 8 HDMI outputs simultaneously",
-          "Supports 4Kx2K@30Hz, 3D, and 8/10/12-bit video formats",
-          "Audio formats supported: DTS-HD, Dolby TrueHD, DTS, Dolby AC3, DSD",
-          "HDCP 1.4b and HDMI 1.4b compliant",
-          "EDID support with 6-second EDID timing",
-          "Compatible with PS3/PS4, Xbox, Blu-ray players, STBs, PCs, and more",
-          "Outputs to projectors, HD TVs, Apple TV, monitors, etc.",
-          "Not a switch – does not select between multiple HDMI inputs",
-          "Includes DC 5V power adapter and user manual"
+            "1 HDMI input duplicated to 8 HDMI outputs simultaneously",
+            "Supports 4Kx2K@30Hz, 3D, and 8/10/12-bit video formats",
+            "Audio formats supported: DTS-HD, Dolby TrueHD, DTS, Dolby AC3, DSD",
+            "HDCP 1.4b and HDMI 1.4b compliant",
+            "EDID support with 6-second EDID timing",
+            "Compatible with PS3/PS4, Xbox, Blu-ray players, STBs, PCs, and more",
+            "Outputs to projectors, HD TVs, Apple TV, monitors, etc.",
+            "Not a switch – does not select between multiple HDMI inputs",
+            "Includes DC 5V power adapter and user manual"
         ],
         tags: ["HDMI Splitter", "4K 8-Port", "Video Distribution", "Mirror Display", "EDID", "Black Electronics"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
         stock: 30,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10007,
         title: "HDMI Splitter Switch 4K 4x1",
         subtitle: "4-Port Switcher",
@@ -2759,23 +2783,23 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430518/HDMI_Splitter_Switch_4K_4_Ports_4x1_HDMI_Switcher_a9ew3c.png",
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430518/HDMI_Splitter_Switch_4K_4_Ports_4x1_HDMI_Switcher_a9ew3c.png"],
         specs: [
-          "4 HDMI inputs to 1 HDMI output – easily switch between devices",
-          "Supports 4K Ultra HD resolution at 60Hz and backward compatible",
-          "Compatible with 1080P, 720P, Full 3D, and more",
-          "Works with Fire TV, Roku, PS5, Xbox, Apple TV, Blu-ray players, and more",
-          "Supports DTS, DTS-HD, Dolby Atmos, and Dolby Digital audio formats",
-          "Remote control included for easy source selection",
-          "Automatic and manual switching options",
-          "Built-in ITE high-performance chipset with 18Gbps bandwidth",
-          "HDCP 2.2/1.4/1.3 compliant",
-          "Plug and play setup with included power adapter"
+            "4 HDMI inputs to 1 HDMI output – easily switch between devices",
+            "Supports 4K Ultra HD resolution at 60Hz and backward compatible",
+            "Compatible with 1080P, 720P, Full 3D, and more",
+            "Works with Fire TV, Roku, PS5, Xbox, Apple TV, Blu-ray players, and more",
+            "Supports DTS, DTS-HD, Dolby Atmos, and Dolby Digital audio formats",
+            "Remote control included for easy source selection",
+            "Automatic and manual switching options",
+            "Built-in ITE high-performance chipset with 18Gbps bandwidth",
+            "HDCP 2.2/1.4/1.3 compliant",
+            "Plug and play setup with included power adapter"
         ],
         tags: ["HDMI Switch", "4K Switcher", "HDMI 4x1", "HDMI Splitter", "Remote Control", "Gaming Accessories"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
         stock: 30,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10008,
         title: "HDMI KVM Switch 8 Port",
         subtitle: "USB Switcher",
@@ -2787,24 +2811,24 @@ export const productsData = [
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430513/HDMI_KVM_Switch_8_Port_scnzgi.png"],
         price: "",
         specs: [
-          "Control up to 8 computers using one monitor, keyboard, and mouse",
-          "Includes 4 USB 2.0 ports for printer, scanner, and USB devices",
-          "Supports 4K resolution at 30Hz (3840 x 2160), 3D, and 1080P",
-          "Compatible with Windows, Mac OS, Linux, DOS",
-          "Works with Xbox, PS3, PS4, Blu-ray DVD players, and TVs",
-          "Switch computers via IR remote or front panel buttons",
-          "LED indicators show active connection",
-          "No drivers required – plug and play setup",
-          "Durable metal construction for efficient heat dissipation and stability",
-          "Rack mountable – suitable for office, teaching, conference, and security setups"
+            "Control up to 8 computers using one monitor, keyboard, and mouse",
+            "Includes 4 USB 2.0 ports for printer, scanner, and USB devices",
+            "Supports 4K resolution at 30Hz (3840 x 2160), 3D, and 1080P",
+            "Compatible with Windows, Mac OS, Linux, DOS",
+            "Works with Xbox, PS3, PS4, Blu-ray DVD players, and TVs",
+            "Switch computers via IR remote or front panel buttons",
+            "LED indicators show active connection",
+            "No drivers required – plug and play setup",
+            "Durable metal construction for efficient heat dissipation and stability",
+            "Rack mountable – suitable for office, teaching, conference, and security setups"
         ],
         variants: [],
         tags: ["KVM Switch", "HDMI Switch", "USB Switcher", "4K HDMI", "8-Port HDMI", "Rack Mount"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Office Productivity"],
         stock: 30,
         condition: "New"
-      },   
-      {
+    },
+    {
         productID: 10009,
         title: "4K HDTV Splitter 3 In 1 Out",
         subtitle: "HD Switcher",
@@ -2816,23 +2840,23 @@ export const productsData = [
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_3_In_1_Out_jjufj8.png"],
         price: "",
         specs: [
-          "3 HDMI inputs and 1 HDMI output for switching between multiple devices",
-          "Compatible with Xbox360, PS4, PS3, DVB Receivers, Blu-ray Player, Laptops",
-          "Supports 4K resolution at 3840x2160P / 30Hz and 3D display",
-          "Manual switching via key-press button – no need to unplug devices",
-          "HDTV 1.4 and HDCP compliant, supports HD Audio",
-          "No external power required (may need two active sources to power)",
-          "Built-in 1.8ft pigtail HDMI cable for easy plug and play",
-          "36-bit Deep Color and uncompressed/compressed audio support",
-          "Ideal for trade shows, conference rooms, bedrooms, kitchens, and more"
+            "3 HDMI inputs and 1 HDMI output for switching between multiple devices",
+            "Compatible with Xbox360, PS4, PS3, DVB Receivers, Blu-ray Player, Laptops",
+            "Supports 4K resolution at 3840x2160P / 30Hz and 3D display",
+            "Manual switching via key-press button – no need to unplug devices",
+            "HDTV 1.4 and HDCP compliant, supports HD Audio",
+            "No external power required (may need two active sources to power)",
+            "Built-in 1.8ft pigtail HDMI cable for easy plug and play",
+            "36-bit Deep Color and uncompressed/compressed audio support",
+            "Ideal for trade shows, conference rooms, bedrooms, kitchens, and more"
         ],
         variants: [],
         tags: ["HDMI Switch", "4K HDMI", "3 Port HDMI", "HDTV Splitter", "Game Console Switch", "AV Selector"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Gaming Accessories"],
         stock: 30,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10010,
         title: "4K HDMI Switch 5 in 1 Out, 5 Port HDMI Switcher Selector Box ",
         subtitle: "Selector Box",
@@ -2843,22 +2867,22 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_5_In_1_Out_jek23e.png",
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430507/4K_HDTV_Splitter_5_In_1_Out_jek23e.png"],
         specs: [
-          "Connect up to 5 HDMI source devices to 1 HD TV, monitor, or projector",
-          "Supports 4K (3840×2160) @ 30Hz, HDCP, HDR, 3D, 1080P, 720P",
-          "Supports HDMI cable length: input up to 5m (16.4ft), output up to 25m (82ft)",
-          "Three switching methods: Auto-switching, Manual button, IR remote control",
-          "Sturdy metal design with excellent heat dissipation for stable performance",
-          "Plug and Play – No software or drivers required",
-          "Compatible with PC, PS3, PS4, Xbox, HD players, Blu-ray players, and more",
-          "Ideal for home theater, office setups, gaming, and meeting environments"
+            "Connect up to 5 HDMI source devices to 1 HD TV, monitor, or projector",
+            "Supports 4K (3840×2160) @ 30Hz, HDCP, HDR, 3D, 1080P, 720P",
+            "Supports HDMI cable length: input up to 5m (16.4ft), output up to 25m (82ft)",
+            "Three switching methods: Auto-switching, Manual button, IR remote control",
+            "Sturdy metal design with excellent heat dissipation for stable performance",
+            "Plug and Play – No software or drivers required",
+            "Compatible with PC, PS3, PS4, Xbox, HD players, Blu-ray players, and more",
+            "Ideal for home theater, office setups, gaming, and meeting environments"
         ],
         variants: [],
         tags: ["HDMI Switch", "4K HDMI", "5 Port HDMI", "Video Selector", "Gaming Setup", "AV Splitter"],
         carousels: ["HDMI & USB Extenders", "Display Accessories", "Home Theater Essentials"],
         stock: 30,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10011,
         title: "4K120Hz KVM Switch HDMI 8K60Hz KVM Switches for 2 Computers Share1 Monitors and 4 USB 3.0 Support Desktop Control Includes 2 USB 3.0 Cables and Power Adapters",
         subtitle: "HDMI 8K60Hz",
@@ -2870,22 +2894,22 @@ export const productsData = [
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430382/KVM_Switch_HDMI_8K60Hz_KVM_Switches_auoqxz.png"],
         price: "",
         specs: [
-          "Supports 2 computers sharing 1 monitor and 4 USB 3.0 devices",
-          "Supports resolutions up to 8K @ 60Hz and 4K @ 120Hz with 48Gbps bandwidth",
-          "Two switching methods: front panel pushbutton and external control switch",
-          "4 USB 3.0 ports with data transfer speeds up to 5Gbps, backward compatible",
-          "Auto-adjustment for image detail and color vibrancy",
-          "Compatible with Windows, macOS, Linux, Vista, XP, Unix",
-          "Suitable for gaming, multimedia teaching, office, research, and home theater",
-          "Includes 2 USB 3.0 cables and power adapters"
+            "Supports 2 computers sharing 1 monitor and 4 USB 3.0 devices",
+            "Supports resolutions up to 8K @ 60Hz and 4K @ 120Hz with 48Gbps bandwidth",
+            "Two switching methods: front panel pushbutton and external control switch",
+            "4 USB 3.0 ports with data transfer speeds up to 5Gbps, backward compatible",
+            "Auto-adjustment for image detail and color vibrancy",
+            "Compatible with Windows, macOS, Linux, Vista, XP, Unix",
+            "Suitable for gaming, multimedia teaching, office, research, and home theater",
+            "Includes 2 USB 3.0 cables and power adapters"
         ],
         variants: [],
         tags: ["KVM Switch", "8K HDMI", "4K120Hz", "USB 3.0 Hub", "Multi-Computer", "Display Control"],
         carousels: ["HDMI & USB Extenders", "Pro Workstations", "Home Office Gear"],
         stock: 20,
         condition: "New"
-      },
-      {
+    },
+    {
         productID: 10012,
         title: "4K 60Hz 2x2 HDMI Video Wall Controller",
         subtitle: "Video Wall Processor 4 Channel TV Stitching Box",
@@ -2896,20 +2920,155 @@ export const productsData = [
         mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430506/4K_60Hz_2X2_HDMI-Compatible_Video_Wall_lzbvjj.png",
         secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1746430506/4K_60Hz_2X2_HDMI-Compatible_Video_Wall_lzbvjj.png"],
         specs: [
-          "Supports 1 HDMI 2.0 input and 4 HDMI outputs",
-          "Input resolution up to 4K@60Hz, output 1920x1080P@60Hz",
-          "Divides single image signal into 4 displays for video wall",
-          "Supports multiple splicing modes, plug and play",
-          "180° flip function available only in 2x2 mode (top row only)",
-          "Designed for horizontal screen setups only",
-          "Plug Type: EU (AC100-240V)",
-          "Durable iron shell for heat dissipation and longevity"
+            "Supports 1 HDMI 2.0 input and 4 HDMI outputs",
+            "Input resolution up to 4K@60Hz, output 1920x1080P@60Hz",
+            "Divides single image signal into 4 displays for video wall",
+            "Supports multiple splicing modes, plug and play",
+            "180° flip function available only in 2x2 mode (top row only)",
+            "Designed for horizontal screen setups only",
+            "Plug Type: EU (AC100-240V)",
+            "Durable iron shell for heat dissipation and longevity"
         ],
         variants: [],
         tags: ["Video Wall Controller", "2x2 HDMI Splitter", "4K Processor", "TV Splicer", "EU Plug"],
         carousels: ["Video Wall Essentials", "Pro AV Equipment", "HDMI Splitters"],
         stock: 20,
         condition: "New"
-      },      
-            
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //--------------FANS 
+    {
+        productID: 11001,
+        title: "Velton 18\" Floor Standing Fan | Adjustable Height & Tilting Angle",
+        subtitle: "Standing Fan",
+        category: "avs-fridge-guards-tv-guards",
+        categoryUSer: "Avs, Fans, Fridge guards,Tv guards, Power extension",
+        brand: "velton",
+        name: "velton-18-inch-floor-standing-fan",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/velton-18-inch-stand-fan_zygm5j.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/velton-18-inch-stand-fan_zygm5j.png"
+        ],
+        specs: [
+            "18-inch floor standing fan",
+            "Adjustable height for customized airflow direction",
+            "Tilting angle adjustment with 180° rotation control",
+            "Quiet operation for home or office use",
+            "Equipped with a night lamp",
+            "Special design fan blade for strong air delivery",
+            "Powerful motor for efficient cooling",
+            "Three-speed control settings for variable air intensity"
+        ],
+        tags: ["fan", "cooling", "velton", "standing fan", "floor fan"],
+        carousels: ["bestSellers", "cooling"],
+        stock: "",
+        condition: "New",
+    },
+    {
+        productID: 11002, // Leave blank until assigned
+        title: "Velton Wall Fan | Model VOF-40602 with Quiet Operation",
+        subtitle: "Orbital Stand Fan",
+        category: "avs-fridge-guards-tv-guards",
+        categoryUSer: "Avs, Fans, Fridge guards,Tv guards, Power extension",
+        brand: "velton",
+        name: "velton-wall-fan-model-VWF-B022",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247663/velton-wall-fan-Model-VWF-B022_nqrjh3.png", // Leave blank if unknown
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247663/velton-wall-fan-Model-VWF-B022_nqrjh3.png",
+        ], // Leave empty unless image URLs are available
+        specs: [
+            "Quiet operation for minimal noise",
+            "Powerful air flow for effective cooling",
+            "Double reinforced grill for added safety",
+            "Orbital design for wide-angle air circulation",
+            "Durable and suitable for household use"
+        ],
+        tags: ["fan", "orbital", "velton", "cooling", "stand fan"],
+        carousels: ["bestSellers", "cooling"],
+        stock: "", // Leave blank if unknown
+        condition: "New",
+    },
+    {
+        productID: 11003, // Leave blank until assigned
+        title: "Velton VSF-40735 Standing Fan | 16-Inch 3-in-1 Convertible Fan",
+        subtitle: "Convertible Stand Fan",
+        category: "avs-fridge-guards-tv-guards",
+        categoryUSer: "Avs, Fans, Fridge guards,Tv guards, Power extension",
+        brand: "velton",
+        name: "velton-vsf-40735-standing-fan",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247663/velton-stand-fan-model-VSF-40735_bexafe.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247663/velton-stand-fan-model-VSF-40735_bexafe.png"
+        ], // Leave empty unless image URLs are available
+        specs: [
+            "16-inch fan blades for efficient room cooling",
+            "3-in-1 convertible design: can be used as stand fan, wall fan, or desk fan",
+            "Three-speed control: High, Mid, Low",
+            "Left and right 180° oscillation for wide coverage",
+            "BS plug power line suitable for Kenyan households"
+        ],
+        tags: ["fan", "velton", "cooling", "stand fan", "desk fan", "wall fan"],
+        carousels: ["bestSellers", "cooling"],
+        stock: "", // Leave blank if unknown
+        condition: "New",
+    },
+    {
+        productID: 11004, // Leave blank until assigned
+        title: "Velton Orbit Fan VDF 40602 | 16-Inch 3-Speed Oscillating Fan",
+        subtitle: "Orbit Wall Fan",
+        category: "avs-fridge-guards-tv-guards",
+        categoryUSer: "Avs, Fans, Fridge guards,Tv guards, Power extension",
+        brand: "velton",
+        name: "velton-vdf-40602-orbit-fan",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/velton-orbital-fan-Model-VOF-40602_ldov1h.png", // Leave blank if image is not available
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/velton-orbital-fan-Model-VOF-40602_ldov1h.png"], // Leave empty unless image URLs are available
+        specs: [
+            "16-inch Orbit Fan for versatile cooling",
+            "3 speed settings for customized airflow",
+            "Left and right oscillation for even air distribution",
+            "Grey and white color design"
+        ],
+        tags: ["fan", "orbit fan", "velton", "cooling", "wall fan"],
+        carousels: ["bestSellers", "cooling"],
+        stock: "", // Leave blank if unknown
+        condition: "New"
+    },
+    {
+        productID: 11005, // Leave blank until assigned
+        title: "Rebune Wall Fan | 16-Inch Adjustable Tilt & Oscillation",
+        subtitle: "Wall Fan",
+        category: "avs-fridge-guards-tv-guards",
+        categoryUSer: "Avs, Fans, Fridge guards,Tv guards, Power extension",
+        brand: "rebune",
+        name: "rebune-wall-fan-16-inch",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/rebune_m5yu4k.png", // Leave blank if image is not available
+        secondaryImages: ["https://res.cloudinary.com/dvzwrlrsf/image/upload/v1747247662/rebune_m5yu4k.png"], // Leave empty unless image URLs are available
+        specs: [
+            "16-inch wall fan with space-saving design",
+            "Adjustable tilt for targeted airflow",
+            "Multiple speed settings for airflow control",
+            "Oscillation feature for wide area cooling",
+            "Quiet operation ideal for home or office",
+            "Easy wall-mount installation"
+        ],
+        tags: ["fan", "wall fan", "rebune", "cooling", "airflow"],
+        carousels: ["cooling"],
+        stock: "", // Leave blank if unknown
+        condition: "New"
+    },
 ]
