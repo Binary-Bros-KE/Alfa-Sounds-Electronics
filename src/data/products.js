@@ -2380,6 +2380,67 @@ export const productsData = [
         stock: 40,
         condition: "New"
     },
+    {
+        productID: 8007,
+        title: "4K Ultra HD Android Bluetooth TV Box",
+        subtitle: "XS97 K2 BT with Allwinner H313, Android 10, Mali-G31 GPU",
+        category: "decoders",
+        categoryUSer: "Decoders",
+        brand: "Xangshi",
+        name: "xs97-k2-bt-android-tv-box",
+        mainproductImage: "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1751274991/WhatsApp_Image_2025-06-24_at_10.57.10_639c9299-removebg-preview_s0mooj.png",
+        secondaryImages: [
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1751274989/WhatsApp_Image_2025-06-24_at_10.57.11_ac9b0801-removebg-preview_yaxedm.png",
+            "https://res.cloudinary.com/dvzwrlrsf/image/upload/v1751274991/WhatsApp_Image_2025-06-24_at_10.57.10_639c9299-removebg-preview_s0mooj.png",
+        ],
+        price: "",
+        specs: [
+            "Model: XS97 K2 BT",
+            "CPU: Allwinner H313, Quad-Core",
+            "GPU: Mali-G31",
+            "RAM: 2GB",
+            "ROM: 8GB",
+            "Operating System: Android 10",
+            "Resolution Output: 4K2K at 60fps",
+            "Connectivity: Bluetooth",
+            "Function: Streaming",
+            "Type: iDTV",
+            "Dimensions: 170 x 105 x 70 mm",
+            "Transport Package: Carton",
+            "Origin: China",
+            "HS Code: 8517629900",
+            "Production Capacity: 15,000 units"
+        ],
+        variants: [],
+        tags: ["Android TV Box", "4K Streaming", "Bluetooth TV Box", "Smart Media Player", "Xangshi"],
+        carousels: ["Media Streamers", "4K Devices", "Android Gadgets"],
+        video: "https://www.youtube.com/embed/e5d5N_CUy78?si=-L7_iRUjnlbBO9px",
+        stock: 30,
+        condition: "New"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
